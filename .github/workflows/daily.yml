@@ -21,6 +21,57 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build daily report
         run: python scripts/build_site.py
+      - name: Add autonomous refresh control
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('public/index.html')
+          s = p.read_text(encoding='utf-8')
+          marker = '<!-- FUCHIACCIONES_REFRESH -->'
+          if marker not in s:
+              css = """<style id='fuchiacciones-refresh-css'>
+              #fuchi-refresh{position:fixed;left:14px;top:14px;z-index:9999;border:0;border-radius:10px;padding:10px 14px;background:#111827;color:#fff;font-weight:800;font-size:12px;cursor:pointer;box-shadow:0 3px 12px #0003}
+              #fuchi-refresh:hover{opacity:.9} #fuchi-refresh:disabled{opacity:.6;cursor:wait}
+              #fuchi-refresh-status{position:fixed;left:14px;top:55px;z-index:9998;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:6px 9px;font-size:11px;color:#6b7280;box-shadow:0 2px 8px #0001;display:none}
+              @media(max-width:600px){#fuchi-refresh{left:8px;top:8px;padding:8px 10px}#fuchi-refresh-status{left:8px;top:48px}}
+              </style>"""
+              js = """<script id='fuchiacciones-refresh-js'>
+              (function(){
+                const marker = "<!-- FUCHIACCIONES_REFRESH -->";
+                const html = '<button id="fuchi-refresh" type="button" aria-label="Actualizar información">↻ ACTUALIZAR</button><div id="fuchi-refresh-status" role="status"></div>';
+                function init(){
+                  if(document.getElementById('fuchi-refresh')) return;
+                  document.body.insertAdjacentHTML('afterbegin', marker + html);
+                  const btn=document.getElementById('fuchi-refresh'), status=document.getElementById('fuchi-refresh-status');
+                  btn.addEventListener('click', async function(){
+                    btn.disabled=true; btn.textContent='↻ ACTUALIZANDO…'; status.style.display='block'; status.textContent='Consultando la última versión…';
+                    try{
+                      const r=await fetch('data.json?refresh='+Date.now(),{cache:'no-store'});
+                      if(!r.ok) throw new Error('No se pudo consultar data.json');
+                      const d=await r.json();
+                      const current=document.body.getAttribute('data-generated-at') || '';
+                      if(d.generated_at && d.generated_at!==current){
+                        status.textContent='Hay información nueva. Recargando…';
+                        window.location.replace(window.location.pathname+'?v='+Date.now());
+                      }else{
+                        status.textContent='Ya estás viendo la última información disponible ('+(d.generated_at||'sin fecha')+').';
+                        btn.disabled=false; btn.textContent='↻ ACTUALIZAR';
+                      }
+                    }catch(e){
+                      status.textContent='No se pudo actualizar ahora. Reintentá en unos segundos.';
+                      btn.disabled=false; btn.textContent='↻ ACTUALIZAR';
+                    }
+                  });
+                }
+                if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init); else init();
+              })();
+              </script>"""
+              s = s.replace('</head>', css + '</head>', 1)
+              s = s.replace('<body>', "<body data-generated-at='__GENERATED_AT__'>", 1)
+              s = s.replace('__GENERATED_AT__', '')
+              s = s.replace('</body>', js + '</body>', 1)
+              p.write_text(s, encoding='utf-8')
+          PY
       - name: Commit generated data
         run: |
           git config user.name 'fuchiacciones-bot'
