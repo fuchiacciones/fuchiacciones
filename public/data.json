@@ -1,7 +1,202 @@
 {
-  "generated_at": "2026-09-02 02:42 UTC",
+  "generated_at": "2026-09-02 02:45 UTC",
   "universe_count": 87,
   "available_count": 87,
+  "market": [
+    {
+      "name": "S&P 500",
+      "ticker": "^GSPC",
+      "last": 7631.47021484375,
+      "change": -0.7112792754561781
+    },
+    {
+      "name": "Nasdaq",
+      "ticker": "^IXIC",
+      "last": 26099.7734375,
+      "change": -1.0280926471363694
+    },
+    {
+      "name": "Dow Jones",
+      "ticker": "^DJI",
+      "last": 52766.87890625,
+      "change": -0.7878395280703998
+    },
+    {
+      "name": "Russell 2000",
+      "ticker": "^RUT",
+      "last": 2920.13232421875,
+      "change": -1.2284201509560333
+    },
+    {
+      "name": "VIX",
+      "ticker": "^VIX",
+      "last": 16.34000015258789,
+      "change": 9.517426736144262
+    },
+    {
+      "name": "Oro",
+      "ticker": "GC=F",
+      "last": 4355.7001953125,
+      "change": -1.701606839882297
+    },
+    {
+      "name": "WTI",
+      "ticker": "CL=F",
+      "last": 90.87999725341797,
+      "change": 5.97014341144062
+    },
+    {
+      "name": "DXY",
+      "ticker": "DX-Y.NYB",
+      "last": 99.75800323486328,
+      "change": 0.08829644580587992
+    },
+    {
+      "name": "Treasury 10Y",
+      "ticker": "^TNX",
+      "last": 4.796000003814697,
+      "change": 0.798657159186944
+    },
+    {
+      "name": "Bitcoin",
+      "ticker": "BTC-USD",
+      "last": 77155.6484375,
+      "change": -1.7734037183373186
+    }
+  ],
+  "calendar": [
+    {
+      "date": "02/09 08:15 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "ADP Non-Farm Employment Change",
+      "forecast": "47K",
+      "previous": "44K"
+    },
+    {
+      "date": "02/09 09:45 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "BOC Rate Statement",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "02/09 09:45 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "Overnight Rate",
+      "forecast": "2.25%",
+      "previous": "2.25%"
+    },
+    {
+      "date": "02/09 10:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "BOC Press Conference",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "03/09 08:30 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Unemployment Claims",
+      "forecast": "205K",
+      "previous": "203K"
+    },
+    {
+      "date": "03/09 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "ISM Services PMI",
+      "forecast": "54.2",
+      "previous": "54.1"
+    },
+    {
+      "date": "04/09 04:50 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "BOE Gov Bailey Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "04/09 08:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "Employment Change",
+      "forecast": "15.1K",
+      "previous": "75.1K"
+    },
+    {
+      "date": "04/09 08:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "Unemployment Rate",
+      "forecast": "6.4%",
+      "previous": "6.4%"
+    },
+    {
+      "date": "04/09 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Average Hourly Earnings m/m",
+      "forecast": "0.3%",
+      "previous": "0.1%"
+    },
+    {
+      "date": "04/09 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Non-Farm Employment Change",
+      "forecast": "55K",
+      "previous": "-23K"
+    },
+    {
+      "date": "04/09 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Unemployment Rate",
+      "forecast": "4.1%",
+      "previous": "4.1%"
+    },
+    {
+      "date": "04/09 10:00 UTC",
+      "country": "CAD",
+      "impact": "Medium",
+      "title": "Ivey PMI",
+      "forecast": "56.2",
+      "previous": "55.1"
+    }
+  ],
+  "news": [
+    {
+      "title": "Where Will VTI Be in 2036? Here's What Decades of History Suggest.",
+      "link": "https://finance.yahoo.com/m/03918b48-4141-3f37-9f6b-bdbeacaa0445/where-will-vti-be-in-2036%3F.html",
+      "publisher": "Motley Fool"
+    },
+    {
+      "title": "The Free Retirement Dinner Costs $500K in the Fine Print, but These 4 ETFs Do What the Steak Pitch Promises",
+      "link": "https://finance.yahoo.com/m/d0e1ff8d-2db7-3a49-9e3c-9a849985e6f4/the-free-retirement-dinner.html",
+      "publisher": "24/7 Wall St."
+    },
+    {
+      "title": "VTI’s 0.03% Fee Hides the Real Cost: 3,600 Stocks and Still a Third of Your Money in Ten Companies",
+      "link": "https://finance.yahoo.com/m/3292a88b-b3b0-3544-bbda-f862bd12c36f/vti%E2%80%99s-0.03%25-fee-hides-the.html",
+      "publisher": "24/7 Wall St."
+    },
+    {
+      "title": "The $60,000 Withdrawal That Terrifies Early Retirees Is a Myth. Here’s What to Sell First",
+      "link": "https://finance.yahoo.com/m/da62a59c-6126-3b1f-afcf-880e530eda76/the-%2460%2C000-withdrawal-that.html",
+      "publisher": "24/7 Wall St."
+    },
+    {
+      "title": "Forget VTSAX: Vanguard’s Own ETF Is Cheaper, Has No $3,000 Minimum, and Schwab Charges $74.95 to Buy the Mutual Fund",
+      "link": "https://finance.yahoo.com/m/b7c1cb6c-615e-3d1b-941c-6644795f7f29/forget-vtsax%3A-vanguard%E2%80%99s-own.html",
+      "publisher": "24/7 Wall St."
+    }
+  ],
   "results": [
     {
       "ticker": "ETHA",
