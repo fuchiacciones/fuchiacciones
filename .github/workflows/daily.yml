@@ -44,19 +44,13 @@ jobs:
                   document.body.insertAdjacentHTML('afterbegin', marker + html);
                   const btn=document.getElementById('fuchi-refresh'), status=document.getElementById('fuchi-refresh-status');
                   btn.addEventListener('click', async function(){
-                    btn.disabled=true; btn.textContent='↻ ACTUALIZANDO…'; status.style.display='block'; status.textContent='Consultando la última versión…';
+                    btn.disabled=true; btn.textContent='↻ ACTUALIZANDO…'; status.style.display='block'; status.textContent='Consultando la última información…';
                     try{
                       const r=await fetch('data.json?refresh='+Date.now(),{cache:'no-store'});
                       if(!r.ok) throw new Error('No se pudo consultar data.json');
-                      const d=await r.json();
-                      const current=document.body.getAttribute('data-generated-at') || '';
-                      if(d.generated_at && d.generated_at!==current){
-                        status.textContent='Hay información nueva. Recargando…';
-                        window.location.replace(window.location.pathname+'?v='+Date.now());
-                      }else{
-                        status.textContent='Ya estás viendo la última información disponible ('+(d.generated_at||'sin fecha')+').';
-                        btn.disabled=false; btn.textContent='↻ ACTUALIZAR';
-                      }
+                      await r.json();
+                      status.textContent='Actualizando la página…';
+                      window.location.replace(window.location.pathname+'?v='+Date.now());
                     }catch(e){
                       status.textContent='No se pudo actualizar ahora. Reintentá en unos segundos.';
                       btn.disabled=false; btn.textContent='↻ ACTUALIZAR';
@@ -67,8 +61,6 @@ jobs:
               })();
               </script>"""
               s = s.replace('</head>', css + '</head>', 1)
-              s = s.replace('<body>', "<body data-generated-at='__GENERATED_AT__'>", 1)
-              s = s.replace('__GENERATED_AT__', '')
               s = s.replace('</body>', js + '</body>', 1)
               p.write_text(s, encoding='utf-8')
           PY
