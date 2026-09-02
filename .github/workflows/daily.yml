@@ -1,5 +1,7 @@
 name: FUCHIACCIONES Daily
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: '0 9 * * *'
   workflow_dispatch:
@@ -27,9 +29,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: public
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
