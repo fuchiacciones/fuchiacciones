@@ -2,6 +2,8 @@ name: FUCHIACCIONES Daily
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'public/**'
   schedule:
     - cron: '0 9 * * *'
   workflow_dispatch:
@@ -28,6 +30,8 @@ jobs:
           git push
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
