@@ -1,0 +1,10 @@
+name = "fuchiacciones-refresh"
+main = "src/index.js"
+compatibility_date = "2026-09-02"
+
+# Deploy this Worker with your Cloudflare account.
+# Then create the secret:
+#   wrangler secret put GITHUB_TOKEN
+#
+# The token must be able to dispatch workflows in fuchiacciones/fuchiacciones.
+# Do NOT put the token in this file or in the website JavaScript.
