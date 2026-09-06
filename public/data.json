@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05 09:10 UTC",
+  "generated_at": "2026-09-06 09:10 UTC",
   "universe_count": 87,
   "available_count": 87,
   "periods": [
@@ -114,22 +114,22 @@
     {
       "name": "Oro",
       "ticker": "GC=F",
-      "last": 4429.7998046875,
+      "last": 4476.60009765625,
       "returns": {
-        "30": 8.90450630188424,
-        "60": 7.8282360665370865,
-        "90": -3.5217291802787765,
-        "120": -11.297560979425313,
-        "365": 46.50262513549575
+        "30": 10.055069086945533,
+        "60": 8.967428188239168,
+        "90": -2.5024480527877646,
+        "120": -10.36043056355126,
+        "365": 48.05040744605906
       },
-      "ret30": 8.90450630188424,
-      "vol_ratio": 6.037149596298648,
-      "ma20": 4467.15498046875,
-      "ma50": 4238.98400390625,
-      "ma200": 4520.463492431641,
-      "z30": 0.7160754490325217,
-      "technical_score": 2.0,
-      "observations": 504
+      "ret30": 10.055069086945533,
+      "vol_ratio": 14.493785720765672,
+      "ma20": 4469.4949951171875,
+      "ma50": 4239.920009765625,
+      "ma200": 4520.697493896484,
+      "z30": 0.8700975445473457,
+      "technical_score": 4.0,
+      "observations": 503
     },
     {
       "name": "WTI",
@@ -143,13 +143,13 @@
         "365": 32.57971501004868
       },
       "ret30": 2.4297456697568,
-      "vol_ratio": 1.0443922649121675,
+      "vol_ratio": 1.0340521667136056,
       "ma20": 85.43550071716308,
       "ma50": 80.95680038452149,
       "ma200": 78.81494995117187,
-      "z30": 0.019108979142640852,
+      "z30": 0.01909802560832757,
       "technical_score": 5.0,
-      "observations": 504
+      "observations": 503
     },
     {
       "name": "DXY",
@@ -167,9 +167,9 @@
       "ma20": 99.39300003051758,
       "ma50": 100.23480041503906,
       "ma200": 99.1659502029419,
-      "z30": -0.9763862947530931,
+      "z30": -0.9743269099956507,
       "technical_score": -7.0,
-      "observations": 504
+      "observations": 503
     },
     {
       "name": "Treasury 10Y",
@@ -194,21 +194,21 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 79701.7265625,
+      "last": 79907.578125,
       "returns": {
-        "30": 24.025996801065162,
-        "60": 25.916283209968725,
-        "90": 26.03151819190397,
-        "120": -0.6048866776449446,
-        "365": -27.97016039876509
+        "30": 23.161748436676753,
+        "60": 28.349970469833032,
+        "90": 26.655303624358105,
+        "120": -0.9381950034280773,
+        "365": -27.50483192677231
       },
-      "ret30": 24.025996801065162,
-      "vol_ratio": 1.2526583621515113,
-      "ma20": 76455.8021484375,
-      "ma50": 69092.309765625,
-      "ma200": 69683.3825,
-      "z30": 1.6210383008770626,
-      "technical_score": 6.0,
+      "ret30": 23.161748436676753,
+      "vol_ratio": 1.2400716052073333,
+      "ma20": 77231.975390625,
+      "ma50": 69396.972109375,
+      "ma200": 69751.4044921875,
+      "z30": 1.5548179818121883,
+      "technical_score": 5.0,
       "observations": 731
     }
   ],
@@ -321,6 +321,50 @@
       }
     },
     {
+      "ticker": "EL",
+      "name": "Estée Lauder",
+      "last": 103.86000061035156,
+      "returns": {
+        "30": 29.356083479961704,
+        "60": 21.630169051087012,
+        "90": 34.70817466385887,
+        "120": 17.01216551453586,
+        "365": 53.980734335760786
+      },
+      "ret30": 29.356083479961704,
+      "vol_ratio": 1.1567041065644317,
+      "ma20": 96.62949981689454,
+      "ma50": 88.49739974975586,
+      "ma200": 92.26714996337891,
+      "z30": 1.9729063426500517,
+      "technical_score": 9.0,
+      "observations": 1255,
+      "news_score": 0.3,
+      "news_count": 1,
+      "cross": {
+        "score": 9.8,
+        "action": "COMPRAR",
+        "news_score": 0.3,
+        "news_count": 1,
+        "reasons": [
+          "30d +29.4%",
+          "365d +54.0%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": [
+          {
+            "title": "Hurricane Lowell nears Hawaii. Latest forecast, storm impacts",
+            "link": "https://finance.yahoo.com/m/bd274124-7820-3e9e-a317-0e317a9a24f8/hurricane-lowell-nears.html",
+            "publisher": "USA TODAY",
+            "published": 1788685609,
+            "related": [],
+            "sentiment": 0.3
+          }
+        ]
+      }
+    },
+    {
       "ticker": "CRESY",
       "name": "Cresud",
       "last": 12.069999694824219,
@@ -426,41 +470,6 @@
       }
     },
     {
-      "ticker": "EL",
-      "name": "Estée Lauder",
-      "last": 103.86000061035156,
-      "returns": {
-        "30": 29.356083479961704,
-        "60": 21.630169051087012,
-        "90": 34.70817466385887,
-        "120": 17.01216551453586,
-        "365": 53.980734335760786
-      },
-      "ret30": 29.356083479961704,
-      "vol_ratio": 1.1567041065644317,
-      "ma20": 96.62949981689454,
-      "ma50": 88.49739974975586,
-      "ma200": 92.26714996337891,
-      "z30": 1.9729063426500517,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +29.4%",
-          "365d +54.0%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
       "ticker": "TGT",
       "name": "Target",
       "last": 164.44000244140625,
@@ -524,41 +533,6 @@
         "reasons": [
           "30d +16.3%",
           "365d +128.7%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "last": 230.36000061035156,
-      "returns": {
-        "30": 11.371110369794746,
-        "60": 14.938630233979012,
-        "90": 8.063987704208975,
-        "120": 25.728631740846097,
-        "365": 89.73724871259863
-      },
-      "ret30": 11.371110369794746,
-      "vol_ratio": 0.9490522645978658,
-      "ma20": 220.08200073242188,
-      "ma50": 210.56639953613282,
-      "ma200": 196.67945014953614,
-      "z30": 0.2521312224635045,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +11.4%",
-          "365d +89.7%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -664,41 +638,6 @@
         "reasons": [
           "30d +1.5%",
           "365d +44.6%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "V",
-      "name": "Visa",
-      "last": 375.07000732421875,
-      "returns": {
-        "30": 5.4337486986235195,
-        "60": 16.135130433451494,
-        "90": 21.26415199708105,
-        "120": 20.947413834163697,
-        "365": 9.07319994476361
-      },
-      "ret30": 5.4337486986235195,
-      "vol_ratio": 0.7979292420967438,
-      "ma20": 371.72650451660155,
-      "ma50": 363.19280334472654,
-      "ma200": 334.07019989013673,
-      "z30": 0.6337908211454479,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +5.4%",
-          "365d +9.1%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -1088,6 +1027,110 @@
           "sin sesgo noticioso fuerte"
         ],
         "news": []
+      }
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "last": 375.07000732421875,
+      "returns": {
+        "30": 5.4337486986235195,
+        "60": 16.135130433451494,
+        "90": 21.26415199708105,
+        "120": 20.947413834163697,
+        "365": 9.07319994476361
+      },
+      "ret30": 5.4337486986235195,
+      "vol_ratio": 0.7979292420967438,
+      "ma20": 371.72650451660155,
+      "ma50": 363.19280334472654,
+      "ma200": 334.07019989013673,
+      "z30": 0.6337908211454479,
+      "technical_score": 9.0,
+      "observations": 1255,
+      "news_score": -0.4,
+      "news_count": 2,
+      "cross": {
+        "score": 9.1,
+        "action": "COMPRAR",
+        "news_score": -0.4,
+        "news_count": 2,
+        "reasons": [
+          "30d +5.4%",
+          "365d +9.1%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": [
+          {
+            "title": "Stock Market Investors Just Got a Warning From the Federal Reserve. History Says This Will Happen Next.",
+            "link": "https://finance.yahoo.com/m/34182e4a-4e83-30f8-814d-3993597d7291/stock-market-investors-just.html",
+            "publisher": "Motley Fool",
+            "published": 1788685440,
+            "related": [
+              "NVDA",
+              "^GSPC",
+              "^IXIC"
+            ],
+            "sentiment": -1.0
+          },
+          {
+            "title": "Dead money: Your savings account is losing inflation fight — where 4 financial advisors grow their cash instead",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/dead-money-savings-account-losing-090000243.html",
+            "publisher": "Moneywise",
+            "published": 1788685200,
+            "related": [],
+            "sentiment": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "last": 230.36000061035156,
+      "returns": {
+        "30": 11.371110369794746,
+        "60": 14.938630233979012,
+        "90": 8.063987704208975,
+        "120": 25.728631740846097,
+        "365": 89.73724871259863
+      },
+      "ret30": 11.371110369794746,
+      "vol_ratio": 0.9490522645978658,
+      "ma20": 220.08200073242188,
+      "ma50": 210.56639953613282,
+      "ma200": 196.67945014953614,
+      "z30": 0.2521312224635045,
+      "technical_score": 9.0,
+      "observations": 1255,
+      "news_score": -1.0,
+      "news_count": 1,
+      "cross": {
+        "score": 8.5,
+        "action": "COMPRAR",
+        "news_score": -1.0,
+        "news_count": 1,
+        "reasons": [
+          "30d +11.4%",
+          "365d +89.7%",
+          "sobre MM50",
+          "noticias desfavorables"
+        ],
+        "news": [
+          {
+            "title": "Stock Market Investors Just Got a Warning From the Federal Reserve. History Says This Will Happen Next.",
+            "link": "https://finance.yahoo.com/m/34182e4a-4e83-30f8-814d-3993597d7291/stock-market-investors-just.html",
+            "publisher": "Motley Fool",
+            "published": 1788685440,
+            "related": [
+              "NVDA",
+              "^GSPC",
+              "^IXIC"
+            ],
+            "sentiment": -1.0
+          }
+        ]
       }
     },
     {
