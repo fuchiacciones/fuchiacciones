@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08 09:12 UTC",
+  "generated_at": "2026-09-08 10:22 UTC",
   "universe_count": 87,
   "available_count": 87,
   "periods": [
@@ -94,80 +94,80 @@
     {
       "name": "VIX",
       "ticker": "^VIX",
-      "last": 15.890000343322754,
+      "last": 15.569999694824219,
       "returns": {
-        "30": -12.74024633602604,
-        "60": -10.124433998618255,
-        "90": -6.474393423273228,
-        "120": -33.95677183694246,
-        "365": -14.981274000675382
+        "30": -14.497526207453348,
+        "60": -11.934392386485793,
+        "90": -8.357858124917982,
+        "120": -35.286782874355424,
+        "365": -16.693422953883907
       },
-      "ret30": -12.74024633602604,
+      "ret30": -14.497526207453348,
       "vol_ratio": 0.0,
-      "ma20": 15.122000074386596,
-      "ma50": 16.10259994506836,
-      "ma200": 18.157950043678284,
-      "z30": -0.5326343132485367,
+      "ma20": 15.10600004196167,
+      "ma50": 16.09619993209839,
+      "ma200": 18.15635004043579,
+      "z30": -0.5935136143946836,
       "technical_score": -7.0,
       "observations": 503
     },
     {
       "name": "Oro",
       "ticker": "GC=F",
-      "last": 4437.7001953125,
+      "last": 4439.2998046875,
       "returns": {
-        "30": 8.913981968646457,
-        "60": 8.493268032595935,
-        "90": -2.365132345784582,
-        "120": -11.263743345080979,
-        "365": 46.89994169848304
+        "30": 8.95324100349737,
+        "60": 8.532375417284221,
+        "90": -2.329938970217771,
+        "120": -11.231757554739053,
+        "365": 46.9528931178187
       },
-      "ret30": 8.913981968646457,
-      "vol_ratio": 12.32977561556791,
-      "ma20": 4470.95,
-      "ma50": 4246.164008789063,
-      "ma200": 4522.345493164063,
-      "z30": 0.717743507200349,
+      "ret30": 8.95324100349737,
+      "vol_ratio": 12.592285544082603,
+      "ma20": 4471.02998046875,
+      "ma50": 4246.196000976563,
+      "ma200": 4522.353491210937,
+      "z30": 0.7229859717492346,
       "technical_score": 2.0,
       "observations": 503
     },
     {
       "name": "WTI",
       "ticker": "CL=F",
-      "last": 94.43000030517578,
+      "last": 94.02999877929688,
       "returns": {
-        "30": 14.308194658629624,
-        "60": 7.6616136026077974,
-        "90": -11.648575288341934,
-        "120": -1.8501182790096826,
-        "365": 35.57788691517789
+        "30": 13.823989934112536,
+        "60": 7.205563517036961,
+        "90": -12.022828222621573,
+        "120": -2.2658770667503436,
+        "365": 35.00358466519118
       },
-      "ret30": 14.308194658629624,
-      "vol_ratio": 1.0059607852459962,
-      "ma20": 86.05050086975098,
-      "ma50": 81.46080032348632,
-      "ma200": 78.98339994430542,
-      "z30": 0.7713752772344932,
+      "ret30": 13.823989934112536,
+      "vol_ratio": 1.0079874252149725,
+      "ma20": 86.03050079345704,
+      "ma50": 81.45280029296875,
+      "ma200": 78.98139993667603,
+      "z30": 0.7407451884437923,
       "technical_score": 5.0,
       "observations": 503
     },
     {
       "name": "DXY",
       "ticker": "DX-Y.NYB",
-      "last": 98.9749984741211,
+      "last": 98.95500183105469,
       "returns": {
-        "30": -2.4972944623794846,
-        "60": -0.886242870840448,
-        "90": 0.055600794777466156,
-        "120": -0.6075550771328819,
-        "365": -5.332381075949655
+        "30": -2.5169936473322774,
+        "60": -0.9062675483331284,
+        "90": 0.035385829718270756,
+        "120": -0.6276360599594688,
+        "365": -5.351507467611738
       },
-      "ret30": -2.4972944623794846,
+      "ret30": -2.5169936473322774,
       "vol_ratio": 0.0,
-      "ma20": 99.35125007629395,
-      "ma50": 100.18710037231445,
-      "ma200": 99.16307518005371,
-      "z30": -1.0687385710358652,
+      "ma20": 99.35025024414062,
+      "ma50": 100.18670043945312,
+      "ma200": 99.16297519683837,
+      "z30": -1.0775269752803398,
       "technical_score": -7.0,
       "observations": 503
     },
@@ -194,21 +194,21 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 78337.1328125,
+      "last": 78855.0,
       "returns": {
-        "30": 20.80695452868868,
-        "60": 22.159092155062066,
-        "90": 27.482569786646984,
-        "120": -4.149314487351474,
-        "365": -30.100710742304905
+        "30": 21.60557908292089,
+        "60": 22.966655352879293,
+        "90": 28.325325163317473,
+        "120": -3.5156695842990415,
+        "365": -29.6386240276587
       },
-      "ret30": 20.80695452868868,
-      "vol_ratio": 1.3300172833401835,
-      "ma20": 78429.403125,
-      "ma50": 69956.46453125,
-      "ma200": 69866.06703125,
-      "z30": 1.3811056176932364,
-      "technical_score": 4.0,
+      "ret30": 21.60557908292089,
+      "vol_ratio": 1.330135364991667,
+      "ma20": 78455.296484375,
+      "ma50": 69966.821875,
+      "ma200": 69868.6563671875,
+      "z30": 1.4385448584136182,
+      "technical_score": 6.0,
       "observations": 731
     }
   ],
@@ -288,73 +288,54 @@
   ],
   "news": [
     {
-      "title": "Nobody Has Looked at the Fund Your 401(k) Picked for You at 25, So Here Are 3 ETFs a Grown-Up Would Choose Instead",
-      "link": "https://finance.yahoo.com/m/b4061797-b3be-3833-8f74-93bf8361b08a/nobody-has-looked-at-the-fund.html",
-      "publisher": "24/7 Wall St.",
-      "published": 1788470744,
+      "title": "Bloom Energy, Everpure, Illumina to Join S&P 500 in September Rebalance",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-everpure-illumina-join-101556028.html",
+      "publisher": "MT Newswires",
+      "published": 1788862556,
       "related": [
-        "DGRO",
-        "BND",
-        "VBMFX",
-        "VBMPX",
-        "VBTIX",
-        "VBTLX",
-        "VTBSX",
-        "VITSX",
-        "VSMPX",
-        "VSTSX",
-        "VTI",
-        "VTSAX",
-        "VTSMX"
-      ]
+        "BE",
+        "P",
+        "ILMN",
+        "DELL",
+        "TAP",
+        "TTD",
+        "BLDR",
+        "PANW",
+        "ANET",
+        "SNDK",
+        "^GSPC"
+      ],
+      "theme": "Resultados / balance",
+      "title_es": "Bloom Energy, Everpure e Illumina se unirán al S&P 500 en septiembre Rebalance"
     },
     {
-      "title": "If You Invest $1,000 in the Vanguard Total Stock Market ETF Right Now, Here's What History Says It Could Be Worth in 20 Years",
-      "link": "https://finance.yahoo.com/m/3f51dabe-95ca-32b4-b62f-9c87cefb59e8/if-you-invest-%241%2C000-in-the.html",
-      "publisher": "Motley Fool",
-      "published": 1788347700,
-      "related": [
-        "NVDA",
-        "VTI"
-      ]
+      "title": "Ahlem Brings Bronze Back to Eyewear as It Steps Up Global Retail Push",
+      "link": "https://finance.yahoo.com/m/71580ba0-bff7-37a0-b989-9f873bf5d6fe/ahlem-brings-bronze-back-to.html",
+      "publisher": "WWD",
+      "published": 1788862499,
+      "related": [],
+      "theme": "Resultados / balance",
+      "title_es": "Ahlem devuelve el bronce a las gafas a medida que aumenta el empuje minorista global"
     },
     {
-      "title": "Where Will VTI Be in 2036? Here's What Decades of History Suggest.",
-      "link": "https://finance.yahoo.com/m/03918b48-4141-3f37-9f6b-bdbeacaa0445/where-will-vti-be-in-2036%3F.html",
-      "publisher": "Motley Fool",
-      "published": 1788294900,
-      "related": [
-        "NVDA",
-        "VTI"
-      ]
+      "title": "Warehouse Robotics Market: A Building-Shaped Commitment With A Twenty-Year Payback",
+      "link": "https://finance.yahoo.com/technology/articles/warehouse-robotics-market-building-shaped-101400496.html",
+      "publisher": "GlobeNewswire",
+      "published": 1788862440,
+      "related": [],
+      "theme": "Tecnología / IA",
+      "title_es": "Mercado de la robótica en almacenes: un compromiso con forma de edificio y un retorno de la inversión a veinte años."
     },
     {
-      "title": "The Free Retirement Dinner Costs $500K in the Fine Print, but These 4 ETFs Do What the Steak Pitch Promises",
-      "link": "https://finance.yahoo.com/m/d0e1ff8d-2db7-3a49-9e3c-9a849985e6f4/the-free-retirement-dinner.html",
-      "publisher": "24/7 Wall St.",
-      "published": 1788210917,
+      "title": "Holtec Nuclear Corporation Announces Launch of Initial Public Offering",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/holtec-nuclear-corporation-announces-launch-101400238.html",
+      "publisher": "GlobeNewswire",
+      "published": 1788862440,
       "related": [
-        "VTI",
-        "SCHD",
-        "VHYAX",
-        "VYM",
-        "JAAA",
-        "VITSX",
-        "VSMPX",
-        "VSTSX",
-        "VTSAX",
-        "VTSMX"
-      ]
-    },
-    {
-      "title": "VTI’s 0.03% Fee Hides the Real Cost: 3,600 Stocks and Still a Third of Your Money in Ten Companies",
-      "link": "https://finance.yahoo.com/m/3292a88b-b3b0-3544-bbda-f862bd12c36f/vti%E2%80%99s-0.03%25-fee-hides-the.html",
-      "publisher": "24/7 Wall St.",
-      "published": 1787780139,
-      "related": [
-        "NVDA",
-        "VTI"
-      ]
+        "^IXIC"
+      ],
+      "theme": "Productos / innovación",
+      "title_es": "Holtec Nuclear Corporation anuncia el lanzamiento de una oferta pública inicial"
     }
   ],
   "results": [
@@ -391,94 +372,6 @@
           "sin sesgo noticioso fuerte"
         ],
         "news": []
-      }
-    },
-    {
-      "ticker": "EL",
-      "name": "Estée Lauder",
-      "last": 103.86000061035156,
-      "returns": {
-        "30": 29.356083479961704,
-        "60": 21.630169051087012,
-        "90": 34.70817466385887,
-        "120": 17.01216551453586,
-        "365": 53.980734335760786
-      },
-      "ret30": 29.356083479961704,
-      "vol_ratio": 1.1567041065644317,
-      "ma20": 96.62949981689454,
-      "ma50": 88.49739974975586,
-      "ma200": 92.26714996337891,
-      "z30": 1.9729063426500517,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.8,
-      "news_count": 1,
-      "cross": {
-        "score": 10.3,
-        "action": "COMPRAR",
-        "news_score": 0.8,
-        "news_count": 1,
-        "reasons": [
-          "30d +29.4%",
-          "365d +54.0%",
-          "sobre MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "GAC's Overseas Growth Accelerates: August Exports Hit 26,978 Units, Up 177% YoY",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/gacs-overseas-growth-accelerates-august-090800987.html",
-            "publisher": "PR Newswire",
-            "published": 1788858480,
-            "related": [],
-            "sentiment": 0.8
-          }
-        ]
-      }
-    },
-    {
-      "ticker": "V",
-      "name": "Visa",
-      "last": 375.07000732421875,
-      "returns": {
-        "30": 5.4337486986235195,
-        "60": 16.135130433451494,
-        "90": 21.26415199708105,
-        "120": 20.947413834163697,
-        "365": 9.07319994476361
-      },
-      "ret30": 5.4337486986235195,
-      "vol_ratio": 0.7979292420967438,
-      "ma20": 371.72650451660155,
-      "ma50": 363.19280334472654,
-      "ma200": 334.07019989013673,
-      "z30": 0.6337908211454479,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.8,
-      "news_count": 1,
-      "cross": {
-        "score": 10.3,
-        "action": "COMPRAR",
-        "news_score": 0.8,
-        "news_count": 1,
-        "reasons": [
-          "30d +5.4%",
-          "365d +9.1%",
-          "sobre MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "GAC's Overseas Growth Accelerates: August Exports Hit 26,978 Units, Up 177% YoY",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/gacs-overseas-growth-accelerates-august-090800987.html",
-            "publisher": "PR Newswire",
-            "published": 1788858480,
-            "related": [],
-            "sentiment": 0.8
-          }
-        ]
       }
     },
     {
@@ -580,6 +473,41 @@
         "reasons": [
           "30d +5.7%",
           "365d +19.3%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "EL",
+      "name": "Estée Lauder",
+      "last": 103.86000061035156,
+      "returns": {
+        "30": 29.356083479961704,
+        "60": 21.630169051087012,
+        "90": 34.70817466385887,
+        "120": 17.01216551453586,
+        "365": 53.980734335760786
+      },
+      "ret30": 29.356083479961704,
+      "vol_ratio": 1.1567041065644317,
+      "ma20": 96.62949981689454,
+      "ma50": 88.49739974975586,
+      "ma200": 92.26714996337891,
+      "z30": 1.9729063426500517,
+      "technical_score": 9.0,
+      "observations": 1255,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +29.4%",
+          "365d +54.0%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -790,6 +718,41 @@
         "reasons": [
           "30d +1.5%",
           "365d +44.6%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "last": 375.07000732421875,
+      "returns": {
+        "30": 5.4337486986235195,
+        "60": 16.135130433451494,
+        "90": 21.26415199708105,
+        "120": 20.947413834163697,
+        "365": 9.07319994476361
+      },
+      "ret30": 5.4337486986235195,
+      "vol_ratio": 0.7979292420967438,
+      "ma20": 371.72650451660155,
+      "ma50": 363.19280334472654,
+      "ma200": 334.07019989013673,
+      "z30": 0.6337908211454479,
+      "technical_score": 9.0,
+      "observations": 1255,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +5.4%",
+          "365d +9.1%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3420,6 +3383,158 @@
         ],
         "news": []
       }
+    }
+  ],
+  "us_top_30_30d": [
+    {
+      "ticker": "MRNA",
+      "name": "Moderna, Inc.",
+      "return_30d": 169.18809667700145
+    },
+    {
+      "ticker": "GPRO",
+      "name": "GoPro, Inc.",
+      "return_30d": 154.11060875316892
+    },
+    {
+      "ticker": "CRNX",
+      "name": "Crinetics Pharmaceuticals Inc",
+      "return_30d": 141.8849644984406
+    },
+    {
+      "ticker": "ASST",
+      "name": "Strive, Inc.",
+      "return_30d": 136.20539538972744
+    },
+    {
+      "ticker": "LIFE",
+      "name": "Ethos Technologies Inc.",
+      "return_30d": 115.40539715741134
+    },
+    {
+      "ticker": "PURR",
+      "name": "Hyperliquid Strategies Inc.",
+      "return_30d": 96.76898534060847
+    },
+    {
+      "ticker": "CHPT",
+      "name": "ChargePoint Holdings, Inc.",
+      "return_30d": 93.16407352307603
+    },
+    {
+      "ticker": "IOVA",
+      "name": "Iovance Biotherapeutics, Inc.",
+      "return_30d": 76.1523119245225
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group",
+      "return_30d": 63.64657160509686
+    },
+    {
+      "ticker": "BMEA",
+      "name": "Biomea Fusion, Inc.",
+      "return_30d": 62.39999771118163
+    },
+    {
+      "ticker": "ANF",
+      "name": "Abercrombie & Fitch Co.",
+      "return_30d": 59.54589283030456
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce, Inc.",
+      "return_30d": 58.39545715856851
+    },
+    {
+      "ticker": "BMNR",
+      "name": "Bitmine Immersion Technologies, Inc.",
+      "return_30d": 58.138058098032765
+    },
+    {
+      "ticker": "AMR",
+      "name": "Alpha Metallurgical Resources, Inc.",
+      "return_30d": 57.69553645733922
+    },
+    {
+      "ticker": "MSTR",
+      "name": "Strategy Inc",
+      "return_30d": 55.77616003502182
+    },
+    {
+      "ticker": "TARS",
+      "name": "Tarsus Pharmaceuticals, Inc.",
+      "return_30d": 54.7562206195638
+    },
+    {
+      "ticker": "BLSH",
+      "name": "Bullish",
+      "return_30d": 50.25042310343784
+    },
+    {
+      "ticker": "PYXS",
+      "name": "Pyxis Oncology, Inc.",
+      "return_30d": 49.04215560366354
+    },
+    {
+      "ticker": "PRGO",
+      "name": "Perrigo Company plc",
+      "return_30d": 47.86917592332496
+    },
+    {
+      "ticker": "BTG",
+      "name": "B2Gold Corp.",
+      "return_30d": 44.961248046754186
+    },
+    {
+      "ticker": "EPRX",
+      "name": "Eupraxia Pharmaceuticals Inc.",
+      "return_30d": 44.578308111164276
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "return_30d": 43.00465301933407
+    },
+    {
+      "ticker": "EXK",
+      "name": "Endeavour Silver Corp.",
+      "return_30d": 42.19948390610602
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "return_30d": 41.82395413921969
+    },
+    {
+      "ticker": "OPRT",
+      "name": "Oportun Financial Corporation",
+      "return_30d": 40.787113966636745
+    },
+    {
+      "ticker": "CDE",
+      "name": "Coeur Mining, Inc.",
+      "return_30d": 40.383341774369995
+    },
+    {
+      "ticker": "PATH",
+      "name": "UiPath, Inc.",
+      "return_30d": 40.129145447999946
+    },
+    {
+      "ticker": "BXC",
+      "name": "BlueLinx Holdings Inc.",
+      "return_30d": 40.06162946808909
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "return_30d": 38.08157381427735
+    },
+    {
+      "ticker": "EQX",
+      "name": "Equinox Gold Corp.",
+      "return_30d": 38.03880159719899
     }
   ]
 }
