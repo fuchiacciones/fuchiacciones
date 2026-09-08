@@ -7,6 +7,7 @@ from html import escape, unescape
 ROOT = os.path.dirname(os.path.dirname(__file__))
 PUBLIC = os.path.join(ROOT, 'public')
 UA = 'Mozilla/5.0 FUCHIACCIONES/3.0'
+ARG_TICKERS = {'LOMA','CRESY','GGAL','YPF','BMA','PAM','TEO','ARGT'}
 
 
 def get_json(url, timeout=20):
@@ -16,15 +17,6 @@ def get_json(url, timeout=20):
             return json.load(r)
     except Exception:
         return None
-
-
-def get_text(url, timeout=20):
-    try:
-        req = Request(url, headers={'User-Agent': UA, 'Accept': 'text/html,application/xhtml+xml,*/*'})
-        with urlopen(req, timeout=timeout) as r:
-            return r.read().decode('utf-8', 'ignore')
-    except Exception:
-        return ''
 
 
 def yahoo_chart(ticker, range_='3mo'):
@@ -52,14 +44,15 @@ def pct(a, b):
 
 
 def us_top_30():
-    # Build a broad US equity candidate pool from several Yahoo screeners, then
-    # calculate the actual 30-session performance for every candidate.
+    # Broad US candidate pool from several public Yahoo screeners; 30-session
+    # performance is then calculated from daily closes and ranked independently
+    # of the FUCHIACCIONES configured universe.
     ids = ('day_gainers', 'most_actives', 'small_cap_gainers', 'growth_technology_stocks')
     candidates = {}
     for sid in ids:
         for q in yahoo_screener(sid, 250):
             ticker = q.get('symbol')
-            if not ticker:
+            if not ticker or ticker in ARG_TICKERS:
                 continue
             region = str(q.get('region', 'US')).upper()
             if region and region not in ('US', 'USA'):
@@ -69,11 +62,7 @@ def us_top_30():
             price = q.get('regularMarketPrice') or q.get('postMarketPrice')
             if price is not None and price < 1:
                 continue
-            candidates[ticker] = {
-                'ticker': ticker,
-                'name': q.get('longName') or q.get('shortName') or ticker,
-                'exchange': q.get('fullExchangeName') or q.get('exchange') or ''
-            }
+            candidates[ticker] = {'ticker': ticker, 'name': q.get('longName') or q.get('shortName') or ticker}
     ranked = []
     for ticker, item in candidates.items():
         closes = yahoo_chart(ticker, '3mo')
@@ -106,7 +95,6 @@ def classify(title):
 
 
 def translate_es(text):
-    # Best-effort public translation. If unavailable, retain the original headline.
     try:
         url = 'https://api.mymemory.translated.net/get?q=' + quote(text) + '&langpair=en|es'
         data = get_json(url, timeout=12)
@@ -138,7 +126,7 @@ def improved_news():
         'US stocks acquisition merger takeover deal',
         'US stocks contracts partnerships orders new products'
     )
-    seen = set(); items = []
+    seen, items = set(), []
     for q in queries:
         for n in yahoo_news(q, 8):
             key = n['title'].strip().lower()
@@ -159,17 +147,24 @@ def improved_news():
 def yahoo_history_url(ticker):
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=365)
-    p1 = int(start.timestamp())
-    p2 = int(now.timestamp())
+    p1, p2 = int(start.timestamp()), int(now.timestamp())
     return f'https://finance.yahoo.com/quote/{quote(ticker)}/history/?period1={p1}&period2={p2}&frequency=1d'
 
 
 def link_tickers(html, tickers):
+    # Protect every existing URL before replacing visible ticker text.
+    urls = []
+    def stash(m):
+        urls.append(m.group(0))
+        return f'___FUCHI_URL_{len(urls)-1}___'
+    protected = re.sub(r"https?://[^'\"\s<>]+", stash, html)
     for ticker in sorted(tickers, key=len, reverse=True):
         url = yahoo_history_url(ticker)
         pattern = rf'(?<![\w\-])({re.escape(ticker)})(?![\w\-])'
-        html = re.sub(pattern, lambda m: f"<a href='{escape(url, quote=True)}' target='_blank' rel='noopener' title='Historial de {escape(ticker)} · 365 días'>{m.group(1)}</a>", html)
-    return html
+        protected = re.sub(pattern, lambda m: f"<a href='{escape(url, quote=True)}' target='_blank' rel='noopener' title='Historial de {escape(ticker)} · 365 días'>{m.group(1)}</a>", protected)
+    for i, url in enumerate(urls):
+        protected = protected.replace(f'___FUCHI_URL_{i}___', url)
+    return protected
 
 
 def main():
@@ -184,38 +179,25 @@ def main():
     with open(data_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # Remove the previous cross-analysis section completely.
     html = re.sub(r"<section><h2>🧠 CRUCE DE NOTICIAS \+ DATOS BURSÁTILES</h2>.*?</section>\s*", '', html, count=1, flags=re.S)
-
-    # Remove old news section; a company-focused version is inserted below.
     html = re.sub(r"<section><h2>📰 NOTICIAS BURSÁTILES</h2>.*?</section>\s*", '', html, count=1, flags=re.S)
 
-    gainers = ''.join(
-        f"<tr><td><b>{escape(x['ticker'])}</b></td><td>{escape(x['name'])}</td><td class='up'><b>{x['return_30d']:+.1f}%</b></td><td><a href='{escape(yahoo_history_url(x['ticker']), quote=True)}' target='_blank' rel='noopener'>Yahoo · 365 días</a></td></tr>"
-        for x in top30
-    ) or '<tr><td colspan=4>No se pudieron obtener datos suficientes.</td></tr>'
-    gainer_section = f"""<section><h2>🚀 30 ACCIONES DE EE.UU. QUE MÁS SUBIERON EN 30 DÍAS</h2><p>Ranking independiente del universo de FUCHIACCIONES. Se calcula con rendimiento de las últimas 30 ruedas disponibles y una muestra amplia de acciones estadounidenses obtenida de los screeners públicos de Yahoo Finance.</p><div class='scroll'><table><thead><tr><th>#</th><th>Acción</th><th>Empresa</th><th>30 días</th><th>Historial</th></tr></thead><tbody>{''.join(f'<tr><td>{i+1}</td>'+row.replace('<tr>','').replace('</tr>','') for i,row in enumerate(gainers.split('<tr>')[1:]) )}</tbody></table></div></section>"""
-    # The construction above is intentionally replaced with a clean table body.
     rows = ''.join(f"<tr><td>{i+1}</td><td><b>{escape(x['ticker'])}</b></td><td>{escape(x['name'])}</td><td class='up'><b>{x['return_30d']:+.1f}%</b></td><td><a href='{escape(yahoo_history_url(x['ticker']), quote=True)}' target='_blank' rel='noopener'>Yahoo · 365 días</a></td></tr>" for i,x in enumerate(top30))
-    gainer_section = f"<section><h2>🚀 30 ACCIONES DE EE.UU. QUE MÁS SUBIERON EN 30 DÍAS</h2><p>Ranking independiente del universo de FUCHIACCIONES. Se calcula sobre las últimas 30 ruedas disponibles.</p><div class='scroll'><table><thead><tr><th>#</th><th>Ticker</th><th>Empresa</th><th>30 días</th><th>Historial</th></tr></thead><tbody>{rows or '<tr><td colspan=5>No se pudieron obtener datos suficientes.</td></tr>'}</tbody></table></div></section>"
+    gainer_section = f"<section><h2>🚀 30 ACCIONES DE EE.UU. QUE MÁS SUBIERON EN 30 DÍAS</h2><p>Ranking independiente del universo de FUCHIACCIONES. Se calcula sobre las últimas 30 ruedas disponibles a partir de una muestra amplia de acciones estadounidenses obtenida de los screeners públicos de Yahoo Finance.</p><div class='scroll'><table><thead><tr><th>#</th><th>Ticker</th><th>Empresa</th><th>30 días</th><th>Historial</th></tr></thead><tbody>{rows or '<tr><td colspan=5>No se pudieron obtener datos suficientes.</td></tr>'}</tbody></table></div></section>"
 
     news = data.get('news', [])
     news_cards = ''.join(f"<article class='card'><span class='pill hold'>{escape(n.get('theme','Empresa'))}</span><h3>{escape(n.get('title_es') or n['title'])}</h3><p><small>{escape(n.get('publisher',''))}</small></p><p><a href='{escape(n['link'], quote=True)}' target='_blank' rel='noopener'>Leer fuente original</a></p></article>" for n in news)
     news_section = f"<section><h2>📰 NOTICIAS DE EMPRESAS</h2><p>Selección enfocada en hechos corporativos con impacto potencial en valuación: balances, resultados, guidance, inteligencia artificial y tecnología, nuevos productos, adquisiciones, contratos, alianzas y asuntos regulatorios. Los titulares se presentan en castellano cuando la traducción automática está disponible.</p><div class='cards'>{news_cards or '<p>Sin noticias disponibles.</p>'}</div></section>"
 
-    # Replace the old alerts section with up to 15 US stocks.
-    alerts = sorted(data.get('results', []), key=lambda x: x.get('cross', {}).get('score', 0))
-    alerts = alerts[:15]
+    us_alerts = [x for x in data.get('results', []) if x.get('ticker') not in ARG_TICKERS]
+    alerts = sorted(us_alerts, key=lambda x: x.get('cross', {}).get('score', 0))[:15]
     alert_items = ''.join(f"<li><b>{escape(x['ticker'])} — {escape(x['name'])}</b> · 30d {x['returns'].get('30'):+.1f}% · 60d {x['returns'].get('60'):+.1f}% · 90d {x['returns'].get('90'):+.1f}% · 120d {x['returns'].get('120'):+.1f}% · 365d {x['returns'].get('365'):+.1f}% · <span class='pill {('sell' if 'EVITAR' in x['cross']['action'] or 'REDUCIR' in x['cross']['action'] else 'hold')}'>{escape(x['cross']['action'])}</span></li>" for x in alerts if x.get('ticker') and x.get('returns'))
     html = re.sub(r"<section><h2>⚠️ ALERTAS</h2>.*?</section>\s*", f"<section><h2>⚠️ ALERTAS — ACCIONES DE EE.UU.</h2><div class='notice'><p>Hasta 15 acciones estadounidenses que requieren atención por debilidad, deterioro de tendencia o señales técnicas relevantes.</p><ul>{alert_items or '<li>Sin alertas calculadas.</li>'}</ul></div></section>\n", html, count=1, flags=re.S)
 
-    # Insert the new sections immediately before the global market section.
     html = html.replace("<section><h2>📈 MERCADO GLOBAL</h2>", gainer_section + '\n' + news_section + "\n<section><h2>📈 MERCADO GLOBAL</h2>", 1)
 
-    # Make every configured ticker in the report open its 365-day Yahoo history.
     tickers = {x.get('ticker') for x in data.get('results', []) if x.get('ticker')}
     html = link_tickers(html, tickers)
-
     open(html_path, 'w', encoding='utf-8').write(html)
 
 if __name__ == '__main__':
