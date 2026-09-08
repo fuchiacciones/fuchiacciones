@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07 09:12 UTC",
+  "generated_at": "2026-09-08 09:12 UTC",
   "universe_count": 87,
   "available_count": 87,
   "periods": [
@@ -94,80 +94,80 @@
     {
       "name": "VIX",
       "ticker": "^VIX",
-      "last": 15.039999961853027,
+      "last": 15.890000343322754,
       "returns": {
-        "30": -19.442957148404496,
-        "60": -22.633747177609763,
-        "90": -10.95322376938178,
-        "120": -40.05579963975514,
-        "365": -17.948717815312666
+        "30": -12.74024633602604,
+        "60": -10.124433998618255,
+        "90": -6.474393423273228,
+        "120": -33.95677183694246,
+        "365": -14.981274000675382
       },
-      "ret30": -19.442957148404496,
+      "ret30": -12.74024633602604,
       "vol_ratio": 0.0,
-      "ma20": 15.078500032424927,
-      "ma50": 16.132599925994874,
-      "ma200": 18.20930004119873,
-      "z30": -0.7658865174708208,
-      "technical_score": -9.0,
-      "observations": 502
+      "ma20": 15.122000074386596,
+      "ma50": 16.10259994506836,
+      "ma200": 18.157950043678284,
+      "z30": -0.5326343132485367,
+      "technical_score": -7.0,
+      "observations": 503
     },
     {
       "name": "Oro",
       "ticker": "GC=F",
-      "last": 4476.60009765625,
+      "last": 4437.7001953125,
       "returns": {
-        "30": 9.868697942232174,
-        "60": 9.444296120496109,
-        "90": -1.5092866036351404,
-        "120": -10.485900866701659,
-        "365": 48.18763422724144
+        "30": 8.913981968646457,
+        "60": 8.493268032595935,
+        "90": -2.365132345784582,
+        "120": -11.263743345080979,
+        "365": 46.89994169848304
       },
-      "ret30": 9.868697942232174,
-      "vol_ratio": 8.620482525814138,
-      "ma20": 4472.894995117187,
-      "ma50": 4246.942006835938,
-      "ma200": 4522.539992675781,
-      "z30": 0.84519388070924,
-      "technical_score": 4.0,
+      "ret30": 8.913981968646457,
+      "vol_ratio": 12.32977561556791,
+      "ma20": 4470.95,
+      "ma50": 4246.164008789063,
+      "ma200": 4522.345493164063,
+      "z30": 0.717743507200349,
+      "technical_score": 2.0,
       "observations": 503
     },
     {
       "name": "WTI",
       "ticker": "CL=F",
-      "last": 91.4800033569336,
+      "last": 94.43000030517578,
       "returns": {
-        "30": 10.737202131760505,
-        "60": 4.298260531082754,
-        "90": -14.408677294377359,
-        "120": -4.916324469960875,
-        "365": 31.342428360096463
+        "30": 14.308194658629624,
+        "60": 7.6616136026077974,
+        "90": -11.648575288341934,
+        "120": -1.8501182790096826,
+        "365": 35.57788691517789
       },
-      "ret30": 10.737202131760505,
-      "vol_ratio": 0.9970493235055792,
-      "ma20": 85.90300102233887,
-      "ma50": 81.40180038452148,
-      "ma200": 78.9686499595642,
-      "z30": 0.5453829666118216,
+      "ret30": 14.308194658629624,
+      "vol_ratio": 1.0059607852459962,
+      "ma20": 86.05050086975098,
+      "ma50": 81.46080032348632,
+      "ma200": 78.98339994430542,
+      "z30": 0.7713752772344932,
       "technical_score": 5.0,
       "observations": 503
     },
     {
       "name": "DXY",
       "ticker": "DX-Y.NYB",
-      "last": 98.94599914550781,
+      "last": 98.9749984741211,
       "returns": {
-        "30": -2.5258624143083552,
-        "60": -0.9152828552546621,
-        "90": 0.026284853461167046,
-        "120": -0.6366767160965847,
-        "365": -5.360118357410015
+        "30": -2.4972944623794846,
+        "60": -0.886242870840448,
+        "90": 0.055600794777466156,
+        "120": -0.6075550771328819,
+        "365": -5.332381075949655
       },
-      "ret30": -2.5258624143083552,
+      "ret30": -2.4972944623794846,
       "vol_ratio": 0.0,
-      "ma20": 99.34980010986328,
-      "ma50": 100.18652038574218,
-      "ma200": 99.16293018341065,
-      "z30": -1.081483428173702,
+      "ma20": 99.35125007629395,
+      "ma50": 100.18710037231445,
+      "ma200": 99.16307518005371,
+      "z30": -1.0687385710358652,
       "technical_score": -7.0,
       "observations": 503
     },
@@ -194,21 +194,21 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 79521.71875,
+      "last": 78337.1328125,
       "returns": {
-        "30": 22.520763619730854,
-        "60": 25.83914667370857,
-        "90": 29.002013078164303,
-        "120": -3.186322182985901,
-        "365": -28.466831653074554
+        "30": 20.80695452868868,
+        "60": 22.159092155062066,
+        "90": 27.482569786646984,
+        "120": -4.149314487351474,
+        "365": -30.100710742304905
       },
-      "ret30": 22.520763619730854,
-      "vol_ratio": 1.2799598695867278,
-      "ma20": 77996.14921875,
-      "ma50": 69702.439765625,
-      "ma200": 69816.4378125,
-      "z30": 1.5063615747985215,
-      "technical_score": 6.0,
+      "ret30": 20.80695452868868,
+      "vol_ratio": 1.3300172833401835,
+      "ma20": 78429.403125,
+      "ma50": 69956.46453125,
+      "ma200": 69866.06703125,
+      "z30": 1.3811056176932364,
+      "technical_score": 4.0,
       "observations": 731
     }
   ],
@@ -228,6 +228,62 @@
       "title": "ECB President Lagarde Speaks",
       "forecast": "",
       "previous": ""
+    },
+    {
+      "date": "10/09 08:15 UTC",
+      "country": "EUR",
+      "impact": "High",
+      "title": "Main Refinancing Rate",
+      "forecast": "2.65%",
+      "previous": "2.40%"
+    },
+    {
+      "date": "10/09 08:15 UTC",
+      "country": "EUR",
+      "impact": "High",
+      "title": "Monetary Policy Statement",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "10/09 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Core PPI m/m",
+      "forecast": "0.3%",
+      "previous": "0.2%"
+    },
+    {
+      "date": "10/09 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "PPI m/m",
+      "forecast": "0.4%",
+      "previous": "0.0%"
+    },
+    {
+      "date": "10/09 08:30 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Unemployment Claims",
+      "forecast": "205K",
+      "previous": "206K"
+    },
+    {
+      "date": "10/09 08:45 UTC",
+      "country": "EUR",
+      "impact": "High",
+      "title": "ECB Press Conference",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "11/09 02:00 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "GDP m/m",
+      "forecast": "0.0%",
+      "previous": "0.3%"
     }
   ],
   "news": [
@@ -371,10 +427,54 @@
         ],
         "news": [
           {
-            "title": "Collinson Group secures £350 million financing to accelerate £500 million growth strategy",
-            "link": "https://finance.yahoo.com/small-business/articles/collinson-group-secures-350-million-090200832.html",
+            "title": "GAC's Overseas Growth Accelerates: August Exports Hit 26,978 Units, Up 177% YoY",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/gacs-overseas-growth-accelerates-august-090800987.html",
             "publisher": "PR Newswire",
-            "published": 1788771720,
+            "published": 1788858480,
+            "related": [],
+            "sentiment": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "last": 375.07000732421875,
+      "returns": {
+        "30": 5.4337486986235195,
+        "60": 16.135130433451494,
+        "90": 21.26415199708105,
+        "120": 20.947413834163697,
+        "365": 9.07319994476361
+      },
+      "ret30": 5.4337486986235195,
+      "vol_ratio": 0.7979292420967438,
+      "ma20": 371.72650451660155,
+      "ma50": 363.19280334472654,
+      "ma200": 334.07019989013673,
+      "z30": 0.6337908211454479,
+      "technical_score": 9.0,
+      "observations": 1255,
+      "news_score": 0.8,
+      "news_count": 1,
+      "cross": {
+        "score": 10.3,
+        "action": "COMPRAR",
+        "news_score": 0.8,
+        "news_count": 1,
+        "reasons": [
+          "30d +5.4%",
+          "365d +9.1%",
+          "sobre MM50",
+          "noticias favorables"
+        ],
+        "news": [
+          {
+            "title": "GAC's Overseas Growth Accelerates: August Exports Hit 26,978 Units, Up 177% YoY",
+            "link": "https://finance.yahoo.com/markets/stocks/articles/gacs-overseas-growth-accelerates-august-090800987.html",
+            "publisher": "PR Newswire",
+            "published": 1788858480,
             "related": [],
             "sentiment": 0.8
           }
@@ -690,41 +790,6 @@
         "reasons": [
           "30d +1.5%",
           "365d +44.6%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "V",
-      "name": "Visa",
-      "last": 375.07000732421875,
-      "returns": {
-        "30": 5.4337486986235195,
-        "60": 16.135130433451494,
-        "90": 21.26415199708105,
-        "120": 20.947413834163697,
-        "365": 9.07319994476361
-      },
-      "ret30": 5.4337486986235195,
-      "vol_ratio": 0.7979292420967438,
-      "ma20": 371.72650451660155,
-      "ma50": 363.19280334472654,
-      "ma200": 334.07019989013673,
-      "z30": 0.6337908211454479,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +5.4%",
-          "365d +9.1%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -1117,50 +1182,6 @@
       }
     },
     {
-      "ticker": "BITO",
-      "name": "ProShares Bitcoin Strategy ETF",
-      "last": 10.739999771118164,
-      "returns": {
-        "30": 23.448275937667407,
-        "60": 27.40212790412484,
-        "90": 2.676861682122844,
-        "120": 5.397450572948648,
-        "365": -45.34351155411643
-      },
-      "ret30": 23.448275937667407,
-      "vol_ratio": 0.282947298189817,
-      "ma20": 9.798499965667725,
-      "ma50": 9.08479998588562,
-      "ma200": 10.391149995326996,
-      "z30": 1.2721564311173927,
-      "technical_score": 7.0,
-      "observations": 1224,
-      "news_score": 0.8,
-      "news_count": 1,
-      "cross": {
-        "score": 8.3,
-        "action": "COMPRAR",
-        "news_score": 0.8,
-        "news_count": 1,
-        "reasons": [
-          "30d +23.4%",
-          "365d -45.3%",
-          "sobre MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "Collinson Group secures £350 million financing to accelerate £500 million growth strategy",
-            "link": "https://finance.yahoo.com/small-business/articles/collinson-group-secures-350-million-090200832.html",
-            "publisher": "PR Newswire",
-            "published": 1788771720,
-            "related": [],
-            "sentiment": 0.8
-          }
-        ]
-      }
-    },
-    {
       "ticker": "VZ",
       "name": "Verizon",
       "last": 50.13999938964844,
@@ -1476,6 +1497,41 @@
       }
     },
     {
+      "ticker": "BITO",
+      "name": "ProShares Bitcoin Strategy ETF",
+      "last": 10.739999771118164,
+      "returns": {
+        "30": 23.448275937667407,
+        "60": 27.40212790412484,
+        "90": 2.676861682122844,
+        "120": 5.397450572948648,
+        "365": -45.34351155411643
+      },
+      "ret30": 23.448275937667407,
+      "vol_ratio": 0.282947298189817,
+      "ma20": 9.798499965667725,
+      "ma50": 9.08479998588562,
+      "ma200": 10.391149995326996,
+      "z30": 1.2721564311173927,
+      "technical_score": 7.0,
+      "observations": 1224,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +23.4%",
+          "365d -45.3%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
       "ticker": "DIA",
       "name": "SPDR Dow Jones Industrial Average ETF",
       "last": 534.0800170898438,
@@ -1774,29 +1830,20 @@
       "z30": 1.09298609421544,
       "technical_score": 4.0,
       "observations": 802,
-      "news_score": 0.8,
-      "news_count": 1,
+      "news_score": 0.0,
+      "news_count": 0,
       "cross": {
-        "score": 5.3,
+        "score": 4.5,
         "action": "ACUMULAR",
-        "news_score": 0.8,
-        "news_count": 1,
+        "news_score": 0.0,
+        "news_count": 0,
         "reasons": [
           "30d +49.8%",
           "365d -56.0%",
           "sobre MM50",
-          "noticias favorables"
+          "sin sesgo noticioso fuerte"
         ],
-        "news": [
-          {
-            "title": "Collinson Group secures £350 million financing to accelerate £500 million growth strategy",
-            "link": "https://finance.yahoo.com/small-business/articles/collinson-group-secures-350-million-090200832.html",
-            "publisher": "PR Newswire",
-            "published": 1788771720,
-            "related": [],
-            "sentiment": 0.8
-          }
-        ]
+        "news": []
       }
     },
     {
