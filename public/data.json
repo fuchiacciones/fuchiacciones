@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12 09:11 UTC",
+  "generated_at": "2026-09-14 09:13 UTC",
   "universe_count": 87,
   "available_count": 87,
   "periods": [
@@ -94,82 +94,82 @@
     {
       "name": "VIX",
       "ticker": "^VIX",
-      "last": 15.84000015258789,
+      "last": 18.0,
       "returns": {
-        "30": -0.938083931690914,
-        "60": -14.099784740611454,
-        "90": -8.913164413238562,
-        "120": -41.22449089363138,
-        "365": -27.23932099441463
+        "30": 13.493066769530415,
+        "60": 9.756100113940814,
+        "90": 5.386417332572924,
+        "120": -28.938017946245598,
+        "365": -16.31799252223577
       },
-      "ret30": -0.938083931690914,
+      "ret30": 13.493066769530415,
       "vol_ratio": 0.0,
-      "ma20": 15.449000024795533,
-      "ma50": 16.1181999206543,
-      "ma200": 18.095250039100648,
-      "z30": -0.1219104985330483,
-      "technical_score": -7.0,
-      "observations": 504
+      "ma20": 15.589500045776367,
+      "ma50": 16.16679992675781,
+      "ma200": 18.09930003643036,
+      "z30": 0.3809093367491194,
+      "technical_score": 3.0,
+      "observations": 502
     },
     {
       "name": "Oro",
       "ticker": "GC=F",
-      "last": 4366.2001953125,
+      "last": 4349.10009765625,
       "returns": {
-        "30": 6.490087834888758,
-        "60": 0.8150798624933842,
-        "90": -3.3919638165173183,
-        "120": -4.46787395839332,
-        "365": 39.81683511728451
+        "30": 7.4090536851299404,
+        "60": -0.22482288896403801,
+        "90": -4.5370673842730085,
+        "120": -1.2488362839271017,
+        "365": 39.44340100136095
       },
-      "ret30": 6.490087834888758,
-      "vol_ratio": 0.21554212011285773,
-      "ma20": 4468.319995117187,
-      "ma50": 4265.952006835938,
-      "ma200": 4526.805493164063,
-      "z30": 0.39411020855485235,
-      "technical_score": 1.0,
-      "observations": 503
+      "ret30": 7.4090536851299404,
+      "vol_ratio": 0.5641312725650075,
+      "ma20": 4466.7550048828125,
+      "ma50": 4270.680004882813,
+      "ma200": 4528.091494140625,
+      "z30": 0.5174755288199434,
+      "technical_score": -1.0,
+      "observations": 502
     },
     {
       "name": "WTI",
       "ticker": "CL=F",
-      "last": 100.05000305175781,
+      "last": 103.29000091552734,
       "returns": {
-        "30": 19.691359534616957,
-        "60": 31.55818413796272,
-        "90": -5.98571248523696,
-        "120": 1.7595640381441902,
-        "365": 39.96921985602133
+        "30": 21.991263906051838,
+        "60": 34.509701372645196,
+        "90": 0.997364139964585,
+        "120": 17.20186557877308,
+        "365": 45.07023222292064
       },
-      "ret30": 19.691359534616957,
-      "vol_ratio": 1.0400814064944106,
-      "ma20": 88.52350158691407,
-      "ma50": 83.22780044555664,
-      "ma200": 79.58609998703002,
-      "z30": 1.1028906498213873,
-      "technical_score": 7.0,
-      "observations": 503
+      "ret30": 21.991263906051838,
+      "vol_ratio": 0.996040403185372,
+      "ma20": 89.56800155639648,
+      "ma50": 83.91980041503906,
+      "ma200": 79.80834999084473,
+      "z30": 1.2425496692124307,
+      "technical_score": 9.0,
+      "observations": 502
     },
     {
       "name": "DXY",
       "ticker": "DX-Y.NYB",
-      "last": 99.12000274658203,
+      "last": 99.5530014038086,
       "returns": {
-        "30": -0.8899103795999452,
-        "60": -0.4219390848727578,
-        "90": 0.6601010641017924,
-        "120": -0.5318602821689278,
-        "365": -4.884364631617233
+        "30": -0.24749663366354646,
+        "60": -0.5365120928461309,
+        "90": 1.0895593118391833,
+        "120": 0.6094032078463041,
+        "365": -4.514675461325535
       },
-      "ret30": -0.8899103795999452,
+      "ret30": -0.24749663366354646,
       "vol_ratio": 0.0,
-      "ma20": 99.20399971008301,
-      "ma50": 100.0502001953125,
-      "ma200": 99.14445011138916,
-      "z30": -0.33699770218329506,
-      "technical_score": -7.0,
-      "observations": 503
+      "ma20": 99.19814987182617,
+      "ma50": 100.02406021118163,
+      "ma200": 99.14151512145996,
+      "z30": -0.042655506988057944,
+      "technical_score": -1.0,
+      "observations": 502
     },
     {
       "name": "Treasury 10Y",
@@ -194,81 +194,380 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 77328.046875,
+      "last": 77688.953125,
       "returns": {
-        "30": 21.964350097431094,
-        "60": 19.04660388188779,
-        "90": 17.68007608194622,
-        "120": -2.197708056602865,
-        "365": -33.39621379500522
+        "30": 23.26821255633831,
+        "60": 21.78998038953448,
+        "90": 18.427125687844615,
+        "120": 0.3352753926790353,
+        "365": -32.68301631851222
       },
-      "ret30": 21.964350097431094,
-      "vol_ratio": 1.4344740418734219,
-      "ma20": 78590.61875,
-      "ma50": 70910.098671875,
-      "ma200": 70091.42203125,
-      "z30": 1.4517044396754568,
-      "technical_score": 4.0,
+      "ret30": 23.26821255633831,
+      "vol_ratio": 1.4608076105756942,
+      "ma20": 78437.622265625,
+      "ma50": 71406.44703125,
+      "ma200": 70186.7001953125,
+      "z30": 1.5374387706472288,
+      "technical_score": 6.0,
       "observations": 731
     }
   ],
   "calendar": [
     {
-      "date": "12/09 04:00 UTC",
+      "date": "14/09 08:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "CPI m/m",
+      "forecast": "-0.1%",
+      "previous": "0.5%"
+    },
+    {
+      "date": "14/09 08:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "Median CPI y/y",
+      "forecast": "2.0%",
+      "previous": "2.0%"
+    },
+    {
+      "date": "14/09 08:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "Trimmed CPI y/y",
+      "forecast": "1.9%",
+      "previous": "1.9%"
+    },
+    {
+      "date": "14/09 08:30 UTC",
+      "country": "CAD",
+      "impact": "Medium",
+      "title": "Common CPI y/y",
+      "forecast": "2.7%",
+      "previous": "2.7%"
+    },
+    {
+      "date": "14/09 11:15 UTC",
       "country": "EUR",
       "impact": "Medium",
       "title": "ECB President Lagarde Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "15/09 02:00 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "Claimant Count Change",
+      "forecast": "8.3K",
+      "previous": "-11.0K"
+    },
+    {
+      "date": "15/09 02:00 UTC",
+      "country": "GBP",
+      "impact": "Medium",
+      "title": "Average Earnings Index 3m/y",
+      "forecast": "3.9%",
+      "previous": "4.1%"
+    },
+    {
+      "date": "16/09 02:00 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "CPI y/y",
+      "forecast": "3.1%",
+      "previous": "2.9%"
+    },
+    {
+      "date": "16/09 08:30 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Core Retail Sales m/m",
+      "forecast": "0.5%",
+      "previous": "-0.3%"
+    },
+    {
+      "date": "16/09 08:30 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Retail Sales m/m",
+      "forecast": "0.8%",
+      "previous": "-0.6%"
+    },
+    {
+      "date": "16/09 14:00 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Federal Funds Rate",
+      "forecast": "4.00%",
+      "previous": "3.75%"
+    },
+    {
+      "date": "16/09 14:00 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "FOMC Economic Projections",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "16/09 14:00 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "FOMC Statement",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "16/09 14:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "FOMC Press Conference",
       "forecast": "",
       "previous": ""
     }
   ],
   "news": [
     {
-      "title": "Jim Cramer Waits for Oil to Fall Before Adding to FedEx Freight (FDXF)",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-waits-oil-fall-091011793.html",
-      "publisher": "Insider Monkey",
-      "published": 1789204211,
-      "related": [
-        "FDXF",
-        "CL=F"
-      ],
-      "theme": "Tecnología / IA",
-      "title_es": "Jim Cramer espera a que caiga el petróleo antes de incorporarlo a FedEx Freight (FDXF)"
-    },
-    {
-      "title": "Intrepid’s (IPI) Trio Turnaround Funds A Bigger Buyback And Cleaner Balance Sheet",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/intrepid-ipi-trio-turnaround-funds-090859798.html",
-      "publisher": "Insider Monkey",
-      "published": 1789204139,
-      "related": [
-        "IPI"
-      ],
+      "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
+      "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
+      "publisher": "GlobeNewswire",
+      "published": 1789376700,
+      "related": [],
       "theme": "Resultados / balance",
-      "title_es": "El Trio Turnaround de Intrepid (IPI) financia una recompra más grande y un balance más limpio"
+      "title_es": "El mercado avanzado de materiales de carbono está preparado para un fuerte crecimiento a medida que los vehículos eléctricos, el almacenamiento de energía, la industria aeroespacial y la electrónica generen oportunidades globales durante el período de pronóstico"
     },
     {
-      "title": "Mail in ballot rules spark voter confusion. Where do things stand?",
-      "link": "https://finance.yahoo.com/m/a69ace78-cac8-3ada-87ab-6bc7dd6df85d/mail-in-ballot-rules-spark.html",
-      "publisher": "USA TODAY",
-      "published": 1789203885,
+      "title": "Global Self-Healing Materials Market Poised for Strong Growth as Automotive, Construction and Electronics Industries Embrace Durable, Sustainable Solutions",
+      "link": "https://finance.yahoo.com/technology/articles/global-self-healing-materials-market-090400905.html",
+      "publisher": "GlobeNewswire",
+      "published": 1789376640,
       "related": [],
       "theme": "Tecnología / IA",
-      "title_es": "Las reglas de la boleta electoral por correo provocan confusión entre los votantes. ¿Dónde están las cosas?"
+      "title_es": "El mercado global de materiales de autorreparación está preparado para un fuerte crecimiento a medida que las industrias automotriz, de construcción y electrónica adoptan soluciones duraderas y sostenibles"
     },
     {
-      "title": "Jim Cramer Calls Akamai (AKAM) “Terrific” and Cloudflare (NET) One of His Favorites",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-calls-akamai-akam-090349309.html",
-      "publisher": "Insider Monkey",
-      "published": 1789203829,
+      "title": "Global Retro-Reflective Materials Market Set for Growth as Road Safety Mandates, Smart Infrastructure and High-Visibility Apparel Drive New Opportunities Through the Forecast Period",
+      "link": "https://finance.yahoo.com/markets/articles/global-retro-reflective-materials-market-090300957.html",
+      "publisher": "GlobeNewswire",
+      "published": 1789376580,
+      "related": [],
+      "theme": "Resultados / balance",
+      "title_es": "El mercado global de materiales retro-reflectantes está listo para crecer a medida que los mandatos de seguridad vial, la infraestructura inteligente y la ropa de alta visibilidad generen nuevas oportunidades durante el período de pronóstico"
+    },
+    {
+      "title": "Fastly Highlights Accelerating Growth, Record Margins and AI-Driven Compute Demand",
+      "link": "https://finance.yahoo.com/m/451a4279-0362-31f2-96f6-2fcd9d6d7c09/fastly-highlights.html",
+      "publisher": "MarketBeat",
+      "published": 1789376522,
       "related": [
-        "AKAM",
-        "NET"
+        "FSLY"
       ],
       "theme": "Tecnología / IA",
-      "title_es": "Jim Cramer llama a Akamai (Akam) \"excelente\" y Cloudflare (NET) uno de sus favoritos"
+      "title_es": "Destaca rápidamente la aceleración del crecimiento, los márgenes récord y la demanda de cómputo impulsada por la IA"
+    },
+    {
+      "title": "Cold Plasma Market Poised for Strong Growth as Healthcare, Food Safety and Advanced Manufacturing Applications Expand Through the Forecast Period",
+      "link": "https://finance.yahoo.com/healthcare/articles/cold-plasma-market-poised-strong-090200831.html",
+      "publisher": "GlobeNewswire",
+      "published": 1789376520,
+      "related": [],
+      "theme": "Resultados / balance",
+      "title_es": "El mercado de plasma frío está preparado para un fuerte crecimiento a medida que las aplicaciones de atención médica, seguridad alimentaria y fabricación avanzada se expanden durante el período de pronóstico"
     }
   ],
   "results": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "last": 516.1300048828125,
+      "returns": {
+        "30": 6.33304956976497,
+        "60": 1.7425922428960794,
+        "90": 51.1184610791878,
+        "120": 156.3602047328848,
+        "365": 400.0290629518912
+      },
+      "ret30": 6.33304956976497,
+      "vol_ratio": 0.7206068047372819,
+      "ma20": 482.0354995727539,
+      "ma50": 496.5488006591797,
+      "ma200": 346.912550201416,
+      "z30": -0.07839174050186329,
+      "technical_score": 9.0,
+      "observations": 1255,
+      "news_score": 1.8,
+      "news_count": 1,
+      "cross": {
+        "score": 11.3,
+        "action": "COMPRAR",
+        "news_score": 1.8,
+        "news_count": 1,
+        "reasons": [
+          "30d +6.3%",
+          "365d +400.0%",
+          "sobre MM50",
+          "noticias favorables"
+        ],
+        "news": [
+          {
+            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
+            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376700,
+            "related": [],
+            "sentiment": 1.8
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "EL",
+      "name": "Estée Lauder",
+      "last": 97.12000274658203,
+      "returns": {
+        "30": 14.420365090988717,
+        "60": 10.892898739520906,
+        "90": 19.414730800483216,
+        "120": 13.03538735605423,
+        "365": 48.45613797752233
+      },
+      "ret30": 14.420365090988717,
+      "vol_ratio": 1.2374873246981841,
+      "ma20": 98.83349990844727,
+      "ma50": 89.95179977416993,
+      "ma200": 92.48499996185302,
+      "z30": 1.001983337034641,
+      "technical_score": 7.0,
+      "observations": 1255,
+      "news_score": 3.0,
+      "news_count": 4,
+      "cross": {
+        "score": 10.5,
+        "action": "COMPRAR",
+        "news_score": 3.0,
+        "news_count": 4,
+        "reasons": [
+          "30d +14.4%",
+          "365d +48.5%",
+          "sobre MM50",
+          "noticias favorables"
+        ],
+        "news": [
+          {
+            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
+            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376700,
+            "related": [],
+            "sentiment": 1.8
+          },
+          {
+            "title": "Global Self-Healing Materials Market Poised for Strong Growth as Automotive, Construction and Electronics Industries Embrace Durable, Sustainable Solutions",
+            "link": "https://finance.yahoo.com/technology/articles/global-self-healing-materials-market-090400905.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376640,
+            "related": [],
+            "sentiment": 1.5
+          },
+          {
+            "title": "Global Retro-Reflective Materials Market Set for Growth as Road Safety Mandates, Smart Infrastructure and High-Visibility Apparel Drive New Opportunities Through the Forecast Period",
+            "link": "https://finance.yahoo.com/markets/articles/global-retro-reflective-materials-market-090300957.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376580,
+            "related": [],
+            "sentiment": 1.1
+          },
+          {
+            "title": "Fastly Highlights Accelerating Growth, Record Margins and AI-Driven Compute Demand",
+            "link": "https://finance.yahoo.com/m/451a4279-0362-31f2-96f6-2fcd9d6d7c09/fastly-highlights.html",
+            "publisher": "MarketBeat",
+            "published": 1789376522,
+            "related": [
+              "FSLY"
+            ],
+            "sentiment": 1.6
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "last": 370.45001220703125,
+      "returns": {
+        "30": 1.1412409748927876,
+        "60": 11.206177244542626,
+        "90": 13.339453966449422,
+        "120": 22.820110803032613,
+        "365": 8.050169348745007
+      },
+      "ret30": 1.1412409748927876,
+      "vol_ratio": 0.6919639057255077,
+      "ma20": 372.96050415039065,
+      "ma50": 365.22560424804686,
+      "ma200": 334.9534001159668,
+      "z30": -0.12844933460879635,
+      "technical_score": 7.0,
+      "observations": 1255,
+      "news_score": 3.0,
+      "news_count": 5,
+      "cross": {
+        "score": 10.5,
+        "action": "COMPRAR",
+        "news_score": 3.0,
+        "news_count": 5,
+        "reasons": [
+          "30d +1.1%",
+          "365d +8.1%",
+          "sobre MM50",
+          "noticias favorables"
+        ],
+        "news": [
+          {
+            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
+            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376700,
+            "related": [],
+            "sentiment": 1.8
+          },
+          {
+            "title": "Global Self-Healing Materials Market Poised for Strong Growth as Automotive, Construction and Electronics Industries Embrace Durable, Sustainable Solutions",
+            "link": "https://finance.yahoo.com/technology/articles/global-self-healing-materials-market-090400905.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376640,
+            "related": [],
+            "sentiment": 1.5
+          },
+          {
+            "title": "Fresh Inset Expands MaTri® System, Putting 1-MCP Treatment Verification in Growers’ Hands",
+            "link": "https://finance.yahoo.com/healthcare/articles/fresh-inset-expands-matri-system-090400511.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376640,
+            "related": [],
+            "sentiment": 0.6
+          },
+          {
+            "title": "Global Retro-Reflective Materials Market Set for Growth as Road Safety Mandates, Smart Infrastructure and High-Visibility Apparel Drive New Opportunities Through the Forecast Period",
+            "link": "https://finance.yahoo.com/markets/articles/global-retro-reflective-materials-market-090300957.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376580,
+            "related": [],
+            "sentiment": 1.1
+          },
+          {
+            "title": "Fastly Highlights Accelerating Growth, Record Margins and AI-Driven Compute Demand",
+            "link": "https://finance.yahoo.com/m/451a4279-0362-31f2-96f6-2fcd9d6d7c09/fastly-highlights.html",
+            "publisher": "MarketBeat",
+            "published": 1789376522,
+            "related": [
+              "FSLY"
+            ],
+            "sentiment": 1.6
+          }
+        ]
+      }
+    },
     {
       "ticker": "ETHA",
       "name": "iShares Ethereum Trust ETF",
@@ -445,6 +744,41 @@
       }
     },
     {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "last": 62.689998626708984,
+      "returns": {
+        "30": 1.5551580942679388,
+        "60": 10.292045141479033,
+        "90": 20.118797233741393,
+        "120": 32.930447051621606,
+        "365": 51.97575424656724
+      },
+      "ret30": 1.5551580942679388,
+      "vol_ratio": 0.8000868999044733,
+      "ma20": 62.618499755859375,
+      "ma50": 62.00399971008301,
+      "ma200": 55.09344997406006,
+      "z30": -0.19358444348242823,
+      "technical_score": 9.0,
+      "observations": 1255,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +1.6%",
+          "365d +52.0%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
       "ticker": "BBY",
       "name": "Best Buy",
       "last": 90.80000305175781,
@@ -508,41 +842,6 @@
         "reasons": [
           "30d +2.1%",
           "365d +16.7%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "last": 516.1300048828125,
-      "returns": {
-        "30": 6.33304956976497,
-        "60": 1.7425922428960794,
-        "90": 51.1184610791878,
-        "120": 156.3602047328848,
-        "365": 400.0290629518912
-      },
-      "ret30": 6.33304956976497,
-      "vol_ratio": 0.7206068047372819,
-      "ma20": 482.0354995727539,
-      "ma50": 496.5488006591797,
-      "ma200": 346.912550201416,
-      "z30": -0.07839174050186329,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +6.3%",
-          "365d +400.0%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -725,50 +1024,6 @@
       }
     },
     {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "last": 62.689998626708984,
-      "returns": {
-        "30": 1.5551580942679388,
-        "60": 10.292045141479033,
-        "90": 20.118797233741393,
-        "120": 32.930447051621606,
-        "365": 51.97575424656724
-      },
-      "ret30": 1.5551580942679388,
-      "vol_ratio": 0.8000868999044733,
-      "ma20": 62.618499755859375,
-      "ma50": 62.00399971008301,
-      "ma200": 55.09344997406006,
-      "z30": -0.19358444348242823,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": -0.8,
-      "news_count": 1,
-      "cross": {
-        "score": 8.7,
-        "action": "COMPRAR",
-        "news_score": -0.8,
-        "news_count": 1,
-        "reasons": [
-          "30d +1.6%",
-          "365d +52.0%",
-          "sobre MM50",
-          "noticias desfavorables"
-        ],
-        "news": [
-          {
-            "title": "Major companies to cut back on 2027 health benefits in blow to workers",
-            "link": "https://finance.yahoo.com/m/528c63f6-7441-3c81-9999-04cc0630d8f1/major-companies-to-cut-back.html",
-            "publisher": "USA TODAY",
-            "published": 1789203885,
-            "related": [],
-            "sentiment": -0.8
-          }
-        ]
-      }
-    },
-    {
       "ticker": "INTC",
       "name": "Intel",
       "last": 102.94000244140625,
@@ -832,41 +1087,6 @@
         "reasons": [
           "30d +11.4%",
           "365d +22.6%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "EL",
-      "name": "Estée Lauder",
-      "last": 97.12000274658203,
-      "returns": {
-        "30": 14.420365090988717,
-        "60": 10.892898739520906,
-        "90": 19.414730800483216,
-        "120": 13.03538735605423,
-        "365": 48.45613797752233
-      },
-      "ret30": 14.420365090988717,
-      "vol_ratio": 1.2374873246981841,
-      "ma20": 98.83349990844727,
-      "ma50": 89.95179977416993,
-      "ma200": 92.48499996185302,
-      "z30": 1.001983337034641,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +14.4%",
-          "365d +48.5%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -1119,41 +1339,6 @@
       }
     },
     {
-      "ticker": "V",
-      "name": "Visa",
-      "last": 370.45001220703125,
-      "returns": {
-        "30": 1.1412409748927876,
-        "60": 11.206177244542626,
-        "90": 13.339453966449422,
-        "120": 22.820110803032613,
-        "365": 8.050169348745007
-      },
-      "ret30": 1.1412409748927876,
-      "vol_ratio": 0.6919639057255077,
-      "ma20": 372.96050415039065,
-      "ma50": 365.22560424804686,
-      "ma200": 334.9534001159668,
-      "z30": -0.12844933460879635,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +1.1%",
-          "365d +8.1%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
       "ticker": "BRK-B",
       "name": "Berkshire Hathaway Class B",
       "last": 510.3699951171875,
@@ -1256,6 +1441,66 @@
           "sin sesgo noticioso fuerte"
         ],
         "news": []
+      }
+    },
+    {
+      "ticker": "ARGT",
+      "name": "Global X MSCI Argentina ETF",
+      "last": 95.4000015258789,
+      "returns": {
+        "30": -0.7800311888691347,
+        "60": -2.1538445888421465,
+        "90": 6.141526970564093,
+        "120": 11.513732463763727,
+        "365": 14.649684623877079
+      },
+      "ret30": -0.7800311888691347,
+      "vol_ratio": 0.6704387706689627,
+      "ma20": 94.30800094604493,
+      "ma50": 93.8452001953125,
+      "ma200": 92.64005020141602,
+      "z30": -0.38461557278234354,
+      "technical_score": 3.0,
+      "observations": 1255,
+      "news_score": 3.0,
+      "news_count": 3,
+      "cross": {
+        "score": 6.5,
+        "action": "COMPRAR",
+        "news_score": 3.0,
+        "news_count": 3,
+        "reasons": [
+          "30d -0.8%",
+          "365d +14.6%",
+          "sobre MM50",
+          "noticias favorables"
+        ],
+        "news": [
+          {
+            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
+            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376700,
+            "related": [],
+            "sentiment": 1.8
+          },
+          {
+            "title": "Global Self-Healing Materials Market Poised for Strong Growth as Automotive, Construction and Electronics Industries Embrace Durable, Sustainable Solutions",
+            "link": "https://finance.yahoo.com/technology/articles/global-self-healing-materials-market-090400905.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376640,
+            "related": [],
+            "sentiment": 1.5
+          },
+          {
+            "title": "Global Retro-Reflective Materials Market Set for Growth as Road Safety Mandates, Smart Infrastructure and High-Visibility Apparel Drive New Opportunities Through the Forecast Period",
+            "link": "https://finance.yahoo.com/markets/articles/global-retro-reflective-materials-market-090300957.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376580,
+            "related": [],
+            "sentiment": 1.1
+          }
+        ]
       }
     },
     {
@@ -1434,6 +1679,41 @@
       }
     },
     {
+      "ticker": "XLV",
+      "name": "Health Care Select Sector SPDR Fund",
+      "last": 165.36000061035156,
+      "returns": {
+        "30": 1.125242349446598,
+        "60": 8.120830371833954,
+        "90": 14.25413217150191,
+        "120": 13.782425188834457,
+        "365": 14.420146499996878
+      },
+      "ret30": 1.125242349446598,
+      "vol_ratio": 0.7966191735111872,
+      "ma20": 170.885498046875,
+      "ma50": 166.23699951171875,
+      "ma200": 155.64379997253417,
+      "z30": 0.02136440464130553,
+      "technical_score": 5.0,
+      "observations": 1255,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 5.5,
+        "action": "ACUMULAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +1.1%",
+          "365d +14.4%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
       "ticker": "DIA",
       "name": "SPDR Dow Jones Industrial Average ETF",
       "last": 525.7899780273438,
@@ -1536,50 +1816,6 @@
           "sin sesgo noticioso fuerte"
         ],
         "news": []
-      }
-    },
-    {
-      "ticker": "XLV",
-      "name": "Health Care Select Sector SPDR Fund",
-      "last": 165.36000061035156,
-      "returns": {
-        "30": 1.125242349446598,
-        "60": 8.120830371833954,
-        "90": 14.25413217150191,
-        "120": 13.782425188834457,
-        "365": 14.420146499996878
-      },
-      "ret30": 1.125242349446598,
-      "vol_ratio": 0.7966191735111872,
-      "ma20": 170.885498046875,
-      "ma50": 166.23699951171875,
-      "ma200": 155.64379997253417,
-      "z30": 0.02136440464130553,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": -0.8,
-      "news_count": 1,
-      "cross": {
-        "score": 4.7,
-        "action": "ACUMULAR",
-        "news_score": -0.8,
-        "news_count": 1,
-        "reasons": [
-          "30d +1.1%",
-          "365d +14.4%",
-          "bajo MM50",
-          "noticias desfavorables"
-        ],
-        "news": [
-          {
-            "title": "Major companies to cut back on 2027 health benefits in blow to workers",
-            "link": "https://finance.yahoo.com/m/528c63f6-7441-3c81-9999-04cc0630d8f1/major-companies-to-cut-back.html",
-            "publisher": "USA TODAY",
-            "published": 1789203885,
-            "related": [],
-            "sentiment": -0.8
-          }
-        ]
       }
     },
     {
@@ -1863,41 +2099,6 @@
       }
     },
     {
-      "ticker": "ARGT",
-      "name": "Global X MSCI Argentina ETF",
-      "last": 95.4000015258789,
-      "returns": {
-        "30": -0.7800311888691347,
-        "60": -2.1538445888421465,
-        "90": 6.141526970564093,
-        "120": 11.513732463763727,
-        "365": 14.649684623877079
-      },
-      "ret30": -0.7800311888691347,
-      "vol_ratio": 0.6704387706689627,
-      "ma20": 94.30800094604493,
-      "ma50": 93.8452001953125,
-      "ma200": 92.64005020141602,
-      "z30": -0.38461557278234354,
-      "technical_score": 3.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 3.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -0.8%",
-          "365d +14.6%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
       "ticker": "GOOGL",
       "name": "Alphabet Class A",
       "last": 338.5,
@@ -2035,6 +2236,50 @@
           "sin sesgo noticioso fuerte"
         ],
         "news": []
+      }
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "last": 323.6600036621094,
+      "returns": {
+        "30": -8.838441901637717,
+        "60": -7.980555098356346,
+        "90": 15.378588456430808,
+        "120": 12.856094709942557,
+        "365": 61.92715417025718
+      },
+      "ret30": -8.838441901637717,
+      "vol_ratio": 0.7452768645670498,
+      "ma20": 343.41300201416016,
+      "ma50": 353.54980102539065,
+      "ma200": 321.9924505615234,
+      "z30": -1.470801085650483,
+      "technical_score": -1.0,
+      "observations": 1255,
+      "news_score": 1.8,
+      "news_count": 1,
+      "cross": {
+        "score": 1.3,
+        "action": "MANTENER",
+        "news_score": 1.8,
+        "news_count": 1,
+        "reasons": [
+          "30d -8.8%",
+          "365d +61.9%",
+          "bajo MM50",
+          "noticias favorables"
+        ],
+        "news": [
+          {
+            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
+            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
+            "publisher": "GlobeNewswire",
+            "published": 1789376700,
+            "related": [],
+            "sentiment": 1.8
+          }
+        ]
       }
     },
     {
@@ -2318,41 +2563,6 @@
       }
     },
     {
-      "ticker": "GE",
-      "name": "GE Aerospace",
-      "last": 323.6600036621094,
-      "returns": {
-        "30": -8.838441901637717,
-        "60": -7.980555098356346,
-        "90": 15.378588456430808,
-        "120": 12.856094709942557,
-        "365": 61.92715417025718
-      },
-      "ret30": -8.838441901637717,
-      "vol_ratio": 0.7452768645670498,
-      "ma20": 343.41300201416016,
-      "ma50": 353.54980102539065,
-      "ma200": 321.9924505615234,
-      "z30": -1.470801085650483,
-      "technical_score": -1.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -8.8%",
-          "365d +61.9%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
       "ticker": "GOOG",
       "name": "Alphabet Class C",
       "last": 335.45001220703125,
@@ -2423,52 +2633,6 @@
       }
     },
     {
-      "ticker": "PSHZF",
-      "name": "Pershing Square Holdings",
-      "last": 51.25,
-      "returns": {
-        "30": 0.7866303596498092,
-        "60": 0.0,
-        "90": -8.228133441242802,
-        "120": -1.2904433601194865,
-        "365": 3.850053869556369
-      },
-      "ret30": 0.7866303596498092,
-      "vol_ratio": 0.7513387660069849,
-      "ma20": 52.43915023803711,
-      "ma50": 51.81353996276855,
-      "ma200": 56.657529983520504,
-      "z30": -0.10186691000636172,
-      "technical_score": -3.0,
-      "observations": 1255,
-      "news_score": 0.8,
-      "news_count": 1,
-      "cross": {
-        "score": -1.7,
-        "action": "ESPERAR",
-        "news_score": 0.8,
-        "news_count": 1,
-        "reasons": [
-          "30d +0.8%",
-          "365d +3.9%",
-          "bajo MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "Distribution Finance Capital Holdings PLC (LSE:DFCH) (H1 2026) Earnings Call Highlights: Record ...",
-            "link": "https://finance.yahoo.com/markets/stocks/articles/distribution-finance-capital-holdings-plc-090046033.html",
-            "publisher": "GuruFocus.com",
-            "published": 1789203646,
-            "related": [
-              "DFCH.L"
-            ],
-            "sentiment": 0.8
-          }
-        ]
-      }
-    },
-    {
       "ticker": "GGAL",
       "name": "Grupo Financiero Galicia",
       "last": 43.86000061035156,
@@ -2497,6 +2661,41 @@
         "reasons": [
           "30d -15.0%",
           "365d -21.4%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "PSHZF",
+      "name": "Pershing Square Holdings",
+      "last": 51.25,
+      "returns": {
+        "30": 0.7866303596498092,
+        "60": 0.0,
+        "90": -8.228133441242802,
+        "120": -1.2904433601194865,
+        "365": 3.850053869556369
+      },
+      "ret30": 0.7866303596498092,
+      "vol_ratio": 0.7513387660069849,
+      "ma20": 52.43915023803711,
+      "ma50": 51.81353996276855,
+      "ma200": 56.657529983520504,
+      "z30": -0.10186691000636172,
+      "technical_score": -3.0,
+      "observations": 1255,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -2.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +0.8%",
+          "365d +3.9%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
