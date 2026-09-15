@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14 09:13 UTC",
+  "generated_at": "2026-09-15 09:13 UTC",
   "universe_count": 87,
   "available_count": 87,
   "periods": [
@@ -14,245 +14,205 @@
     {
       "name": "S&P 500",
       "ticker": "^GSPC",
-      "last": 7656.97998046875,
+      "last": 7619.97998046875,
       "returns": {
-        "30": 2.9491935080440346,
-        "60": 1.9387976984049926,
-        "90": 6.33586752031039,
-        "120": 17.68237208834251,
-        "365": 37.19875255528
+        "30": 1.739180662140627,
+        "60": 2.693762620205553,
+        "90": 4.96967656232985,
+        "120": 15.787569981290828,
+        "365": 35.78374061793244
       },
-      "ret30": 2.9491935080440346,
-      "vol_ratio": 0.8615635001635535,
-      "ma20": 7685.188012695313,
-      "ma50": 7607.339208984375,
-      "ma200": 7162.551557617187,
-      "z30": 0.2017094764906711,
+      "ret30": 1.739180662140627,
+      "vol_ratio": 0.861546919618933,
+      "ma20": 7676.8990234375,
+      "ma50": 7610.07400390625,
+      "ma200": 7167.125856933594,
+      "z30": -0.0506082271102496,
       "technical_score": 7.0,
-      "observations": 501
+      "observations": 500
     },
     {
       "name": "Nasdaq",
       "ticker": "^IXIC",
-      "last": 26333.0390625,
+      "last": 26186.41015625,
       "returns": {
-        "30": 4.819881833750617,
-        "60": -0.16416523864383192,
-        "90": 5.047264785175587,
-        "120": 21.644097536751673,
-        "365": 52.01208744115
+        "30": 3.2023542323462717,
+        "60": 0.6331263993563097,
+        "90": 3.396805069245512,
+        "120": 19.31788763307796,
+        "365": 51.3727533058846
       },
-      "ret30": 4.819881833750617,
-      "vol_ratio": 0.8407236935989778,
-      "ma20": 26315.8505859375,
-      "ma50": 26046.8313671875,
-      "ma200": 24476.534912109375,
-      "z30": 0.31083684620741453,
+      "ret30": 3.2023542323462717,
+      "vol_ratio": 0.822549812879932,
+      "ma20": 26288.7130859375,
+      "ma50": 26053.906171875,
+      "ma200": 24493.1069140625,
+      "z30": 0.07978564261725343,
       "technical_score": 7.0,
-      "observations": 501
+      "observations": 500
     },
     {
       "name": "Dow Jones",
       "ticker": "^DJI",
-      "last": 52573.2890625,
+      "last": 52421.19921875,
       "returns": {
-        "30": 0.6995672288678589,
-        "60": 1.103116936735482,
-        "90": 7.419799274107386,
-        "120": 15.349295396094153,
-        "365": 26.427033149662236
+        "30": -0.12161949746386513,
+        "60": 1.8034617112775653,
+        "90": 6.334807460203962,
+        "120": 13.445003993450877,
+        "365": 24.80714397117456
       },
-      "ret30": 0.6995672288678589,
-      "vol_ratio": 0.8103661162086928,
-      "ma20": 53177.096875,
-      "ma50": 52967.2071875,
-      "ma200": 49985.70001953125,
-      "z30": -0.21822413033158142,
-      "technical_score": 5.0,
-      "observations": 501
+      "ret30": -0.12161949746386513,
+      "vol_ratio": 0.7853148776239802,
+      "ma20": 53111.536328125,
+      "ma50": 52957.629765625,
+      "ma200": 50015.56466796875,
+      "z30": -0.4210074209132924,
+      "technical_score": 1.0,
+      "observations": 500
     },
     {
       "name": "Russell 2000",
       "ticker": "^RUT",
-      "last": 2903.93994140625,
+      "last": 2892.239990234375,
       "returns": {
-        "30": -1.4310496878072843,
-        "60": -1.1996465144049395,
-        "90": 3.8605129258315385,
-        "120": 19.089585579177836,
-        "365": 43.52705834483888
+        "30": -1.3338642560708935,
+        "60": -0.8821167522280238,
+        "90": 1.660456598747806,
+        "120": 15.957229801673112,
+        "365": 43.75593048889102
       },
-      "ret30": -1.4310496878072843,
-      "vol_ratio": 0.8615635001635535,
-      "ma20": 2981.7399780273436,
-      "ma50": 2980.8629931640626,
-      "ma200": 2756.302401123047,
-      "z30": -0.5641695739437484,
+      "ret30": -1.3338642560708935,
+      "vol_ratio": 0.861546919618933,
+      "ma20": 2972.9309814453127,
+      "ma50": 2978.7855908203123,
+      "ma200": 2758.6922009277346,
+      "z30": -0.5465386132398115,
       "technical_score": -1.0,
-      "observations": 501
+      "observations": 500
     },
     {
       "name": "VIX",
       "ticker": "^VIX",
-      "last": 18.0,
+      "last": 17.809999465942383,
       "returns": {
-        "30": 13.493066769530415,
-        "60": 9.756100113940814,
-        "90": 5.386417332572924,
-        "120": -28.938017946245598,
-        "365": -16.31799252223577
+        "30": 7.939390702681104,
+        "60": 3.0671224434989375,
+        "90": 3.6067417837270854,
+        "120": -35.094755396097014,
+        "365": -40.67288742716717
       },
-      "ret30": 13.493066769530415,
+      "ret30": 7.939390702681104,
       "vol_ratio": 0.0,
-      "ma20": 15.589500045776367,
-      "ma50": 16.16679992675781,
-      "ma200": 18.09930003643036,
-      "z30": 0.3809093367491194,
+      "ma20": 15.643000030517578,
+      "ma50": 16.182399940490722,
+      "ma200": 18.10210003376007,
+      "z30": 0.18841043736547125,
       "technical_score": 3.0,
-      "observations": 502
+      "observations": 503
     },
     {
       "name": "Oro",
       "ticker": "GC=F",
-      "last": 4349.10009765625,
+      "last": 4303.7998046875,
       "returns": {
-        "30": 7.4090536851299404,
-        "60": -0.22482288896403801,
-        "90": -4.5370673842730085,
-        "120": -1.2488362839271017,
-        "365": 39.44340100136095
+        "30": 6.69608192937492,
+        "60": 1.8867854735608924,
+        "90": -8.075783454212115,
+        "120": -2.170799996359507,
+        "365": 37.06805753504969
       },
-      "ret30": 7.4090536851299404,
-      "vol_ratio": 0.5641312725650075,
-      "ma20": 4466.7550048828125,
-      "ma50": 4270.680004882813,
-      "ma200": 4528.091494140625,
-      "z30": 0.5174755288199434,
-      "technical_score": -1.0,
-      "observations": 502
+      "ret30": 6.69608192937492,
+      "vol_ratio": 3.6962058190967,
+      "ma20": 4463.32998046875,
+      "ma50": 4274.563989257813,
+      "ma200": 4529.141989746094,
+      "z30": 0.4211029020486073,
+      "technical_score": 2.0,
+      "observations": 503
     },
     {
       "name": "WTI",
       "ticker": "CL=F",
-      "last": 103.29000091552734,
+      "last": 103.52999877929688,
       "returns": {
-        "30": 21.991263906051838,
-        "60": 34.509701372645196,
-        "90": 0.997364139964585,
-        "120": 17.20186557877308,
-        "365": 45.07023222292064
+        "30": 28.864828850470325,
+        "60": 35.15665906217209,
+        "90": 8.887249458889146,
+        "120": 12.106118559718993,
+        "365": 44.37316985228381
       },
-      "ret30": 21.991263906051838,
-      "vol_ratio": 0.996040403185372,
-      "ma20": 89.56800155639648,
-      "ma50": 83.91980041503906,
-      "ma200": 79.80834999084473,
-      "z30": 1.2425496692124307,
+      "ret30": 28.864828850470325,
+      "vol_ratio": 0.9763949429211378,
+      "ma20": 90.42450141906738,
+      "ma50": 84.58140029907227,
+      "ma200": 80.02674997329711,
+      "z30": 1.6700699896703708,
       "technical_score": 9.0,
-      "observations": 502
+      "observations": 503
     },
     {
       "name": "DXY",
       "ticker": "DX-Y.NYB",
-      "last": 99.5530014038086,
+      "last": 99.64299774169922,
       "returns": {
-        "30": -0.24749663366354646,
-        "60": -0.5365120928461309,
-        "90": 1.0895593118391833,
-        "120": 0.6094032078463041,
-        "365": -4.514675461325535
+        "30": -0.31712819695561834,
+        "60": -1.1968277151056195,
+        "90": 1.655785711300184,
+        "120": 0.21421848121261355,
+        "365": -4.014064073686685
       },
-      "ret30": -0.24749663366354646,
+      "ret30": -0.31712819695561834,
       "vol_ratio": 0.0,
-      "ma20": 99.19814987182617,
-      "ma50": 100.02406021118163,
-      "ma200": 99.14151512145996,
-      "z30": -0.042655506988057944,
+      "ma20": 99.19364967346192,
+      "ma50": 99.99806015014649,
+      "ma200": 99.14096508026122,
+      "z30": -0.07386081767648398,
       "technical_score": -1.0,
-      "observations": 502
+      "observations": 503
     },
     {
       "name": "Treasury 10Y",
       "ticker": "^TNX",
-      "last": 4.974999904632568,
+      "last": 4.960999965667725,
       "returns": {
-        "30": 6.690966988512148,
-        "60": 12.353205389207567,
-        "90": 11.898330941282541,
-        "120": 13.299934821754555,
-        "365": 16.921263709208013
+        "30": 4.552161966663415,
+        "60": 11.158417319392978,
+        "90": 12.341487544086661,
+        "120": 14.467001362187526,
+        "365": 16.839382573341787
       },
-      "ret30": 6.690966988512148,
+      "ret30": 4.552161966663415,
       "vol_ratio": 0.0,
-      "ma20": 4.753499960899353,
-      "ma50": 4.671899967193603,
-      "ma200": 4.375244985818863,
-      "z30": 1.0419694213947066,
+      "ma20": 4.7667499542236325,
+      "ma50": 4.68141996383667,
+      "ma200": 4.379859985113144,
+      "z30": 0.6519081370919366,
       "technical_score": 9.0,
-      "observations": 502
+      "observations": 500
     },
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 77688.953125,
+      "last": 76857.5234375,
       "returns": {
-        "30": 23.26821255633831,
-        "60": 21.78998038953448,
-        "90": 18.427125687844615,
-        "120": 0.3352753926790353,
-        "365": -32.68301631851222
+        "30": 22.348252580981654,
+        "60": 20.278829132336917,
+        "90": 19.30980802882909,
+        "120": -0.1255922000655052,
+        "365": -33.424915192207536
       },
-      "ret30": 23.26821255633831,
-      "vol_ratio": 1.4608076105756942,
-      "ma20": 78437.622265625,
-      "ma50": 71406.44703125,
-      "ma200": 70186.7001953125,
-      "z30": 1.5374387706472288,
-      "technical_score": 6.0,
+      "ret30": 22.348252580981654,
+      "vol_ratio": 1.5550546378694698,
+      "ma20": 78352.848828125,
+      "ma50": 71678.588125,
+      "ma200": 70243.9509765625,
+      "z30": 1.4681131190293308,
+      "technical_score": 4.0,
       "observations": 731
     }
   ],
   "calendar": [
-    {
-      "date": "14/09 08:30 UTC",
-      "country": "CAD",
-      "impact": "High",
-      "title": "CPI m/m",
-      "forecast": "-0.1%",
-      "previous": "0.5%"
-    },
-    {
-      "date": "14/09 08:30 UTC",
-      "country": "CAD",
-      "impact": "High",
-      "title": "Median CPI y/y",
-      "forecast": "2.0%",
-      "previous": "2.0%"
-    },
-    {
-      "date": "14/09 08:30 UTC",
-      "country": "CAD",
-      "impact": "High",
-      "title": "Trimmed CPI y/y",
-      "forecast": "1.9%",
-      "previous": "1.9%"
-    },
-    {
-      "date": "14/09 08:30 UTC",
-      "country": "CAD",
-      "impact": "Medium",
-      "title": "Common CPI y/y",
-      "forecast": "2.7%",
-      "previous": "2.7%"
-    },
-    {
-      "date": "14/09 11:15 UTC",
-      "country": "EUR",
-      "impact": "Medium",
-      "title": "ECB President Lagarde Speaks",
-      "forecast": "",
-      "previous": ""
-    },
     {
       "date": "15/09 02:00 UTC",
       "country": "GBP",
@@ -324,269 +284,147 @@
       "title": "FOMC Press Conference",
       "forecast": "",
       "previous": ""
+    },
+    {
+      "date": "17/09 07:00 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "Monetary Policy Summary",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "17/09 07:00 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "MPC Official Bank Rate Votes",
+      "forecast": "3-0-6",
+      "previous": "3-0-6"
+    },
+    {
+      "date": "17/09 07:00 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "Official Bank Rate",
+      "forecast": "3.75%",
+      "previous": "3.75%"
+    },
+    {
+      "date": "17/09 08:30 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Philly Fed Manufacturing Index",
+      "forecast": "31.3",
+      "previous": "47.4"
+    },
+    {
+      "date": "17/09 08:30 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Unemployment Claims",
+      "forecast": "208K",
+      "previous": "206K"
+    },
+    {
+      "date": "17/09 22:30 UTC",
+      "country": "JPY",
+      "impact": "High",
+      "title": "BOJ Policy Rate",
+      "forecast": "<1.25%",
+      "previous": "<1.00%"
+    },
+    {
+      "date": "17/09 22:30 UTC",
+      "country": "JPY",
+      "impact": "High",
+      "title": "Monetary Policy Statement",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "18/09 01:30 UTC",
+      "country": "JPY",
+      "impact": "High",
+      "title": "BOJ Press Conference",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "18/09 02:00 UTC",
+      "country": "GBP",
+      "impact": "Medium",
+      "title": "Retail Sales m/m",
+      "forecast": "-0.2%",
+      "previous": "-0.5%"
     }
   ],
   "news": [
     {
-      "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
-      "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
-      "publisher": "GlobeNewswire",
-      "published": 1789376700,
-      "related": [],
-      "theme": "Resultados / balance",
-      "title_es": "El mercado avanzado de materiales de carbono está preparado para un fuerte crecimiento a medida que los vehículos eléctricos, el almacenamiento de energía, la industria aeroespacial y la electrónica generen oportunidades globales durante el período de pronóstico"
-    },
-    {
-      "title": "Global Self-Healing Materials Market Poised for Strong Growth as Automotive, Construction and Electronics Industries Embrace Durable, Sustainable Solutions",
-      "link": "https://finance.yahoo.com/technology/articles/global-self-healing-materials-market-090400905.html",
-      "publisher": "GlobeNewswire",
-      "published": 1789376640,
-      "related": [],
-      "theme": "Tecnología / IA",
-      "title_es": "El mercado global de materiales de autorreparación está preparado para un fuerte crecimiento a medida que las industrias automotriz, de construcción y electrónica adoptan soluciones duraderas y sostenibles"
-    },
-    {
-      "title": "Global Retro-Reflective Materials Market Set for Growth as Road Safety Mandates, Smart Infrastructure and High-Visibility Apparel Drive New Opportunities Through the Forecast Period",
-      "link": "https://finance.yahoo.com/markets/articles/global-retro-reflective-materials-market-090300957.html",
-      "publisher": "GlobeNewswire",
-      "published": 1789376580,
-      "related": [],
-      "theme": "Resultados / balance",
-      "title_es": "El mercado global de materiales retro-reflectantes está listo para crecer a medida que los mandatos de seguridad vial, la infraestructura inteligente y la ropa de alta visibilidad generen nuevas oportunidades durante el período de pronóstico"
-    },
-    {
-      "title": "Fastly Highlights Accelerating Growth, Record Margins and AI-Driven Compute Demand",
-      "link": "https://finance.yahoo.com/m/451a4279-0362-31f2-96f6-2fcd9d6d7c09/fastly-highlights.html",
-      "publisher": "MarketBeat",
-      "published": 1789376522,
+      "title": "Exclusive-Indian consumer regulator escalates probe into Apple's software warranty terms",
+      "link": "https://finance.yahoo.com/news/exclusive-indian-consumer-regulator-escalates-091004769.html",
+      "publisher": "Reuters",
+      "published": 1789463404,
       "related": [
-        "FSLY"
+        "AAPL"
       ],
       "theme": "Tecnología / IA",
-      "title_es": "Destaca rápidamente la aceleración del crecimiento, los márgenes récord y la demanda de cómputo impulsada por la IA"
+      "title_es": "Exclusivo: el regulador del consumidor indio intensifica la investigación de los términos de la garantía del software de Apple"
     },
     {
-      "title": "Cold Plasma Market Poised for Strong Growth as Healthcare, Food Safety and Advanced Manufacturing Applications Expand Through the Forecast Period",
-      "link": "https://finance.yahoo.com/healthcare/articles/cold-plasma-market-poised-strong-090200831.html",
-      "publisher": "GlobeNewswire",
-      "published": 1789376520,
-      "related": [],
+      "title": "Kroger trims 2026 sales outlook despite profit gains",
+      "link": "https://finance.yahoo.com/m/0f1445f9-861b-3c64-ab20-5aa192770430/kroger-trims-2026-sales.html",
+      "publisher": "Retail Insight Network",
+      "published": 1789463325,
+      "related": [
+        "KR"
+      ],
       "theme": "Resultados / balance",
-      "title_es": "El mercado de plasma frío está preparado para un fuerte crecimiento a medida que las aplicaciones de atención médica, seguridad alimentaria y fabricación avanzada se expanden durante el período de pronóstico"
+      "title_es": "Kroger recorta las perspectivas de ventas para 2026 a pesar de las ganancias"
+    },
+    {
+      "title": "CCL Stock Heads For Third Month Of Loss: Wells Fargo Warns Of Caribbean Pricing Pressure But Remains Bullish On Growth",
+      "link": "https://finance.yahoo.com/m/448100f5-1f80-34a4-9f0b-235079244861/ccl-stock-heads-for-third.html",
+      "publisher": "Stocktwits",
+      "published": 1789463184,
+      "related": [
+        "CCL",
+        "WFC"
+      ],
+      "theme": "Tecnología / IA",
+      "title_es": "Las acciones de CCL encabezan el tercer mes de pérdidas: Wells Fargo advierte sobre la presión de los precios en el Caribe, pero sigue siendo optimista sobre el crecimiento"
+    },
+    {
+      "title": "Telefonica Unit Signs Deal to Distribute DAZN LaLiga Package",
+      "link": "https://finance.yahoo.com/media-advertising/articles/telefonica-unit-signs-deal-distribute-090608429.html",
+      "publisher": "MT Newswires",
+      "published": 1789463168,
+      "related": [
+        "TEF.MC"
+      ],
+      "theme": "Contratos / alianzas",
+      "title_es": "La Unidad Telefónica firma un acuerdo para distribuir el paquete DAZN LaLiga"
     }
   ],
   "results": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "last": 516.1300048828125,
-      "returns": {
-        "30": 6.33304956976497,
-        "60": 1.7425922428960794,
-        "90": 51.1184610791878,
-        "120": 156.3602047328848,
-        "365": 400.0290629518912
-      },
-      "ret30": 6.33304956976497,
-      "vol_ratio": 0.7206068047372819,
-      "ma20": 482.0354995727539,
-      "ma50": 496.5488006591797,
-      "ma200": 346.912550201416,
-      "z30": -0.07839174050186329,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 1.8,
-      "news_count": 1,
-      "cross": {
-        "score": 11.3,
-        "action": "COMPRAR",
-        "news_score": 1.8,
-        "news_count": 1,
-        "reasons": [
-          "30d +6.3%",
-          "365d +400.0%",
-          "sobre MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
-            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376700,
-            "related": [],
-            "sentiment": 1.8
-          }
-        ]
-      }
-    },
-    {
-      "ticker": "EL",
-      "name": "Estée Lauder",
-      "last": 97.12000274658203,
-      "returns": {
-        "30": 14.420365090988717,
-        "60": 10.892898739520906,
-        "90": 19.414730800483216,
-        "120": 13.03538735605423,
-        "365": 48.45613797752233
-      },
-      "ret30": 14.420365090988717,
-      "vol_ratio": 1.2374873246981841,
-      "ma20": 98.83349990844727,
-      "ma50": 89.95179977416993,
-      "ma200": 92.48499996185302,
-      "z30": 1.001983337034641,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 3.0,
-      "news_count": 4,
-      "cross": {
-        "score": 10.5,
-        "action": "COMPRAR",
-        "news_score": 3.0,
-        "news_count": 4,
-        "reasons": [
-          "30d +14.4%",
-          "365d +48.5%",
-          "sobre MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
-            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376700,
-            "related": [],
-            "sentiment": 1.8
-          },
-          {
-            "title": "Global Self-Healing Materials Market Poised for Strong Growth as Automotive, Construction and Electronics Industries Embrace Durable, Sustainable Solutions",
-            "link": "https://finance.yahoo.com/technology/articles/global-self-healing-materials-market-090400905.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376640,
-            "related": [],
-            "sentiment": 1.5
-          },
-          {
-            "title": "Global Retro-Reflective Materials Market Set for Growth as Road Safety Mandates, Smart Infrastructure and High-Visibility Apparel Drive New Opportunities Through the Forecast Period",
-            "link": "https://finance.yahoo.com/markets/articles/global-retro-reflective-materials-market-090300957.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376580,
-            "related": [],
-            "sentiment": 1.1
-          },
-          {
-            "title": "Fastly Highlights Accelerating Growth, Record Margins and AI-Driven Compute Demand",
-            "link": "https://finance.yahoo.com/m/451a4279-0362-31f2-96f6-2fcd9d6d7c09/fastly-highlights.html",
-            "publisher": "MarketBeat",
-            "published": 1789376522,
-            "related": [
-              "FSLY"
-            ],
-            "sentiment": 1.6
-          }
-        ]
-      }
-    },
-    {
-      "ticker": "V",
-      "name": "Visa",
-      "last": 370.45001220703125,
-      "returns": {
-        "30": 1.1412409748927876,
-        "60": 11.206177244542626,
-        "90": 13.339453966449422,
-        "120": 22.820110803032613,
-        "365": 8.050169348745007
-      },
-      "ret30": 1.1412409748927876,
-      "vol_ratio": 0.6919639057255077,
-      "ma20": 372.96050415039065,
-      "ma50": 365.22560424804686,
-      "ma200": 334.9534001159668,
-      "z30": -0.12844933460879635,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 3.0,
-      "news_count": 5,
-      "cross": {
-        "score": 10.5,
-        "action": "COMPRAR",
-        "news_score": 3.0,
-        "news_count": 5,
-        "reasons": [
-          "30d +1.1%",
-          "365d +8.1%",
-          "sobre MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
-            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376700,
-            "related": [],
-            "sentiment": 1.8
-          },
-          {
-            "title": "Global Self-Healing Materials Market Poised for Strong Growth as Automotive, Construction and Electronics Industries Embrace Durable, Sustainable Solutions",
-            "link": "https://finance.yahoo.com/technology/articles/global-self-healing-materials-market-090400905.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376640,
-            "related": [],
-            "sentiment": 1.5
-          },
-          {
-            "title": "Fresh Inset Expands MaTri® System, Putting 1-MCP Treatment Verification in Growers’ Hands",
-            "link": "https://finance.yahoo.com/healthcare/articles/fresh-inset-expands-matri-system-090400511.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376640,
-            "related": [],
-            "sentiment": 0.6
-          },
-          {
-            "title": "Global Retro-Reflective Materials Market Set for Growth as Road Safety Mandates, Smart Infrastructure and High-Visibility Apparel Drive New Opportunities Through the Forecast Period",
-            "link": "https://finance.yahoo.com/markets/articles/global-retro-reflective-materials-market-090300957.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376580,
-            "related": [],
-            "sentiment": 1.1
-          },
-          {
-            "title": "Fastly Highlights Accelerating Growth, Record Margins and AI-Driven Compute Demand",
-            "link": "https://finance.yahoo.com/m/451a4279-0362-31f2-96f6-2fcd9d6d7c09/fastly-highlights.html",
-            "publisher": "MarketBeat",
-            "published": 1789376522,
-            "related": [
-              "FSLY"
-            ],
-            "sentiment": 1.6
-          }
-        ]
-      }
-    },
-    {
       "ticker": "ETHA",
       "name": "iShares Ethereum Trust ETF",
-      "last": 19.15999984741211,
+      "last": 19.170000076293945,
       "returns": {
-        "30": 32.046861097042246,
-        "60": 41.50664624366773,
-        "90": 7.822168564104626,
-        "120": 19.00620741266743,
-        "365": 35.310734843784644
+        "30": 36.24733825222335,
+        "60": 46.67177141469525,
+        "90": 7.094974775580187,
+        "120": 17.75183825403095,
+        "365": 38.712015192542836
       },
-      "ret30": 32.046861097042246,
-      "vol_ratio": 1.3827964596022357,
-      "ma20": 17.76999988555908,
-      "ma50": 15.542599906921387,
-      "ma200": 17.232924995422362,
-      "z30": 1.078305121319595,
+      "ret30": 36.24733825222335,
+      "vol_ratio": 1.3814873253721751,
+      "ma20": 18.01949987411499,
+      "ma50": 15.66879991531372,
+      "ma200": 17.216524991989136,
+      "z30": 1.2268327519198114,
       "technical_score": 10.0,
-      "observations": 537,
+      "observations": 538,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -595,43 +433,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +32.0%",
-          "365d +35.3%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "CRESY",
-      "name": "Cresud",
-      "last": 12.140000343322754,
-      "returns": {
-        "30": 4.565036195678851,
-        "60": 0.5799556774517045,
-        "90": 9.369368703709213,
-        "120": 2.533785362065988,
-        "365": 8.867011799123947
-      },
-      "ret30": 4.565036195678851,
-      "vol_ratio": 0.8003684606657007,
-      "ma20": 11.43299994468689,
-      "ma50": 11.167999992370605,
-      "ma200": 11.631725602149963,
-      "z30": 0.11621717206536021,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +4.6%",
-          "365d +8.9%",
+          "30d +36.2%",
+          "365d +38.7%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -641,22 +444,22 @@
     {
       "ticker": "VZ",
       "name": "Verizon",
-      "last": 50.61000061035156,
+      "last": 51.290000915527344,
       "returns": {
-        "30": 9.759271178560258,
-        "60": 8.303019700670756,
-        "90": 6.390584265356014,
-        "120": 1.2605063503108749,
-        "365": 12.641887973727584
+        "30": 9.570603312976056,
+        "60": 11.889181380449386,
+        "90": 8.343896810747097,
+        "120": 1.4037150232698137,
+        "365": 13.073192736735773
       },
-      "ret30": 9.759271178560258,
-      "vol_ratio": 0.5652146935342248,
-      "ma20": 49.760000228881836,
-      "ma50": 46.927200393676756,
-      "ma200": 45.89755004882812,
-      "z30": 1.022175665259117,
+      "ret30": 9.570603312976056,
+      "vol_ratio": 0.557953688550892,
+      "ma20": 49.90050029754639,
+      "ma50": 47.10180038452148,
+      "ma200": 45.9529500579834,
+      "z30": 0.9957805323943776,
       "technical_score": 9.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -665,8 +468,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +9.8%",
-          "365d +12.6%",
+          "30d +9.6%",
+          "365d +13.1%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -676,22 +479,22 @@
     {
       "ticker": "HPE",
       "name": "Hewlett Packard Enterprise",
-      "last": 62.09000015258789,
+      "last": 55.40999984741211,
       "returns": {
-        "30": 31.71404530442643,
-        "60": 28.338153744912198,
-        "90": 116.26611679750374,
-        "120": 186.26094340151923,
-        "365": 293.22356113103723
+        "30": 15.678492864923555,
+        "60": 14.958504087859591,
+        "90": 84.45405512211983,
+        "120": 148.25269088270252,
+        "365": 259.1056302754938
       },
-      "ret30": 31.71404530442643,
-      "vol_ratio": 1.0613986579162364,
-      "ma20": 54.64600009918213,
-      "ma50": 51.10800025939941,
-      "ma200": 34.00940013885498,
-      "z30": 1.4779763258918757,
+      "ret30": 15.678492864923555,
+      "vol_ratio": 1.1093340244000212,
+      "ma20": 54.481000137329104,
+      "ma50": 51.39160026550293,
+      "ma200": 34.1810001373291,
+      "z30": 0.5591822986510916,
       "technical_score": 9.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -700,8 +503,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +31.7%",
-          "365d +293.2%",
+          "30d +15.7%",
+          "365d +259.1%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -711,22 +514,22 @@
     {
       "ticker": "YPF",
       "name": "YPF",
-      "last": 55.54999923706055,
+      "last": 56.33000183105469,
       "returns": {
-        "30": 6.519650262127841,
-        "60": 8.411392305642718,
-        "90": 25.028131567645673,
-        "120": 32.51431694530096,
-        "365": 54.3055534362793
+        "30": 7.2135531965841215,
+        "60": 10.77680141863231,
+        "90": 28.110075658883304,
+        "120": 36.69013123632665,
+        "365": 60.75913344537918
       },
-      "ret30": 6.519650262127841,
-      "vol_ratio": 0.8711499145356436,
-      "ma20": 52.00599994659424,
-      "ma50": 50.558200149536134,
-      "ma200": 43.60329998016358,
-      "z30": -0.014824421440343974,
+      "ret30": 7.2135531965841215,
+      "vol_ratio": 0.9014744651449965,
+      "ma20": 52.320000076293944,
+      "ma50": 50.79680015563965,
+      "ma200": 43.70849998474121,
+      "z30": 0.018287557433522547,
       "technical_score": 9.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -735,43 +538,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +6.5%",
-          "365d +54.3%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "last": 62.689998626708984,
-      "returns": {
-        "30": 1.5551580942679388,
-        "60": 10.292045141479033,
-        "90": 20.118797233741393,
-        "120": 32.930447051621606,
-        "365": 51.97575424656724
-      },
-      "ret30": 1.5551580942679388,
-      "vol_ratio": 0.8000868999044733,
-      "ma20": 62.618499755859375,
-      "ma50": 62.00399971008301,
-      "ma200": 55.09344997406006,
-      "z30": -0.19358444348242823,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +1.6%",
-          "365d +52.0%",
+          "30d +7.2%",
+          "365d +60.8%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -781,92 +549,22 @@
     {
       "ticker": "BBY",
       "name": "Best Buy",
-      "last": 90.80000305175781,
+      "last": 94.83000183105469,
       "returns": {
-        "30": 3.3933083207573933,
-        "60": 20.13760366760067,
-        "90": 57.529500369954164,
-        "120": 44.58599387716784,
-        "365": 25.32782177565136
+        "30": 9.935079390897329,
+        "60": 29.72640740153567,
+        "90": 65.58407730586858,
+        "120": 48.148724677794874,
+        "365": 28.827606364289338
       },
-      "ret30": 3.3933083207573933,
-      "vol_ratio": 1.0758528204603879,
-      "ma20": 86.49799995422363,
-      "ma50": 84.97800003051758,
-      "ma200": 71.75485013961791,
-      "z30": 0.2297905883413028,
+      "ret30": 9.935079390897329,
+      "vol_ratio": 1.0864211965730768,
+      "ma20": 86.9185001373291,
+      "ma50": 85.31480010986328,
+      "ma200": 71.85090013504028,
+      "z30": 0.8097929562155112,
       "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +3.4%",
-          "365d +25.3%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "VRSN",
-      "name": "VeriSign",
-      "last": 292.7099914550781,
-      "returns": {
-        "30": 2.139020577163264,
-        "60": 6.87917503698392,
-        "90": 6.770015674558705,
-        "120": 21.56740299819553,
-        "365": 16.65470811058889
-      },
-      "ret30": 2.139020577163264,
-      "vol_ratio": 0.8153617852580961,
-      "ma20": 286.62049713134763,
-      "ma50": 281.7209979248047,
-      "ma200": 262.5218998718262,
-      "z30": 0.07807887691034526,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +2.1%",
-          "365d +16.7%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "last": 495.6300048828125,
-      "returns": {
-        "30": 9.87142500039746,
-        "60": 25.848721981932464,
-        "90": 19.827380381451288,
-        "120": 29.79024569100135,
-        "365": 30.84213855722102
-      },
-      "ret30": 9.87142500039746,
-      "vol_ratio": 0.5985776922622826,
-      "ma20": 494.43400115966796,
-      "ma50": 453.6687994384766,
-      "ma200": 431.2575494384766,
-      "z30": 0.8221947623268046,
-      "technical_score": 9.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -876,1117 +574,7 @@
         "news_count": 0,
         "reasons": [
           "30d +9.9%",
-          "365d +30.8%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms",
-      "last": 648.030029296875,
-      "returns": {
-        "30": 20.221507907858573,
-        "60": 7.967212404593482,
-        "90": 6.163080193225512,
-        "120": 9.15845073137631,
-        "365": 12.360862827203857
-      },
-      "ret30": 20.221507907858573,
-      "vol_ratio": 0.8896538236070319,
-      "ma20": 586.4670013427734,
-      "ma50": 600.902197265625,
-      "ma200": 623.2309475708008,
-      "z30": 1.5133051741299106,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +20.2%",
-          "365d +12.4%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "XLE",
-      "name": "Energy Select Sector SPDR Fund",
-      "last": 65.13999938964844,
-      "returns": {
-        "30": 10.481683176964829,
-        "60": 17.66618257129886,
-        "90": 9.681764706335748,
-        "120": 9.829704740123034,
-        "365": 40.94990625246338
-      },
-      "ret30": 10.481683176964829,
-      "vol_ratio": 0.8560705731376542,
-      "ma20": 63.718499755859376,
-      "ma50": 60.1392000579834,
-      "ma200": 55.23354990005493,
-      "z30": 1.3166321564761456,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +10.5%",
-          "365d +40.9%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "USO",
-      "name": "United States Oil Fund",
-      "last": 154.89999389648438,
-      "returns": {
-        "30": 21.509248366410105,
-        "60": 34.1473908884931,
-        "90": 4.938685221861294,
-        "120": 27.563199791807946,
-        "365": 107.16865166644168
-      },
-      "ret30": 21.509248366410105,
-      "vol_ratio": 0.7885661659073185,
-      "ma20": 137.11199913024902,
-      "ma50": 127.61859985351562,
-      "ma200": 109.1233999633789,
-      "z30": 1.3210390768938447,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +21.5%",
-          "365d +107.2%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "OEF",
-      "name": "iShares S&P 100 ETF",
-      "last": 380.3500061035156,
-      "returns": {
-        "30": 4.043000925453022,
-        "60": 3.1625494547990796,
-        "90": 7.074490399317046,
-        "120": 19.7688690151405,
-        "365": 41.27325728290756
-      },
-      "ret30": 4.043000925453022,
-      "vol_ratio": 0.6787368469685944,
-      "ma20": 379.60900115966797,
-      "ma50": 374.8157989501953,
-      "ma200": 353.40160064697267,
-      "z30": 0.31580095554001875,
-      "technical_score": 9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +4.0%",
-          "365d +41.3%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "last": 102.94000244140625,
-      "returns": {
-        "30": 12.959514478143298,
-        "60": -12.054677695405381,
-        "90": 7.475468525122841,
-        "120": 134.64783439187488,
-        "365": 353.2805221986498
-      },
-      "ret30": 12.959514478143298,
-      "vol_ratio": 0.8137390726077973,
-      "ma20": 94.60950050354003,
-      "ma50": 98.35239974975586,
-      "ma200": 75.53699995040894,
-      "z30": 0.19474805006609178,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +13.0%",
-          "365d +353.3%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "DXCM",
-      "name": "DexCom",
-      "last": 83.02999877929688,
-      "returns": {
-        "30": 11.389854788693722,
-        "60": 13.490971327410307,
-        "90": 38.29113509860713,
-        "120": 24.017927653508096,
-        "365": 22.57159934707518
-      },
-      "ret30": 11.389854788693722,
-      "vol_ratio": 1.004084100326289,
-      "ma20": 88.71449966430664,
-      "ma50": 82.41480010986328,
-      "ma200": 71.38550003051758,
-      "z30": 0.6985526148548348,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +11.4%",
-          "365d +22.6%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "last": 155.8300018310547,
-      "returns": {
-        "30": 7.833373299092661,
-        "60": 16.814099670780735,
-        "90": 21.970882299213777,
-        "120": 37.58608413552784,
-        "365": 50.34249834733258
-      },
-      "ret30": 7.833373299092661,
-      "vol_ratio": 1.018941826722485,
-      "ma20": 160.76999893188477,
-      "ma50": 148.96819931030274,
-      "ma200": 123.93294982910156,
-      "z30": 0.5755297606498964,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +7.8%",
-          "365d +50.3%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "last": 167.22999572753906,
-      "returns": {
-        "30": 36.78226141465297,
-        "60": 25.50093487995426,
-        "90": 14.517562915468417,
-        "120": 10.983543838742094,
-        "365": 94.79324251583931
-      },
-      "ret30": 36.78226141465297,
-      "vol_ratio": 0.9963829080413913,
-      "ma20": 175.55499954223632,
-      "ma50": 153.92679916381837,
-      "ma200": 151.51977481842042,
-      "z30": 1.170720756335916,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +36.8%",
-          "365d +94.8%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "last": 206.74000549316406,
-      "returns": {
-        "30": 11.618617930370423,
-        "60": 21.703046970186392,
-        "90": 76.23391850289826,
-        "120": 102.19071441874235,
-        "365": 131.57012010138627
-      },
-      "ret30": 11.618617930370423,
-      "vol_ratio": 0.9321628816442025,
-      "ma20": 207.51350021362305,
-      "ma50": 202.5825994873047,
-      "ma200": 144.12389991760253,
-      "z30": 0.1813388081346187,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +11.6%",
-          "365d +131.6%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "last": 218.2899932861328,
-      "returns": {
-        "30": 11.920632075643667,
-        "60": 5.24564361984583,
-        "90": 9.980853478950946,
-        "120": 26.398377037350997,
-        "365": 99.0425794936731
-      },
-      "ret30": 11.920632075643667,
-      "vol_ratio": 0.9051944558028949,
-      "ma20": 220.1625,
-      "ma50": 212.5839993286133,
-      "ma200": 197.4727000427246,
-      "z30": 0.2833922060020049,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +11.9%",
-          "365d +99.0%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "PAYC",
-      "name": "Paycom Software",
-      "last": 218.91000366210938,
-      "returns": {
-        "30": 35.53120224838515,
-        "60": 69.52682984932403,
-        "90": 65.55245461338073,
-        "120": 75.38055135180927,
-        "365": 0.07314453125000231
-      },
-      "ret30": 35.53120224838515,
-      "vol_ratio": 0.8724779815634118,
-      "ma20": 227.51850051879882,
-      "ma50": 189.17380065917968,
-      "ma200": 150.3715500640869,
-      "z30": 1.9157462074427067,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +35.5%",
-          "365d +0.1%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "CRM",
-      "name": "Salesforce",
-      "last": 247.72000122070312,
-      "returns": {
-        "30": 37.08150739706313,
-        "60": 53.187799725358786,
-        "90": 33.55618229827413,
-        "120": 26.788819239350392,
-        "365": -8.24165644308399
-      },
-      "ret30": 37.08150739706313,
-      "vol_ratio": 0.9633496998650757,
-      "ma20": 230.6334991455078,
-      "ma50": 198.6066000366211,
-      "ma200": 201.09725059509276,
-      "z30": 2.83690615993063,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +37.1%",
-          "365d -8.2%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "last": 356.2300109863281,
-      "returns": {
-        "30": 1.5334202049935852,
-        "60": 7.576854269493216,
-        "90": 15.790677085529081,
-        "120": 24.312539789678333,
-        "365": 46.68725634475952
-      },
-      "ret30": 1.5334202049935852,
-      "vol_ratio": 0.5480614270661377,
-      "ma20": 356.7380004882813,
-      "ma50": 351.7385998535156,
-      "ma200": 319.43645080566404,
-      "z30": -0.3004891682469008,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +1.5%",
-          "365d +46.7%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "BRK-B",
-      "name": "Berkshire Hathaway Class B",
-      "last": 510.3699951171875,
-      "returns": {
-        "30": 0.13537954232494265,
-        "60": 3.1154626790283357,
-        "90": 8.932384334682975,
-        "120": 6.119264882601816,
-        "365": -3.028633792887747
-      },
-      "ret30": 0.13537954232494265,
-      "vol_ratio": 0.8824116104382715,
-      "ma20": 503.77249908447266,
-      "ma50": 503.8485980224609,
-      "ma200": 492.5075494384766,
-      "z30": -0.32168725167551815,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +0.1%",
-          "365d -3.0%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "GDX",
-      "name": "VanEck Gold Miners ETF",
-      "last": 97.0999984741211,
-      "returns": {
-        "30": 26.46522534238871,
-        "60": 11.30215595115962,
-        "90": 13.368355801818165,
-        "120": 21.193204125624465,
-        "365": 113.07877797758596
-      },
-      "ret30": 26.46522534238871,
-      "vol_ratio": 1.1674705555452847,
-      "ma20": 98.41049995422364,
-      "ma50": 86.16999984741211,
-      "ma200": 90.32514980316162,
-      "z30": 1.714224288440011,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +26.5%",
-          "365d +113.1%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500 ETF Trust",
-      "last": 764.2899780273438,
-      "returns": {
-        "30": 3.0470918458581853,
-        "60": 1.8605094584438708,
-        "90": 6.44558817178964,
-        "120": 17.84232533054475,
-        "365": 37.546343981222186
-      },
-      "ret30": 3.0470918458581853,
-      "vol_ratio": 0.766662142319822,
-      "ma20": 766.8789947509765,
-      "ma50": 758.6164013671874,
-      "ma200": 714.2339501953124,
-      "z30": 0.18585610772176514,
-      "technical_score": 7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +3.0%",
-          "365d +37.5%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "ARGT",
-      "name": "Global X MSCI Argentina ETF",
-      "last": 95.4000015258789,
-      "returns": {
-        "30": -0.7800311888691347,
-        "60": -2.1538445888421465,
-        "90": 6.141526970564093,
-        "120": 11.513732463763727,
-        "365": 14.649684623877079
-      },
-      "ret30": -0.7800311888691347,
-      "vol_ratio": 0.6704387706689627,
-      "ma20": 94.30800094604493,
-      "ma50": 93.8452001953125,
-      "ma200": 92.64005020141602,
-      "z30": -0.38461557278234354,
-      "technical_score": 3.0,
-      "observations": 1255,
-      "news_score": 3.0,
-      "news_count": 3,
-      "cross": {
-        "score": 6.5,
-        "action": "COMPRAR",
-        "news_score": 3.0,
-        "news_count": 3,
-        "reasons": [
-          "30d -0.8%",
-          "365d +14.6%",
-          "sobre MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
-            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376700,
-            "related": [],
-            "sentiment": 1.8
-          },
-          {
-            "title": "Global Self-Healing Materials Market Poised for Strong Growth as Automotive, Construction and Electronics Industries Embrace Durable, Sustainable Solutions",
-            "link": "https://finance.yahoo.com/technology/articles/global-self-healing-materials-market-090400905.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376640,
-            "related": [],
-            "sentiment": 1.5
-          },
-          {
-            "title": "Global Retro-Reflective Materials Market Set for Growth as Road Safety Mandates, Smart Infrastructure and High-Visibility Apparel Drive New Opportunities Through the Forecast Period",
-            "link": "https://finance.yahoo.com/markets/articles/global-retro-reflective-materials-market-090300957.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376580,
-            "related": [],
-            "sentiment": 1.1
-          }
-        ]
-      }
-    },
-    {
-      "ticker": "PAM",
-      "name": "Pampa Energía",
-      "last": 86.52999877929688,
-      "returns": {
-        "30": -2.435453379918895,
-        "60": 0.9449341426258862,
-        "90": 7.610987238483791,
-        "120": 2.8894177755824035,
-        "365": 8.91126759346128
-      },
-      "ret30": -2.435453379918895,
-      "vol_ratio": 1.068924636673957,
-      "ma20": 82.4004997253418,
-      "ma50": 83.30060012817383,
-      "ma200": 83.94105014801025,
-      "z30": -0.40870821556196035,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -2.4%",
-          "365d +8.9%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "last": 256.7799987792969,
-      "returns": {
-        "30": 9.03609289991374,
-        "60": 4.382113324917425,
-        "90": -5.612935011521635,
-        "120": 25.032869885775668,
-        "365": 33.239932105039884
-      },
-      "ret30": 9.03609289991374,
-      "vol_ratio": 0.697869483652517,
-      "ma20": 258.96049880981445,
-      "ma50": 255.25279937744142,
-      "ma200": 239.79769989013673,
-      "z30": 0.6049539926427617,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +9.0%",
-          "365d +33.2%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "last": 332.2699890136719,
-      "returns": {
-        "30": -0.3479002152146915,
-        "60": 11.037962791479394,
-        "90": 20.026733060196776,
-        "120": 33.98523394235377,
-        "365": 52.4873787612496
-      },
-      "ret30": -0.3479002152146915,
-      "vol_ratio": 0.7697447962290458,
-      "ma20": 316.62599792480466,
-      "ma50": 317.97419982910156,
-      "ma200": 284.9533494567871,
-      "z30": -0.32976847574672663,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -0.3%",
-          "365d +52.5%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "BITO",
-      "name": "ProShares Bitcoin Strategy ETF",
-      "last": 10.369999885559082,
-      "returns": {
-        "30": 18.244006206168507,
-        "60": 16.255603103846372,
-        "90": -5.296803048483145,
-        "120": 7.238881114191398,
-        "365": -44.426581080614206
-      },
-      "ret30": 18.244006206168507,
-      "vol_ratio": 0.2793757896714562,
-      "ma20": 10.17199993133545,
-      "ma50": 9.272199993133546,
-      "ma200": 10.323599994182587,
-      "z30": 0.9835943443194392,
-      "technical_score": 5.0,
-      "observations": 1228,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +18.2%",
-          "365d -44.4%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "XLC",
-      "name": "Communication Services Select Sector SPDR Fund",
-      "last": 112.5999984741211,
-      "returns": {
-        "30": 5.64833602893815,
-        "60": 0.24928666315673365,
-        "90": -3.0146425891471096,
-        "120": 0.3296757605992129,
-        "365": 17.61019530660739
-      },
-      "ret30": 5.64833602893815,
-      "vol_ratio": 0.5917395775047054,
-      "ma20": 111.83899955749511,
-      "ma50": 110.89819961547852,
-      "ma200": 114.03104991912842,
-      "z30": 0.7483367604961203,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +5.6%",
-          "365d +17.6%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "XLV",
-      "name": "Health Care Select Sector SPDR Fund",
-      "last": 165.36000061035156,
-      "returns": {
-        "30": 1.125242349446598,
-        "60": 8.120830371833954,
-        "90": 14.25413217150191,
-        "120": 13.782425188834457,
-        "365": 14.420146499996878
-      },
-      "ret30": 1.125242349446598,
-      "vol_ratio": 0.7966191735111872,
-      "ma20": 170.885498046875,
-      "ma50": 166.23699951171875,
-      "ma200": 155.64379997253417,
-      "z30": 0.02136440464130553,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +1.1%",
-          "365d +14.4%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "DIA",
-      "name": "SPDR Dow Jones Industrial Average ETF",
-      "last": 525.7899780273438,
-      "returns": {
-        "30": 0.8206876534627261,
-        "60": 0.8342236049345475,
-        "90": 7.400518965893199,
-        "120": 15.332637507494006,
-        "365": 26.507382754550314
-      },
-      "ret30": 0.8206876534627261,
-      "vol_ratio": 0.7922350305718701,
-      "ma20": 531.5444976806641,
-      "ma50": 529.1946008300781,
-      "ma200": 499.89375061035156,
-      "z30": -0.23445297593351,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +0.8%",
-          "365d +26.5%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "QQQ",
-      "name": "Invesco QQQ",
-      "last": 714.8800048828125,
-      "returns": {
-        "30": 4.583427349768732,
-        "60": -2.0524457799305673,
-        "90": 6.241826134708028,
-        "120": 22.81895472654403,
-        "365": 52.44594215912222
-      },
-      "ret30": 4.583427349768732,
-      "vol_ratio": 0.7674888793024138,
-      "ma20": 715.6679992675781,
-      "ma50": 710.4063989257812,
-      "ma200": 660.1388995361328,
-      "z30": 0.293681956073528,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +4.6%",
-          "365d +52.4%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "QQQM",
-      "name": "Invesco NASDAQ 100 ETF",
-      "last": 294.3900146484375,
-      "returns": {
-        "30": 4.634799453362781,
-        "60": -2.0528290392181736,
-        "90": 6.258808020026496,
-        "120": 22.84677658080234,
-        "365": 52.47048469889142
-      },
-      "ret30": 4.634799453362781,
-      "vol_ratio": 0.8478331108104373,
-      "ma20": 294.6885025024414,
-      "ma50": 292.51060180664064,
-      "ma200": 271.79970054626466,
-      "z30": 0.3013714526049639,
-      "technical_score": 5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 5.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +4.6%",
-          "365d +52.5%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "last": 175.25999450683594,
-      "returns": {
-        "30": 7.14023263543202,
-        "60": 3.538719255145395,
-        "90": -13.660776509147865,
-        "120": -11.260762275019776,
-        "365": 0.7646765290986401
-      },
-      "ret30": 7.14023263543202,
-      "vol_ratio": 1.2582112225208848,
-      "ma20": 175.02550048828124,
-      "ma50": 165.04859954833984,
-      "ma200": 191.2782495880127,
-      "z30": 0.01980834568972589,
-      "technical_score": 4.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 4.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +7.1%",
-          "365d +0.8%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "BITX",
-      "name": "2x Bitcoin Strategy ETF",
-      "last": 17.030000686645508,
-      "returns": {
-        "30": 37.44955782687571,
-        "60": 30.198782767425804,
-        "90": -15.525789605441842,
-        "120": 6.972365609497921,
-        "365": -53.39354061316194
-      },
-      "ret30": 37.44955782687571,
-      "vol_ratio": 1.3515180771519613,
-      "ma20": 16.522750043869017,
-      "ma50": 13.896900005340576,
-      "ma200": 18.62039999961853,
-      "z30": 0.7731688354717595,
-      "technical_score": 4.0,
-      "observations": 806,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 4.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +37.4%",
-          "365d -53.4%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "ABEV",
-      "name": "Ambev S.A.",
-      "last": 3.0199999809265137,
-      "returns": {
-        "30": -3.205125266043052,
-        "60": -5.625002002343504,
-        "90": 4.137926952167148,
-        "120": 11.439112118666639,
-        "365": 32.4561411764263
-      },
-      "ret30": -3.205125266043052,
-      "vol_ratio": 1.4019419095604884,
-      "ma20": 2.9144999980926514,
-      "ma50": 2.9885999727249146,
-      "ma200": 2.927349992990494,
-      "z30": -0.35944160651509405,
-      "technical_score": 3.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 3.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -3.2%",
-          "365d +32.5%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "HAL",
-      "name": "Halliburton",
-      "last": 35.84000015258789,
-      "returns": {
-        "30": 13.2743389505676,
-        "60": -3.655915544245003,
-        "90": -14.62601109242735,
-        "120": -1.8888547762559327,
-        "365": 42.95971515303676
-      },
-      "ret30": 13.2743389505676,
-      "vol_ratio": 0.825474345508286,
-      "ma20": 35.7939998626709,
-      "ma50": 34.30259983062744,
-      "ma200": 35.006449975967406,
-      "z30": 1.274173595264937,
-      "technical_score": 3.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 3.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +13.3%",
-          "365d +43.0%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol Myers Squibb",
-      "last": 63.63999938964844,
-      "returns": {
-        "30": -1.8809762707717503,
-        "60": 13.8054389726185,
-        "90": 10.909721514473336,
-        "120": 10.716770870684744,
-        "365": 6.0313210667703565
-      },
-      "ret30": -1.8809762707717503,
-      "vol_ratio": 0.7757970135796053,
-      "ma20": 66.18450012207032,
-      "ma50": 63.42700012207031,
-      "ma200": 58.49479999542236,
-      "z30": -0.2753450356119868,
-      "technical_score": 3.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 3.5,
-        "action": "ACUMULAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -1.9%",
-          "365d +6.0%",
+          "365d +28.8%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -1996,32 +584,32 @@
     {
       "ticker": "KO",
       "name": "Coca-Cola",
-      "last": 88.29000091552734,
+      "last": 89.3499984741211,
       "returns": {
-        "30": -0.22601079564956716,
-        "60": 9.977581288025794,
-        "90": 12.917250490802568,
-        "120": 18.113713599367685,
-        "365": 25.465393590333086
+        "30": 2.0093643222006907,
+        "60": 11.785309812310029,
+        "90": 13.850655775012966,
+        "120": 18.95885733997318,
+        "365": 24.755647930193913
       },
-      "ret30": -0.22601079564956716,
-      "vol_ratio": 0.7346963618767072,
-      "ma20": 89.08549995422364,
-      "ma50": 86.5495997619629,
-      "ma200": 78.77380001068116,
-      "z30": -0.32447779736199217,
-      "technical_score": 3.0,
-      "observations": 1255,
+      "ret30": 2.0093643222006907,
+      "vol_ratio": 0.7364691231038702,
+      "ma20": 89.16749992370606,
+      "ma50": 86.65379974365234,
+      "ma200": 78.8576000213623,
+      "z30": 0.07306984272346001,
+      "technical_score": 9.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": 3.5,
-        "action": "ACUMULAR",
+        "score": 9.5,
+        "action": "COMPRAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -0.2%",
-          "365d +25.5%",
+          "30d +2.0%",
+          "365d +24.8%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2029,34 +617,34 @@
       }
     },
     {
-      "ticker": "ORCL",
-      "name": "Oracle",
-      "last": 150.27999877929688,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "last": 235.3800048828125,
       "returns": {
-        "30": 17.811227387541194,
-        "60": -20.203898838110433,
-        "90": -16.645402198894075,
-        "120": 0.400859254994268,
-        "365": 6.679920485750945
+        "30": 23.32600027773779,
+        "60": 37.858731000355064,
+        "90": 97.57833125786306,
+        "120": 127.79996252032917,
+        "365": 167.0372838471573
       },
-      "ret30": 17.811227387541194,
-      "vol_ratio": 0.765685462938909,
-      "ma20": 149.37799987792968,
-      "ma50": 140.67920028686524,
-      "ma200": 167.64449985504152,
-      "z30": 0.8511224674352834,
-      "technical_score": 3.0,
-      "observations": 1255,
+      "ret30": 23.32600027773779,
+      "vol_ratio": 0.9915195677287324,
+      "ma20": 208.43500061035155,
+      "ma50": 203.41059967041016,
+      "ma200": 144.66727493286132,
+      "z30": 0.8364159886367468,
+      "technical_score": 9.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": 3.5,
-        "action": "ACUMULAR",
+        "score": 9.5,
+        "action": "COMPRAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +17.8%",
-          "365d +6.7%",
+          "30d +23.3%",
+          "365d +167.0%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2064,104 +652,349 @@
       }
     },
     {
-      "ticker": "ASML",
-      "name": "ASML Holding",
-      "last": 1698.300048828125,
+      "ticker": "VRSN",
+      "name": "VeriSign",
+      "last": 298.6000061035156,
       "returns": {
-        "30": 2.837530221170037,
-        "60": -5.853459188912414,
-        "90": 22.513911794397814,
-        "120": 28.92769397063011,
-        "365": 151.756649441624
+        "30": 2.9584226656319546,
+        "60": 12.713268522073573,
+        "90": 8.278644522378364,
+        "120": 23.941560838848332,
+        "365": 17.619258615292654
       },
-      "ret30": 2.837530221170037,
-      "vol_ratio": 0.5502230065878442,
-      "ma20": 1737.085009765625,
-      "ma50": 1738.87259765625,
-      "ma200": 1494.9773986816406,
-      "z30": -0.12087073680813493,
-      "technical_score": 3.0,
-      "observations": 1255,
+      "ret30": 2.9584226656319546,
+      "vol_ratio": 0.7847155886832954,
+      "ma20": 287.3384979248047,
+      "ma50": 282.56439819335935,
+      "ma200": 262.76704986572264,
+      "z30": 0.1798157937275484,
+      "technical_score": 9.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": 3.5,
-        "action": "ACUMULAR",
+        "score": 9.5,
+        "action": "COMPRAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +2.8%",
-          "365d +151.8%",
-          "bajo MM50",
+          "30d +3.0%",
+          "365d +17.6%",
+          "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
         "news": []
       }
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet Class A",
-      "last": 338.5,
+      "ticker": "AAPL",
+      "name": "Apple",
+      "last": 333.0799865722656,
       "returns": {
-        "30": 1.450577319657409,
-        "60": -9.310113864701941,
-        "90": -11.676451402478804,
-        "120": 12.458471760797352,
-        "365": 119.3351882225444
+        "30": 7.824279765505349,
+        "60": 12.546029002783143,
+        "90": 17.20740205390674,
+        "120": 32.44263362240027,
+        "365": 49.94821917371595
       },
-      "ret30": 1.450577319657409,
-      "vol_ratio": 0.7356442993748216,
-      "ma20": 341.0554992675781,
-      "ma50": 347.17919860839845,
-      "ma200": 336.81054931640625,
-      "z30": -0.29457266715541064,
-      "technical_score": 1.0,
-      "observations": 1255,
+      "ret30": 7.824279765505349,
+      "vol_ratio": 0.6858802782783947,
+      "ma20": 317.9834976196289,
+      "ma50": 318.4631994628906,
+      "ma200": 285.2391493225098,
+      "z30": 0.6736415122653076,
+      "technical_score": 9.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": 1.5,
-        "action": "MANTENER",
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +7.8%",
+          "365d +49.9%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "last": 375.2799987792969,
+      "returns": {
+        "30": 2.499110636784052,
+        "60": 13.590408993549907,
+        "90": 16.535726547791228,
+        "120": 23.26895144192649,
+        "365": 7.082122904006338
+      },
+      "ret30": 2.499110636784052,
+      "vol_ratio": 0.6835336557605183,
+      "ma20": 373.5170043945312,
+      "ma50": 365.48860412597656,
+      "ma200": 335.18330017089846,
+      "z30": 0.11215682156245511,
+      "technical_score": 9.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +2.5%",
+          "365d +7.1%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "last": 505.4100036621094,
+      "returns": {
+        "30": 8.755810452428081,
+        "60": 33.38523627705685,
+        "90": 22.857211741752657,
+        "120": 31.960836465302698,
+        "365": 34.635974304068526
+      },
+      "ret30": 8.755810452428081,
+      "vol_ratio": 0.5623337078576984,
+      "ma20": 494.9345016479492,
+      "ma50": 455.9671997070312,
+      "ma200": 431.41459945678713,
+      "z30": 0.7043511748554908,
+      "technical_score": 9.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +8.8%",
+          "365d +34.6%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "last": 665.5999755859375,
+      "returns": {
+        "30": 19.55954613991655,
+        "60": 17.269804352639472,
+        "90": 10.023795194853747,
+        "120": 10.187726099405282,
+        "365": 15.483377143182707
+      },
+      "ret30": 19.55954613991655,
+      "vol_ratio": 0.8755132964038411,
+      "ma20": 590.2545013427734,
+      "ma50": 602.5561962890625,
+      "ma200": 623.4936975097656,
+      "z30": 1.4502643624950984,
+      "technical_score": 9.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +19.6%",
+          "365d +15.5%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "XLE",
+      "name": "Energy Select Sector SPDR Fund",
+      "last": 64.52999877929688,
+      "returns": {
+        "30": 8.362719741458967,
+        "60": 18.035487361608183,
+        "90": 8.544992348468128,
+        "120": 8.21733627940806,
+        "365": 38.10594090235697
+      },
+      "ret30": 8.362719741458967,
+      "vol_ratio": 0.8955800992256285,
+      "ma20": 63.84949970245361,
+      "ma50": 60.36540000915527,
+      "ma200": 55.333274898529055,
+      "z30": 1.00006605425579,
+      "technical_score": 9.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +8.4%",
+          "365d +38.1%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "USO",
+      "name": "United States Oil Fund",
+      "last": 156.66000366210938,
+      "returns": {
+        "30": 21.282035985793748,
+        "60": 37.14435705004322,
+        "90": 8.663387425813562,
+        "120": 41.69682264969652,
+        "365": 102.58631831455203
+      },
+      "ret30": 21.282035985793748,
+      "vol_ratio": 0.8073564767725734,
+      "ma20": 138.61499938964843,
+      "ma50": 128.67219985961913,
+      "ma200": 109.55459999084472,
+      "z30": 1.3025398938257493,
+      "technical_score": 9.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 9.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +21.3%",
+          "365d +102.6%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "EL",
+      "name": "Estée Lauder",
+      "last": 98.22000122070312,
+      "returns": {
+        "30": 17.067937347304117,
+        "60": 19.11229967403445,
+        "90": 18.5516029325975,
+        "120": 23.87438527758765,
+        "365": 48.81818366773201
+      },
+      "ret30": 17.067937347304117,
+      "vol_ratio": 1.2699707555450008,
+      "ma20": 99.43950004577637,
+      "ma50": 90.24199981689453,
+      "ma200": 92.5091499710083,
+      "z30": 1.1685608403526615,
+      "technical_score": 8.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 8.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +17.1%",
+          "365d +48.8%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "CRESY",
+      "name": "Cresud",
+      "last": 12.119999885559082,
+      "returns": {
+        "30": 8.117750618335705,
+        "60": 3.5897443003490626,
+        "90": 8.992805847944684,
+        "120": -1.4634170925571954,
+        "365": 12.425336121805053
+      },
+      "ret30": 8.117750618335705,
+      "vol_ratio": 0.7944933199317876,
+      "ma20": 11.510499954223633,
+      "ma50": 11.190199985504151,
+      "ma200": 11.636764626502991,
+      "z30": 0.35765447045927207,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +8.1%",
+          "365d +12.4%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "DXCM",
+      "name": "DexCom",
+      "last": 84.68000030517578,
+      "returns": {
+        "30": 1.4739405655059157,
+        "60": 18.882488157194445,
+        "90": 42.367183854877325,
+        "120": 28.4197712616431,
+        "365": 24.000584521769696
+      },
+      "ret30": 1.4739405655059157,
+      "vol_ratio": 0.8895650111117757,
+      "ma20": 88.46099967956543,
+      "ma50": 82.68340011596679,
+      "ma200": 71.49785003662109,
+      "z30": 0.08891521714550865,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
           "30d +1.5%",
-          "365d +119.3%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "last": 365.44000244140625,
-      "returns": {
-        "30": 18.322808877952124,
-        "60": -9.692087398252426,
-        "90": -6.896641270469194,
-        "120": -0.6848540798434888,
-        "365": 38.66060306118362
-      },
-      "ret30": 18.322808877952124,
-      "vol_ratio": 0.8365018210574747,
-      "ma20": 355.1299987792969,
-      "ma50": 354.4981988525391,
-      "ma200": 398.9254997253418,
-      "z30": 0.7778923409685875,
-      "technical_score": 1.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 1.5,
-        "action": "MANTENER",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +18.3%",
-          "365d +38.7%",
+          "365d +24.0%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2169,34 +1002,489 @@
       }
     },
     {
-      "ticker": "AMGN",
-      "name": "Amgen",
-      "last": 377.3500061035156,
+      "ticker": "TGT",
+      "name": "Target",
+      "last": 158.6999969482422,
       "returns": {
-        "30": -2.65452692087379,
-        "60": 8.483788545397486,
-        "90": 16.519993512953413,
-        "120": 8.496267782544265,
-        "365": 22.935328586662852
+        "30": 9.8345843413719,
+        "60": 24.168687880216176,
+        "90": 23.195146658251954,
+        "120": 38.08404813960073,
+        "365": 52.069754714528614
       },
-      "ret30": -2.65452692087379,
-      "vol_ratio": 1.0017336051922359,
-      "ma20": 425.37849884033204,
-      "ma50": 399.09980041503906,
-      "ma200": 359.3679008483887,
-      "z30": -0.5979173580053658,
-      "technical_score": 1.0,
-      "observations": 1255,
+      "ret30": 9.8345843413719,
+      "vol_ratio": 1.0203080481752729,
+      "ma20": 160.98099899291992,
+      "ma50": 149.53799911499024,
+      "ma200": 124.30374980926514,
+      "z30": 0.7507633623912644,
+      "technical_score": 7.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": 1.5,
-        "action": "MANTENER",
+        "score": 7.5,
+        "action": "COMPRAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -2.7%",
-          "365d +22.9%",
+          "30d +9.8%",
+          "365d +52.1%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "last": 173.30999755859375,
+      "returns": {
+        "30": 40.83374044930723,
+        "60": 32.672426762954856,
+        "90": 27.518205348199242,
+        "120": 7.753047441325656,
+        "365": 105.34359529063879
+      },
+      "ret30": 40.83374044930723,
+      "vol_ratio": 0.9990651958353991,
+      "ma20": 175.51849975585938,
+      "ma50": 154.80699905395508,
+      "ma200": 151.57507480621337,
+      "z30": 1.3539908112388177,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +40.8%",
+          "365d +105.3%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "PAYC",
+      "name": "Paycom Software",
+      "last": 222.85000610351562,
+      "returns": {
+        "30": 35.91729505867831,
+        "60": 80.12447777621281,
+        "90": 69.2360407797186,
+        "120": 76.04077142769667,
+        "365": 2.0001878713995724
+      },
+      "ret30": 35.91729505867831,
+      "vol_ratio": 0.9021598585836401,
+      "ma20": 227.75450057983397,
+      "ma50": 190.84660064697266,
+      "ma200": 150.68975006103517,
+      "z30": 1.9290459180832424,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +35.9%",
+          "365d +2.0%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "last": 259.42999267578125,
+      "returns": {
+        "30": 40.979234133517295,
+        "60": 67.35259032751077,
+        "90": 38.740031581669456,
+        "120": 32.91833303156611,
+        "365": -3.3276170678287254
+      },
+      "ret30": 40.979234133517295,
+      "vol_ratio": 0.9925756324483817,
+      "ma20": 233.79449844360352,
+      "ma50": 200.47299987792968,
+      "ma200": 201.26030052185058,
+      "z30": 3.1168118502062208,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +41.0%",
+          "365d -3.3%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway Class B",
+      "last": 514.9500122070312,
+      "returns": {
+        "30": 0.6666152412612147,
+        "60": 4.818029125254064,
+        "90": 10.618238606271246,
+        "120": 7.2857203259031555,
+        "365": -3.3103016104786387
+      },
+      "ret30": 0.6666152412612147,
+      "vol_ratio": 0.8919005716948332,
+      "ma20": 504.31849975585936,
+      "ma50": 503.99199829101565,
+      "ma200": 492.5432495117187,
+      "z30": -0.20115692451606285,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +0.7%",
+          "365d -3.3%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "XLC",
+      "name": "Communication Services Select Sector SPDR Fund",
+      "last": 115.06999969482422,
+      "returns": {
+        "30": 6.310053553078321,
+        "60": 5.375460540868193,
+        "90": -0.48430128158392094,
+        "120": 2.0938697804289808,
+        "365": 19.305343012684652
+      },
+      "ret30": 6.310053553078321,
+      "vol_ratio": 0.6012890003080315,
+      "ma20": 111.94499969482422,
+      "ma50": 111.00759963989258,
+      "ma200": 114.04134990692138,
+      "z30": 0.8866138505173679,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +6.3%",
+          "365d +19.3%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "GDX",
+      "name": "VanEck Gold Miners ETF",
+      "last": 94.13999938964844,
+      "returns": {
+        "30": 27.044536205390312,
+        "60": 11.59317058859386,
+        "90": 9.707495709187853,
+        "120": 12.90477631406901,
+        "365": 104.78572305813078
+      },
+      "ret30": 27.044536205390312,
+      "vol_ratio": 1.240723255445079,
+      "ma20": 98.6189998626709,
+      "ma50": 86.48419982910156,
+      "ma200": 90.4060498046875,
+      "z30": 1.754809444767379,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +27.0%",
+          "365d +104.8%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "XLV",
+      "name": "Health Care Select Sector SPDR Fund",
+      "last": 167.75,
+      "returns": {
+        "30": 3.199013749994495,
+        "60": 11.306477690286588,
+        "90": 15.450789041102219,
+        "120": 15.873451025317454,
+        "365": 14.889395459943145
+      },
+      "ret30": 3.199013749994495,
+      "vol_ratio": 0.7995501605607408,
+      "ma20": 170.9044982910156,
+      "ma50": 166.31719940185548,
+      "ma200": 155.70625,
+      "z30": 0.47942086756197516,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +3.2%",
+          "365d +14.9%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "OEF",
+      "name": "iShares S&P 100 ETF",
+      "last": 378.7799987792969,
+      "returns": {
+        "30": 2.6420616297460287,
+        "60": 4.020427182383046,
+        "90": 5.771973492289595,
+        "120": 17.941211377556577,
+        "365": 39.858958593651494
+      },
+      "ret30": 2.6420616297460287,
+      "vol_ratio": 0.7088628842741356,
+      "ma20": 379.42150115966797,
+      "ma50": 375.0697991943359,
+      "ma200": 353.60705062866214,
+      "z30": 0.03479664209034319,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +2.6%",
+          "365d +39.9%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "last": 760.8800048828125,
+      "returns": {
+        "30": 1.8540051996267737,
+        "60": 2.6884018461783343,
+        "90": 5.1273172900415,
+        "120": 16.09753108333909,
+        "365": 36.01959008170827
+      },
+      "ret30": 1.8540051996267737,
+      "vol_ratio": 0.7663728365378744,
+      "ma20": 766.1059936523437,
+      "ma50": 758.9384008789062,
+      "ma200": 714.6947003173829,
+      "z30": -0.07966395857922375,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +1.9%",
+          "365d +36.0%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "ARGT",
+      "name": "Global X MSCI Argentina ETF",
+      "last": 95.44999694824219,
+      "returns": {
+        "30": 0.3152868287465971,
+        "60": -1.4963927294154522,
+        "90": 5.656410026007852,
+        "120": 9.385737579086339,
+        "365": 18.175066132599582
+      },
+      "ret30": 0.3152868287465971,
+      "vol_ratio": 0.6945683309764675,
+      "ma20": 94.53200073242188,
+      "ma50": 93.9252001953125,
+      "ma200": 92.68605018615723,
+      "z30": -0.28306781515390256,
+      "technical_score": 7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +0.3%",
+          "365d +18.2%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "PAM",
+      "name": "Pampa Energía",
+      "last": 86.6500015258789,
+      "returns": {
+        "30": -1.8908493826038542,
+        "60": 0.7558157277661737,
+        "90": 10.003815181711229,
+        "120": 3.5863717217887725,
+        "365": 12.240939055959243
+      },
+      "ret30": -1.8908493826038542,
+      "vol_ratio": 1.10905992032527,
+      "ma20": 82.78649978637695,
+      "ma50": 83.42200012207032,
+      "ma200": 83.94285015106202,
+      "z30": -0.37076320909887867,
+      "technical_score": 5.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 5.5,
+        "action": "ACUMULAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -1.9%",
+          "365d +12.2%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "last": 191.4499969482422,
+      "returns": {
+        "30": 30.897035511165804,
+        "60": 16.0865868747581,
+        "90": -3.1858422512049622,
+        "120": -4.570829624230067,
+        "365": 11.159497008354101
+      },
+      "ret30": 30.897035511165804,
+      "vol_ratio": 1.1581326680916617,
+      "ma20": 177.17450027465821,
+      "ma50": 165.5679995727539,
+      "ma200": 190.95564956665038,
+      "z30": 0.7585081269861371,
+      "technical_score": 5.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 5.5,
+        "action": "ACUMULAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +30.9%",
+          "365d +11.2%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "last": 210.9600067138672,
+      "returns": {
+        "30": 5.085931115251396,
+        "60": 3.0833193284015126,
+        "90": 7.358782042680501,
+        "120": 20.10931874684372,
+        "365": 94.64847025285763
+      },
+      "ret30": 5.085931115251396,
+      "vol_ratio": 0.9008104466380059,
+      "ma20": 219.4525001525879,
+      "ma50": 212.90659942626954,
+      "ma200": 197.61475006103515,
+      "z30": -0.1528602611111592,
+      "technical_score": 5.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 5.5,
+        "action": "ACUMULAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +5.1%",
+          "365d +94.6%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2204,34 +1492,34 @@
       }
     },
     {
-      "ticker": "TEO",
-      "name": "Telecom Argentina",
-      "last": 13.25,
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "last": 493.4100036621094,
       "returns": {
-        "30": -4.676256376753784,
-        "60": -10.894417606097873,
-        "90": 12.478780138800904,
-        "120": 18.303573443269272,
-        "365": 26.310774919946823
+        "30": 3.6249102146113543,
+        "60": -3.721116440333516,
+        "90": 38.887009542004414,
+        "120": 143.4428762050514,
+        "365": 380.2511328804559
       },
-      "ret30": -4.676256376753784,
-      "vol_ratio": 0.6961542755969566,
-      "ma20": 13.221500062942505,
-      "ma50": 13.415000076293945,
-      "ma200": 12.426599988937378,
-      "z30": -0.44842283933382815,
-      "technical_score": 1.0,
-      "observations": 1255,
+      "ret30": 3.6249102146113543,
+      "vol_ratio": 0.7189303259811831,
+      "ma20": 480.9864990234375,
+      "ma50": 496.0606005859375,
+      "ma200": 348.30435020446777,
+      "z30": -0.18613394484115753,
+      "technical_score": 5.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": 1.5,
-        "action": "MANTENER",
+        "score": 5.5,
+        "action": "ACUMULAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -4.7%",
-          "365d +26.3%",
+          "30d +3.6%",
+          "365d +380.3%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2239,78 +1527,69 @@
       }
     },
     {
-      "ticker": "GE",
-      "name": "GE Aerospace",
-      "last": 323.6600036621094,
+      "ticker": "BITO",
+      "name": "ProShares Bitcoin Strategy ETF",
+      "last": 10.609999656677246,
       "returns": {
-        "30": -8.838441901637717,
-        "60": -7.980555098356346,
-        "90": 15.378588456430808,
-        "120": 12.856094709942557,
-        "365": 61.92715417025718
+        "30": 24.530505711523844,
+        "60": 21.534939438946708,
+        "90": -5.0983956434657145,
+        "120": 9.15637206994122,
+        "365": -42.08515374771108
       },
-      "ret30": -8.838441901637717,
-      "vol_ratio": 0.7452768645670498,
-      "ma20": 343.41300201416016,
-      "ma50": 353.54980102539065,
-      "ma200": 321.9924505615234,
-      "z30": -1.470801085650483,
-      "technical_score": -1.0,
-      "observations": 1255,
-      "news_score": 1.8,
-      "news_count": 1,
-      "cross": {
-        "score": 1.3,
-        "action": "MANTENER",
-        "news_score": 1.8,
-        "news_count": 1,
-        "reasons": [
-          "30d -8.8%",
-          "365d +61.9%",
-          "bajo MM50",
-          "noticias favorables"
-        ],
-        "news": [
-          {
-            "title": "Advanced Carbon Materials Market Poised for Strong Growth as EVs, Energy Storage, Aerospace and Electronics Drive Global Opportunities Through the Forecast Period",
-            "link": "https://finance.yahoo.com/markets/articles/advanced-carbon-materials-market-poised-090500997.html",
-            "publisher": "GlobeNewswire",
-            "published": 1789376700,
-            "related": [],
-            "sentiment": 1.8
-          }
-        ]
-      }
-    },
-    {
-      "ticker": "FSLR",
-      "name": "First Solar",
-      "last": 209.02999877929688,
-      "returns": {
-        "30": 1.4659503679374852,
-        "60": -20.929788787317538,
-        "90": -1.1164201793678274,
-        "120": 8.40679952253176,
-        "365": 64.176876594663
-      },
-      "ret30": 1.4659503679374852,
-      "vol_ratio": 1.3153335180513925,
-      "ma20": 209.91749954223633,
-      "ma50": 216.90780059814452,
-      "ma200": 229.76090110778807,
-      "z30": -0.022685784598113632,
-      "technical_score": 0.0,
-      "observations": 1255,
+      "ret30": 24.530505711523844,
+      "vol_ratio": 0.2874987028442274,
+      "ma20": 10.277499914169312,
+      "ma50": 9.317599983215333,
+      "ma200": 10.306899993419647,
+      "z30": 1.3147857132979415,
+      "technical_score": 5.0,
+      "observations": 1229,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": 0.5,
-        "action": "MANTENER",
+        "score": 5.5,
+        "action": "ACUMULAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +1.5%",
-          "365d +64.2%",
+          "30d +24.5%",
+          "365d -42.1%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "last": 524.489990234375,
+      "returns": {
+        "30": 0.03241968793519234,
+        "60": 1.5862875527880904,
+        "90": 6.396056338411826,
+        "120": 13.533343907281846,
+        "365": 24.914257439041165
+      },
+      "ret30": 0.03241968793519234,
+      "vol_ratio": 0.7984130377741713,
+      "ma20": 530.9289978027343,
+      "ma50": 529.1268005371094,
+      "ma200": 500.1940005493164,
+      "z30": -0.4366634528484412,
+      "technical_score": 5.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 5.5,
+        "action": "ACUMULAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +0.0%",
+          "365d +24.9%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2318,209 +1597,104 @@
       }
     },
     {
-      "ticker": "MGM",
-      "name": "MGM Resorts",
-      "last": 39.88999938964844,
+      "ticker": "BITX",
+      "name": "2x Bitcoin Strategy ETF",
+      "last": 17.790000915527344,
       "returns": {
-        "30": -12.63688234131849,
-        "60": -16.861192642293254,
-        "90": 4.314847381690279,
-        "120": 12.779193085270514,
-        "365": 31.389982172950038
+        "30": 52.57290864781412,
+        "60": 42.548089487665976,
+        "90": -15.124037726192807,
+        "120": 10.359801422773153,
+        "365": -49.8590723081897
       },
-      "ret30": -12.63688234131849,
-      "vol_ratio": 0.775409007013225,
-      "ma20": 42.25049991607666,
-      "ma50": 44.30720008850098,
-      "ma200": 39.77055002212524,
-      "z30": -1.1661957776599057,
-      "technical_score": -1.0,
-      "observations": 1255,
+      "ret30": 52.57290864781412,
+      "vol_ratio": 1.330342094991422,
+      "ma20": 16.83275008201599,
+      "ma50": 14.026500015258788,
+      "ma200": 18.55420000076294,
+      "z30": 1.1500429891233765,
+      "technical_score": 4.0,
+      "observations": 807,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
+        "score": 4.5,
+        "action": "ACUMULAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -12.6%",
-          "365d +31.4%",
-          "bajo MM50",
+          "30d +52.6%",
+          "365d -49.9%",
+          "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
         "news": []
       }
     },
     {
-      "ticker": "MNST",
-      "name": "Monster Beverage",
-      "last": 43.400001525878906,
+      "ticker": "BMY",
+      "name": "Bristol Myers Squibb",
+      "last": 64.0999984741211,
       "returns": {
-        "30": -11.111109374888905,
-        "60": -6.616454113397019,
-        "90": 15.42554065726831,
-        "120": 17.79074525173998,
-        "365": 50.01728678901651
+        "30": -1.8527011632286317,
+        "60": 15.955137282179944,
+        "90": 12.554868508157323,
+        "120": 12.456137673896661,
+        "365": 5.099191195386243
       },
-      "ret30": -11.111109374888905,
-      "vol_ratio": 0.8543216718111842,
-      "ma20": 45.85800037384033,
-      "ma50": 46.96870018005371,
-      "ma200": 41.923600063323974,
-      "z30": -1.6498781928636665,
-      "technical_score": -1.0,
-      "observations": 1255,
+      "ret30": -1.8527011632286317,
+      "vol_ratio": 0.7445055045093644,
+      "ma20": 66.19799995422363,
+      "ma50": 63.54640007019043,
+      "ma200": 58.576499996185305,
+      "z30": -0.2722853987807156,
+      "technical_score": 3.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
+        "score": 3.5,
+        "action": "ACUMULAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -11.1%",
-          "365d +50.0%",
-          "bajo MM50",
+          "30d -1.9%",
+          "365d +5.1%",
+          "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
         "news": []
       }
     },
     {
-      "ticker": "PYPL",
-      "name": "PayPal",
-      "last": 53.720001220703125,
+      "ticker": "INTC",
+      "name": "Intel",
+      "last": 97.19000244140625,
       "returns": {
-        "30": -6.816999481624675,
-        "60": 23.069872492109745,
-        "90": 6.608457772156218,
-        "120": 22.063174890917935,
-        "365": -17.544128990749986
+        "30": 7.749452028446302,
+        "60": -19.744010184958327,
+        "90": -10.134072057178912,
+        "120": 120.83618756661743,
+        "365": 327.96127855353933
       },
-      "ret30": -6.816999481624675,
-      "vol_ratio": 0.6056421836459644,
-      "ma20": 57.622250175476076,
-      "ma50": 55.75270004272461,
-      "ma200": 50.885125102996824,
-      "z30": -0.5384278016599758,
-      "technical_score": -1.0,
-      "observations": 1255,
+      "ret30": 7.749452028446302,
+      "vol_ratio": 0.8116572493135089,
+      "ma20": 94.34400062561035,
+      "ma50": 97.88919982910156,
+      "ma200": 75.84399995803832,
+      "z30": 0.016580353389502343,
+      "technical_score": 3.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
+        "score": 3.5,
+        "action": "ACUMULAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -6.8%",
-          "365d -17.5%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "last": 79.91000366210938,
-      "returns": {
-        "30": -9.797937729532059,
-        "60": -3.885008120340716,
-        "90": 16.65693965271442,
-        "120": 25.961546960794422,
-        "365": 82.27646757294151
-      },
-      "ret30": -9.797937729532059,
-      "vol_ratio": 0.6196709029178679,
-      "ma20": 81.35449981689453,
-      "ma50": 85.44159957885742,
-      "ma200": 74.63119979858398,
-      "z30": -0.9080042884730076,
-      "technical_score": -1.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -9.8%",
-          "365d +82.3%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "BUD",
-      "name": "Anheuser-Busch InBev",
-      "last": 78.2300033569336,
-      "returns": {
-        "30": -9.182721254657212,
-        "60": -5.00302998606883,
-        "90": 5.844945854114347,
-        "120": 15.930645324864878,
-        "365": 26.09607060362602
-      },
-      "ret30": -9.182721254657212,
-      "vol_ratio": 1.0178844157342255,
-      "ma20": 78.8224998474121,
-      "ma50": 80.58900039672852,
-      "ma200": 75.13710014343262,
-      "z30": -1.1674585868135114,
-      "technical_score": -1.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -9.2%",
-          "365d +26.1%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "ROST",
-      "name": "Ross Stores",
-      "last": 230.74000549316406,
-      "returns": {
-        "30": -8.643148908426001,
-        "60": -1.599215280887234,
-        "90": 2.0883112695694317,
-        "120": 9.257068433995542,
-        "365": 83.97385493687288
-      },
-      "ret30": -8.643148908426001,
-      "vol_ratio": 0.8339167298352004,
-      "ma20": 232.94650115966797,
-      "ma50": 235.79220123291014,
-      "ma200": 213.89730026245118,
-      "z30": -1.5300933947195636,
-      "technical_score": -1.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -8.6%",
-          "365d +84.0%",
+          "30d +7.7%",
+          "365d +328.0%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2530,102 +1704,32 @@
     {
       "ticker": "ADBE",
       "name": "Adobe",
-      "last": 252.22999572753906,
+      "last": 265.6000061035156,
       "returns": {
-        "30": 1.7466728268104692,
-        "60": 21.662158410542375,
-        "90": -0.6812139473115209,
-        "120": 1.6441676128981397,
-        "365": -34.60631009945846
+        "30": 6.066052561503432,
+        "60": 35.316898183886906,
+        "90": 3.904237218122497,
+        "120": 7.252465982124345,
+        "365": -30.748570659695464
       },
-      "ret30": 1.7466728268104692,
-      "vol_ratio": 0.7236728186370521,
-      "ma20": 271.4809997558594,
-      "ma50": 252.6081985473633,
-      "ma200": 266.6047999572754,
-      "z30": 0.31984629900686246,
-      "technical_score": -1.0,
-      "observations": 1255,
+      "ret30": 6.066052561503432,
+      "vol_ratio": 0.7434445813028637,
+      "ma20": 271.56000061035155,
+      "ma50": 253.52579864501953,
+      "ma200": 266.33914993286135,
+      "z30": 0.6991773021641204,
+      "technical_score": 3.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
+        "score": 3.5,
+        "action": "ACUMULAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +1.7%",
-          "365d -34.6%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "GOOG",
-      "name": "Alphabet Class C",
-      "last": 335.45001220703125,
-      "returns": {
-        "30": 0.5304541986638878,
-        "60": -9.60657324444777,
-        "90": -11.639974906841166,
-        "120": 12.269487805378777,
-        "365": 114.94938962887291
-      },
-      "ret30": 0.5304541986638878,
-      "vol_ratio": 0.7367016772918553,
-      "ma20": 338.0375030517578,
-      "ma50": 345.1784002685547,
-      "ma200": 335.5938995361328,
-      "z30": -0.38079447854684084,
-      "technical_score": -1.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +0.5%",
-          "365d +114.9%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "SLV",
-      "name": "iShares Silver Trust",
-      "last": 58.119998931884766,
-      "returns": {
-        "30": 8.63551202221451,
-        "60": -8.313614936907953,
-        "90": -11.859270882603134,
-        "120": -5.52666043657325,
-        "365": 87.48386752220891
-      },
-      "ret30": 8.63551202221451,
-      "vol_ratio": 0.9361532489994419,
-      "ma20": 60.09899978637695,
-      "ma50": 56.45979988098144,
-      "ma200": 65.57810003280639,
-      "z30": 0.25659009078652745,
-      "technical_score": -1.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -0.5,
-        "action": "ESPERAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +8.6%",
-          "365d +87.5%",
+          "30d +6.1%",
+          "365d -30.7%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2633,34 +1737,69 @@
       }
     },
     {
-      "ticker": "GGAL",
-      "name": "Grupo Financiero Galicia",
-      "last": 43.86000061035156,
+      "ticker": "TEO",
+      "name": "Telecom Argentina",
+      "last": 13.800000190734863,
       "returns": {
-        "30": -15.01646949883112,
-        "60": -19.43423637627856,
-        "90": 8.537492640352973,
-        "120": 2.11874233119298,
-        "365": -21.369663732171862
+        "30": -1.4285700661795464,
+        "60": -5.284828553310728,
+        "90": 18.65864191694604,
+        "120": 18.965514973426203,
+        "365": 35.42689655553226
       },
-      "ret30": -15.01646949883112,
-      "vol_ratio": 0.8227857222400544,
-      "ma20": 43.438500213623044,
-      "ma50": 47.1157999420166,
-      "ma200": 48.15049989700317,
-      "z30": -0.8577855184573411,
-      "technical_score": -3.0,
-      "observations": 1255,
+      "ret30": -1.4285700661795464,
+      "vol_ratio": 0.7547098654324162,
+      "ma20": 13.244500064849854,
+      "ma50": 13.440000076293945,
+      "ma200": 12.438149991035461,
+      "z30": -0.30146588655546047,
+      "technical_score": 3.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -2.5,
-        "action": "REDUCIR / EVITAR",
+        "score": 3.5,
+        "action": "ACUMULAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -15.0%",
-          "365d -21.4%",
+          "30d -1.4%",
+          "365d +35.4%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Invesco QQQ",
+      "last": 709.1799926757812,
+      "returns": {
+        "30": 3.079987026291975,
+        "60": -1.8449595036292843,
+        "90": 4.044836184434497,
+        "120": 20.608842291799533,
+        "365": 51.23687886379231
+      },
+      "ret30": 3.079987026291975,
+      "vol_ratio": 0.7561271734229768,
+      "ma20": 714.5734985351562,
+      "ma50": 710.3379992675781,
+      "ma200": 660.6589996337891,
+      "z30": 0.0522819286953317,
+      "technical_score": 3.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 3.5,
+        "action": "ACUMULAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +3.1%",
+          "365d +51.2%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2668,34 +1807,34 @@
       }
     },
     {
-      "ticker": "PSHZF",
-      "name": "Pershing Square Holdings",
-      "last": 51.25,
+      "ticker": "QQQM",
+      "name": "Invesco NASDAQ 100 ETF",
+      "last": 292.0199890136719,
       "returns": {
-        "30": 0.7866303596498092,
-        "60": 0.0,
-        "90": -8.228133441242802,
-        "120": -1.2904433601194865,
-        "365": 3.850053869556369
+        "30": 3.0816407940365664,
+        "60": -1.865113477145508,
+        "90": 4.062431079340478,
+        "120": 20.634519014390797,
+        "365": 51.29001271881939
       },
-      "ret30": 0.7866303596498092,
-      "vol_ratio": 0.7513387660069849,
-      "ma20": 52.43915023803711,
-      "ma50": 51.81353996276855,
-      "ma200": 56.657529983520504,
-      "z30": -0.10186691000636172,
-      "technical_score": -3.0,
-      "observations": 1255,
+      "ret30": 3.0816407940365664,
+      "vol_ratio": 0.8587092071256875,
+      "ma20": 294.23900146484374,
+      "ma50": 292.4826013183594,
+      "ma200": 272.01410049438476,
+      "z30": 0.051978524640132306,
+      "technical_score": 3.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -2.5,
-        "action": "REDUCIR / EVITAR",
+        "score": 3.5,
+        "action": "ACUMULAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +0.8%",
-          "365d +3.9%",
+          "30d +3.1%",
+          "365d +51.3%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2703,34 +1842,69 @@
       }
     },
     {
-      "ticker": "BMA",
-      "name": "Banco Macro",
-      "last": 77.81999969482422,
+      "ticker": "ABEV",
+      "name": "Ambev S.A.",
+      "last": 3.0299999713897705,
       "returns": {
-        "30": -17.414839305427975,
-        "60": -19.58251276802122,
-        "90": 12.181053212742633,
-        "120": 14.965278310023233,
-        "365": -0.7144648867276282
+        "30": -2.5723449004679044,
+        "60": -3.5031888483889495,
+        "90": -10.089018567218899,
+        "120": 8.21428653537013,
+        "365": 30.04292148517793
       },
-      "ret30": -17.414839305427975,
-      "vol_ratio": 1.312064692117033,
-      "ma20": 77.34350090026855,
-      "ma50": 84.9772004699707,
-      "ma200": 84.37425022125244,
-      "z30": -0.9530106885082279,
-      "technical_score": -3.0,
-      "observations": 1255,
+      "ret30": -2.5723449004679044,
+      "vol_ratio": 1.3078636444531946,
+      "ma20": 2.9259999990463257,
+      "ma50": 2.9871999740600588,
+      "ma200": 2.92989999294281,
+      "z30": -0.2961207839907798,
+      "technical_score": 1.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -2.5,
-        "action": "REDUCIR / EVITAR",
+        "score": 1.5,
+        "action": "MANTENER",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -17.4%",
-          "365d -0.7%",
+          "30d -2.6%",
+          "365d +30.0%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "last": 59.470001220703125,
+      "returns": {
+        "30": -4.00322762178228,
+        "60": 5.200782778864976,
+        "90": 11.954070814197305,
+        "120": 25.147307760572836,
+        "365": 42.51138718684035
+      },
+      "ret30": -4.00322762178228,
+      "vol_ratio": 0.8451713194518035,
+      "ma20": 62.367499923706056,
+      "ma50": 62.018799743652345,
+      "ma200": 55.131149978637694,
+      "z30": -0.8597434349133731,
+      "technical_score": 1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 1.5,
+        "action": "MANTENER",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -4.0%",
+          "365d +42.5%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2740,32 +1914,32 @@
     {
       "ticker": "NFLX",
       "name": "Netflix",
-      "last": 77.4000015258789,
+      "last": 80.31999969482422,
       "returns": {
-        "30": 5.781062543102378,
-        "60": -1.6768288546177845,
-        "90": -14.963739419369693,
-        "120": -15.704637570106794,
-        "365": -17.11731032252114
+        "30": 12.006694631538316,
+        "60": 4.365905210918153,
+        "90": -8.613038738643796,
+        "120": -13.985862007632177,
+        "365": -13.86872152721741
       },
-      "ret30": 5.781062543102378,
-      "vol_ratio": 0.5414852503810692,
-      "ma20": 79.44399986267089,
-      "ma50": 75.70079956054687,
-      "ma200": 86.24419975280762,
-      "z30": 0.22105611506786496,
-      "technical_score": -3.0,
-      "observations": 1255,
+      "ret30": 12.006694631538316,
+      "vol_ratio": 0.5433634584960724,
+      "ma20": 79.55199966430663,
+      "ma50": 75.75419952392578,
+      "ma200": 86.11094974517822,
+      "z30": 0.7188457327121501,
+      "technical_score": 1.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -2.5,
-        "action": "REDUCIR / EVITAR",
+        "score": 1.5,
+        "action": "MANTENER",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +5.8%",
-          "365d -17.1%",
+          "30d +12.0%",
+          "365d -13.9%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2773,24 +1947,640 @@
       }
     },
     {
-      "ticker": "CHDN",
-      "name": "Churchill Downs",
-      "last": 83.86000061035156,
+      "ticker": "GOOG",
+      "name": "Alphabet Class C",
+      "last": 345.7099914550781,
       "returns": {
-        "30": 1.4149209510235128,
-        "60": -6.677053148504896,
-        "90": -8.549614611563971,
-        "120": 0.1552576713317544,
-        "365": -24.606672588827095
+        "30": -3.06743379465233,
+        "60": -4.526377898969713,
+        "90": -10.034610732305149,
+        "120": 15.614341568072042,
+        "365": 121.28272477072018
       },
-      "ret30": 1.4149209510235128,
-      "vol_ratio": 0.8932317534094246,
-      "ma20": 88.41650009155273,
-      "ma50": 86.97280014038085,
-      "ma200": 93.69110015869141,
-      "z30": 0.27949413785689453,
+      "ret30": -3.06743379465233,
+      "vol_ratio": 0.7100314584080386,
+      "ma20": 338.1460021972656,
+      "ma50": 344.9690002441406,
+      "ma200": 335.7300994873047,
+      "z30": -0.724851709167514,
+      "technical_score": 1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 1.5,
+        "action": "MANTENER",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -3.1%",
+          "365d +121.3%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Class A",
+      "last": 349.3900146484375,
+      "returns": {
+        "30": -1.892564552821896,
+        "60": -3.958325835852694,
+        "90": -10.050711521633204,
+        "120": 15.669078154138116,
+        "365": 125.93767203016787
+      },
+      "ret30": -1.892564552821896,
+      "vol_ratio": 0.7103524538246953,
+      "ma20": 341.2300003051758,
+      "ma50": 346.968798828125,
+      "ma200": 336.9645994567871,
+      "z30": -0.6111130672888784,
+      "technical_score": 1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 1.5,
+        "action": "MANTENER",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -1.9%",
+          "365d +125.9%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "last": 350.1300048828125,
+      "returns": {
+        "30": -0.471873453420546,
+        "60": 4.999104496762419,
+        "90": 13.164192562962729,
+        "120": 20.77196387155016,
+        "365": 42.73542622375579
+      },
+      "ret30": -0.471873453420546,
+      "vol_ratio": 0.5683572744406937,
+      "ma20": 356.10250091552734,
+      "ma50": 352.05179992675784,
+      "ma200": 319.6971008300781,
+      "z30": -0.5937351481261343,
+      "technical_score": 1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 1.5,
+        "action": "MANTENER",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -0.5%",
+          "365d +42.7%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "last": 358.9700012207031,
+      "returns": {
+        "30": 15.346554120039869,
+        "60": -9.43791392130625,
+        "90": -7.807482414595146,
+        "120": -5.745045170582319,
+        "365": 38.51288630506626
+      },
+      "ret30": 15.346554120039869,
+      "vol_ratio": 0.8377261453438275,
+      "ma20": 355.9649993896484,
+      "ma50": 353.8085986328125,
+      "ma200": 398.63144973754885,
+      "z30": 0.6259118681223356,
+      "technical_score": 1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 1.5,
+        "action": "MANTENER",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +15.3%",
+          "365d +38.5%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "last": 381.5,
+      "returns": {
+        "30": -0.9502553814804249,
+        "60": 11.660714134186767,
+        "90": 15.749872338022076,
+        "120": 9.071679098542628,
+        "365": 22.452259652635398
+      },
+      "ret30": -0.9502553814804249,
+      "vol_ratio": 1.0310376364625662,
+      "ma20": 423.6929992675781,
+      "ma50": 399.2468005371094,
+      "ma200": 359.6039009094238,
+      "z30": -0.40131184648603463,
+      "technical_score": 1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": 1.5,
+        "action": "MANTENER",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -1.0%",
+          "365d +22.5%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton",
+      "last": 35.0099983215332,
+      "returns": {
+        "30": 8.55813433033552,
+        "60": -3.3673785153678137,
+        "90": -16.083419709585613,
+        "120": -6.664889661071605,
+        "365": 37.99762382109206
+      },
+      "ret30": 8.55813433033552,
+      "vol_ratio": 0.8335417470529407,
+      "ma20": 35.823499870300296,
+      "ma50": 34.343599815368655,
+      "ma200": 35.053149967193605,
+      "z30": 0.8189681711977516,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +8.6%",
+          "365d +38.0%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "MGM",
+      "name": "MGM Resorts",
+      "last": 39.83000183105469,
+      "returns": {
+        "30": -10.63495152843803,
+        "60": -15.14698978199094,
+        "90": 5.064632000449998,
+        "120": 7.794319373881731,
+        "365": 34.379226218759776
+      },
+      "ret30": -10.63495152843803,
+      "vol_ratio": 0.75522654940242,
+      "ma20": 42.03700008392334,
+      "ma50": 44.16180015563965,
+      "ma200": 39.80780002593994,
+      "z30": -0.9825752631410164,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -10.6%",
+          "365d +34.4%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage",
+      "last": 44.20000076293945,
+      "returns": {
+        "30": -8.279721887267499,
+        "60": -3.556624488307869,
+        "90": 16.622688610602765,
+        "120": 19.524070605941656,
+        "365": 51.05946827474972
+      },
+      "ret30": -8.279721887267499,
+      "vol_ratio": 0.859915900373776,
+      "ma20": 45.7270004272461,
+      "ma50": 46.876700210571286,
+      "ma200": 41.96150007247925,
+      "z30": -1.2953650539765165,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -8.3%",
+          "365d +51.1%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "name": "PayPal",
+      "last": 54.029998779296875,
+      "returns": {
+        "30": -5.558469421543588,
+        "60": 28.398280485394835,
+        "90": 16.21853480018791,
+        "120": 18.773349715818057,
+        "365": -17.195404169659966
+      },
+      "ret30": -5.558469421543588,
+      "vol_ratio": 0.6147564233414688,
+      "ma20": 57.24075012207031,
+      "ma50": 55.923899993896484,
+      "ma200": 50.85247509002686,
+      "z30": -0.4420462831452791,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -5.6%",
+          "365d -17.2%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "last": 79.80000305175781,
+      "returns": {
+        "30": -8.737419003125046,
+        "60": -2.978719693911469,
+        "90": 12.616430093708253,
+        "120": 22.524192257001772,
+        "365": 83.02753634067979
+      },
+      "ret30": -8.737419003125046,
+      "vol_ratio": 0.6376459367125241,
+      "ma20": 80.87700004577637,
+      "ma50": 85.18259963989257,
+      "ma200": 74.72684982299805,
+      "z30": -0.8358322188637486,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -8.7%",
+          "365d +83.0%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "BUD",
+      "name": "Anheuser-Busch InBev",
+      "last": 79.81999969482422,
+      "returns": {
+        "30": -7.701206525884585,
+        "60": -1.0659402666070572,
+        "90": -0.6843387246010746,
+        "120": 16.440548710927327,
+        "365": 29.66211487034771
+      },
+      "ret30": -7.701206525884585,
+      "vol_ratio": 1.0086851208961507,
+      "ma20": 78.82699966430664,
+      "ma50": 80.5588003540039,
+      "ma200": 75.22420013427734,
+      "z30": -1.0076385310316491,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -7.7%",
+          "365d +29.7%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "last": 144.7899932861328,
+      "returns": {
+        "30": 11.48841051043572,
+        "60": -21.1082688120925,
+        "90": -21.882930392098586,
+        "120": -6.187639807150413,
+        "365": 3.5619739750385015
+      },
+      "ret30": 11.48841051043572,
+      "vol_ratio": 0.76116378939544,
+      "ma20": 149.09149932861328,
+      "ma50": 140.76960006713867,
+      "ma200": 167.36704982757567,
+      "z30": 0.4974603749366103,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +11.5%",
+          "365d +3.6%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "ROST",
+      "name": "Ross Stores",
+      "last": 230.0399932861328,
+      "returns": {
+        "30": -8.376155424621812,
+        "60": -1.3762086661810002,
+        "90": 1.1520513315812941,
+        "120": 7.954384175484752,
+        "365": 80.0140790656974
+      },
+      "ret30": -8.376155424621812,
+      "vol_ratio": 0.8402260191344458,
+      "ma20": 232.18050079345704,
+      "ma50": 236.12440124511718,
+      "ma200": 214.17685020446777,
+      "z30": -1.4917057153735898,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -8.4%",
+          "365d +80.0%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "last": 253.5399932861328,
+      "returns": {
+        "30": -6.642607768644426,
+        "60": 6.7536813836348575,
+        "90": -7.314931602914243,
+        "120": 20.652895223441337,
+        "365": 33.259750134715404
+      },
+      "ret30": -6.642607768644426,
+      "vol_ratio": 0.6105251001471451,
+      "ma20": 258.5049987792969,
+      "ma50": 255.47019927978516,
+      "ma200": 239.9339998626709,
+      "z30": -1.007456207592942,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -6.6%",
+          "365d +33.3%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "last": 1575.1500244140625,
+      "returns": {
+        "30": -3.3057075252263646,
+        "60": -15.669516954254037,
+        "90": 9.164054586642202,
+        "120": 15.006354319417593,
+        "365": 137.71184715558286
+      },
+      "ret30": -3.3057075252263646,
+      "vol_ratio": 0.562242691053608,
+      "ma20": 1723.6385131835937,
+      "ma50": 1734.98919921875,
+      "ma200": 1497.9140487670898,
+      "z30": -0.5712090203313775,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -3.3%",
+          "365d +137.7%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "SLV",
+      "name": "iShares Silver Trust",
+      "last": 56.84000015258789,
+      "returns": {
+        "30": 8.556148758620585,
+        "60": -6.220096386403595,
+        "90": -13.761194060949034,
+        "120": -9.012327450138425,
+        "365": 83.41400636459902
+      },
+      "ret30": 8.556148758620585,
+      "vol_ratio": 0.981005095016547,
+      "ma20": 60.01699981689453,
+      "ma50": 56.49619987487793,
+      "ma200": 65.62915002822876,
+      "z30": 0.25042221772443807,
+      "technical_score": -1.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -0.5,
+        "action": "ESPERAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d +8.6%",
+          "365d +83.4%",
+          "sobre MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "last": 317.55999755859375,
+      "returns": {
+        "30": -11.806040186887213,
+        "60": -11.055093789220239,
+        "90": 10.77159399740044,
+        "120": 8.925014835369538,
+        "365": 58.66100786534756
+      },
+      "ret30": -11.806040186887213,
+      "vol_ratio": 0.7699151336724502,
+      "ma20": 340.8720016479492,
+      "ma50": 352.35060119628906,
+      "ma200": 322.11000061035156,
+      "z30": -1.7609475285437666,
       "technical_score": -3.0,
-      "observations": 1255,
+      "observations": 1254,
+      "news_score": 1.3,
+      "news_count": 2,
+      "cross": {
+        "score": -1.2,
+        "action": "ESPERAR",
+        "news_score": 1.3,
+        "news_count": 2,
+        "reasons": [
+          "30d -11.8%",
+          "365d +58.7%",
+          "bajo MM50",
+          "noticias favorables"
+        ],
+        "news": [
+          {
+            "title": "Kroger trims 2026 sales outlook despite profit gains",
+            "link": "https://finance.yahoo.com/m/0f1445f9-861b-3c64-ab20-5aa192770430/kroger-trims-2026-sales.html",
+            "publisher": "Retail Insight Network",
+            "published": 1789463325,
+            "related": [
+              "KR"
+            ],
+            "sentiment": 0.8
+          },
+          {
+            "title": "Telefonica Unit Signs Deal to Distribute DAZN LaLiga Package",
+            "link": "https://finance.yahoo.com/media-advertising/articles/telefonica-unit-signs-deal-distribute-090608429.html",
+            "publisher": "MT Newswires",
+            "published": 1789463168,
+            "related": [
+              "TEF.MC"
+            ],
+            "sentiment": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "BMA",
+      "name": "Banco Macro",
+      "last": 77.0199966430664,
+      "returns": {
+        "30": -16.191517557942923,
+        "60": -21.830916880869943,
+        "90": 10.629120374241396,
+        "120": 9.512291536807126,
+        "365": 1.9997278030951415
+      },
+      "ret30": -16.191517557942923,
+      "vol_ratio": 1.3395375870036714,
+      "ma20": 77.31400070190429,
+      "ma50": 84.71280044555664,
+      "ma200": 84.39065021514892,
+      "z30": -0.9056976786402807,
+      "technical_score": -3.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2799,8 +2589,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d +1.4%",
-          "365d -24.6%",
+          "30d -16.2%",
+          "365d +2.0%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2810,22 +2600,22 @@
     {
       "ticker": "SBUX",
       "name": "Starbucks",
-      "last": 98.73999786376953,
+      "last": 99.06999969482422,
       "returns": {
-        "30": -6.717053106136661,
-        "60": -2.891426467921243,
-        "90": -5.935032184895183,
-        "120": 6.688270781093353,
-        "365": 1.0334538751085365
+        "30": -5.87173425669908,
+        "60": -0.7513524366789648,
+        "90": -5.593675061957026,
+        "120": 5.58456544976349,
+        "365": 0.999085934877364
       },
-      "ret30": -6.717053106136661,
-      "vol_ratio": 0.801756138762049,
-      "ma20": 105.19700050354004,
-      "ma50": 105.15640045166016,
-      "ma200": 97.9676502609253,
-      "z30": -0.7232371349293792,
+      "ret30": -5.87173425669908,
+      "vol_ratio": 0.7554408797050517,
+      "ma20": 104.76600036621093,
+      "ma50": 105.05240051269531,
+      "ma200": 98.04630027770996,
+      "z30": -0.6396412180516053,
       "technical_score": -3.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2834,7 +2624,7 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -6.7%",
+          "30d -5.9%",
           "365d +1.0%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
@@ -2845,22 +2635,22 @@
     {
       "ticker": "AXP",
       "name": "American Express",
-      "last": 324.69000244140625,
+      "last": 327.7799987792969,
       "returns": {
-        "30": -3.801252367232666,
-        "60": -4.710332879310386,
-        "90": 1.7167416851045836,
-        "120": 9.878173415027502,
-        "365": 22.302994200993666
+        "30": -2.5189594708410756,
+        "60": -3.7469928482549486,
+        "90": 3.744258938187306,
+        "120": 8.568777053886766,
+        "365": 21.82866145733493
       },
-      "ret30": -3.801252367232666,
-      "vol_ratio": 0.6977793666945948,
-      "ma20": 331.7335006713867,
-      "ma50": 339.9573992919922,
-      "ma200": 336.66914962768556,
-      "z30": -0.783537416930328,
+      "ret30": -2.5189594708410756,
+      "vol_ratio": 0.710165597905587,
+      "ma20": 330.99850006103514,
+      "ma50": 339.4737994384766,
+      "ma200": 336.5283996582031,
+      "z30": -0.6386080575798516,
       "technical_score": -3.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2869,8 +2659,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -3.8%",
-          "365d +22.3%",
+          "30d -2.5%",
+          "365d +21.8%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2880,22 +2670,22 @@
     {
       "ticker": "UNH",
       "name": "UnitedHealth Group",
-      "last": 379.0899963378906,
+      "last": 383.54998779296875,
       "returns": {
-        "30": -10.055283830419093,
-        "60": -7.006009563646909,
-        "90": 2.2494932806178314,
-        "120": 37.555789896343875,
-        "365": -26.53863799718953
+        "30": -7.444499652000925,
+        "60": -3.999702409118866,
+        "90": 5.408523082383621,
+        "120": 42.297980126778036,
+        "365": -26.768498750745827
       },
-      "ret30": -10.055283830419093,
-      "vol_ratio": 0.7395999505111476,
-      "ma20": 394.1964996337891,
-      "ma50": 409.1661981201172,
-      "ma200": 353.0259991455078,
-      "z30": -0.7333059798879997,
+      "ret30": -7.444499652000925,
+      "vol_ratio": 0.7505077469093968,
+      "ma20": 393.2874984741211,
+      "ma50": 408.32999816894534,
+      "ma200": 353.3484991455078,
+      "z30": -0.5450990894047032,
       "technical_score": -3.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2904,78 +2694,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -10.1%",
-          "365d -26.5%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "PII",
-      "name": "Polaris",
-      "last": 58.5099983215332,
-      "returns": {
-        "30": -14.195635391259598,
-        "60": -16.246782407179882,
-        "90": -6.548478276392943,
-        "120": 11.724268693674112,
-        "365": 41.396802347154214
-      },
-      "ret30": -14.195635391259598,
-      "vol_ratio": 0.8378238379770476,
-      "ma20": 63.39299983978272,
-      "ma50": 67.2447998046875,
-      "ma200": 64.92515001296997,
-      "z30": -0.9212668574977654,
-      "technical_score": -5.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -4.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -14.2%",
-          "365d +41.4%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "NVDY",
-      "name": "YieldMax NVDA Option Income Strategy ETF",
-      "last": 12.369999885559082,
-      "returns": {
-        "30": 5.0977009724722855,
-        "60": -5.283311729616836,
-        "90": -7.961307501720194,
-        "120": -4.5524702997782445,
-        "365": -20.142026673082782
-      },
-      "ret30": 5.0977009724722855,
-      "vol_ratio": 0.8282058316350525,
-      "ma20": 12.6625,
-      "ma50": 12.559200000762939,
-      "ma200": 13.53639997959137,
-      "z30": 0.6374748693453022,
-      "technical_score": -5.0,
-      "observations": 837,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -4.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +5.1%",
-          "365d -20.1%",
+          "30d -7.4%",
+          "365d -26.8%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -2985,32 +2705,32 @@
     {
       "ticker": "GME",
       "name": "GameStop",
-      "last": 21.149999618530273,
+      "last": 21.6200008392334,
       "returns": {
-        "30": -3.3363782917565366,
-        "60": -1.4445455692804865,
-        "90": -11.283559214934025,
-        "120": -6.291537862180752,
-        "365": -2.6691207359609725
+        "30": -0.46039814586739114,
+        "60": 0.511392883222106,
+        "90": -10.77176538304646,
+        "120": -6.122448134488034,
+        "365": -3.136195632445027
       },
-      "ret30": -3.3363782917565366,
-      "vol_ratio": 2.1456031167604035,
-      "ma20": 18.7189998626709,
-      "ma50": 20.10400001525879,
-      "ma200": 22.179500064849854,
-      "z30": -0.1811957217882792,
-      "technical_score": -6.0,
-      "observations": 1255,
+      "ret30": -0.46039814586739114,
+      "vol_ratio": 2.2337958578153243,
+      "ma20": 18.866999912261964,
+      "ma50": 20.080000038146974,
+      "ma200": 22.18515007019043,
+      "z30": -0.09573324076969329,
+      "technical_score": -4.0,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
-        "score": -5.5,
+        "score": -3.5,
         "action": "REDUCIR / EVITAR",
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -3.3%",
-          "365d -2.7%",
+          "30d -0.5%",
+          "365d -3.1%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3018,24 +2738,94 @@
       }
     },
     {
-      "ticker": "NVO",
-      "name": "Novo Nordisk",
-      "last": 43.06999969482422,
+      "ticker": "PII",
+      "name": "Polaris",
+      "last": 58.91999816894531,
       "returns": {
-        "30": -16.547182357162093,
-        "60": -1.1021803688755383,
-        "90": -2.97364206572176,
-        "120": 17.903096452425405,
-        "365": -37.8499310271939
+        "30": -12.164584733704798,
+        "60": -14.148330865610037,
+        "90": -10.875816631410572,
+        "120": 5.534652044685862,
+        "365": 43.917929031160966
       },
-      "ret30": -16.547182357162093,
-      "vol_ratio": 1.2574289149579176,
-      "ma20": 45.93049964904785,
-      "ma50": 47.56139976501465,
-      "ma200": 46.27009992599487,
-      "z30": -1.0525832133463289,
+      "ret30": -12.164584733704798,
+      "vol_ratio": 0.8311139708956337,
+      "ma20": 62.8644998550415,
+      "ma50": 67.16079978942871,
+      "ma200": 64.89414999008179,
+      "z30": -0.7708340016560937,
+      "technical_score": -5.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -4.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -12.2%",
+          "365d +43.9%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar",
+      "last": 207.0399932861328,
+      "returns": {
+        "30": -1.8907290509615926,
+        "60": -18.744116637990558,
+        "90": -5.624948182160638,
+        "120": 9.014319335638499,
+        "365": 63.75859589209938
+      },
+      "ret30": -1.8907290509615926,
+      "vol_ratio": 1.240441471805529,
+      "ma20": 208.9914993286133,
+      "ma50": 216.5572003173828,
+      "ma200": 229.49685104370118,
+      "z30": -0.20801816863169845,
+      "technical_score": -5.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -4.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -1.9%",
+          "365d +63.8%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "GGAL",
+      "name": "Grupo Financiero Galicia",
+      "last": 42.959999084472656,
+      "returns": {
+        "30": -13.68294416446748,
+        "60": -22.66426701260581,
+        "90": 5.630688513961957,
+        "120": -5.478551455816872,
+        "365": -21.130901190168714
+      },
+      "ret30": -13.68294416446748,
+      "vol_ratio": 0.8563270621108744,
+      "ma20": 43.41800022125244,
+      "ma50": 46.96759994506836,
+      "ma200": 48.131299896240236,
+      "z30": -0.8045066592317275,
       "technical_score": -7.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3044,8 +2834,43 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -16.5%",
-          "365d -37.8%",
+          "30d -13.7%",
+          "365d -21.1%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "NVO",
+      "name": "Novo Nordisk",
+      "last": 43.45000076293945,
+      "returns": {
+        "30": -7.710282342684261,
+        "60": -0.16084488531233898,
+        "90": -3.1646940110271693,
+        "120": 18.006521246786455,
+        "365": -37.42799649293973
+      },
+      "ret30": -7.710282342684261,
+      "vol_ratio": 1.1295623922736406,
+      "ma20": 45.8084997177124,
+      "ma50": 47.42179977416992,
+      "ma200": 46.26249992370605,
+      "z30": -0.4491621179693892,
+      "technical_score": -7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -6.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -7.7%",
+          "365d -37.4%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3055,22 +2880,22 @@
     {
       "ticker": "BAM",
       "name": "Brookfield Asset Management",
-      "last": 47.2599983215332,
+      "last": 46.630001068115234,
       "returns": {
-        "30": -1.4595512433320357,
-        "60": -2.7171746804621866,
-        "90": -0.714286057745861,
-        "120": 10.163162332346731,
-        "365": -2.556704491684114
+        "30": -3.6570256238881993,
+        "60": -2.81366921008972,
+        "90": -3.7167029232254123,
+        "120": 7.5911419103465105,
+        "365": -3.7564492593700427
       },
-      "ret30": -1.4595512433320357,
-      "vol_ratio": 1.0469283893842307,
-      "ma20": 50.93199996948242,
-      "ma50": 49.77439994812012,
-      "ma200": 49.08359991073608,
-      "z30": -0.3598547099153641,
+      "ret30": -3.6570256238881993,
+      "vol_ratio": 1.068391148568318,
+      "ma20": 50.547999954223634,
+      "ma50": 49.78959999084473,
+      "ma200": 49.06279991149902,
+      "z30": -0.5727256336761924,
       "technical_score": -7.0,
-      "observations": 947,
+      "observations": 948,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3079,8 +2904,43 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -1.5%",
-          "365d -2.6%",
+          "30d -3.7%",
+          "365d -3.8%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "PSHZF",
+      "name": "Pershing Square Holdings",
+      "last": 50.869998931884766,
+      "returns": {
+        "30": -2.2294827496203595,
+        "60": -2.0129094967039185,
+        "90": -7.685329181620915,
+        "120": -4.675354011257882,
+        "365": 3.9223659632687147
+      },
+      "ret30": -2.2294827496203595,
+      "vol_ratio": 0.7828544512482336,
+      "ma20": 52.32855014801025,
+      "ma50": 51.81323997497559,
+      "ma200": 56.596519985198974,
+      "z30": -0.4682105757045451,
+      "technical_score": -7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -6.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -2.2%",
+          "365d +3.9%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3090,92 +2950,22 @@
     {
       "ticker": "BYD",
       "name": "Boyd Gaming",
-      "last": 77.0,
+      "last": 77.1500015258789,
       "returns": {
-        "30": -11.545092130303924,
-        "60": -10.951776439244188,
-        "90": -7.105802187258792,
-        "120": -5.008632717585515,
-        "365": 16.226415094339618
+        "30": -9.29931373118842,
+        "60": -8.023361883532754,
+        "90": -8.231233726733722,
+        "120": -5.845741729081089,
+        "365": 17.19580644077108
       },
-      "ret30": -11.545092130303924,
-      "vol_ratio": 0.8553387181962839,
-      "ma20": 79.37449913024902,
-      "ma50": 83.64819961547852,
-      "ma200": 84.22924983978271,
-      "z30": -1.52040353277069,
+      "ret30": -9.29931373118842,
+      "vol_ratio": 0.8331577098700386,
+      "ma20": 79.02549934387207,
+      "ma50": 83.43319961547851,
+      "ma200": 84.20929985046386,
+      "z30": -1.2450532532395,
       "technical_score": -7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -6.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -11.5%",
-          "365d +16.2%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "NEE",
-      "name": "NextEra Energy",
-      "last": 82.30999755859375,
-      "returns": {
-        "30": -6.391450843940483,
-        "60": -4.545988224207398,
-        "90": -13.820546835303094,
-        "120": -8.03352228090084,
-        "365": 16.834636088153143
-      },
-      "ret30": -6.391450843940483,
-      "vol_ratio": 0.9452389954186107,
-      "ma20": 83.90800018310547,
-      "ma50": 86.15100006103516,
-      "ma200": 87.78330024719239,
-      "z30": -0.841131949789582,
-      "technical_score": -7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -6.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -6.4%",
-          "365d +16.8%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "CLX",
-      "name": "Clorox",
-      "last": 87.76000213623047,
-      "returns": {
-        "30": -9.273235717364582,
-        "60": -9.998974245101898,
-        "90": 1.4801095393276897,
-        "120": -17.324539920204373,
-        "365": -40.005467002607595
-      },
-      "ret30": -9.273235717364582,
-      "vol_ratio": 1.2754891599461713,
-      "ma20": 99.61650009155274,
-      "ma50": 99.28100036621093,
-      "ma200": 102.94540023803711,
-      "z30": -0.8518544839424352,
-      "technical_score": -7.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3185,7 +2975,77 @@
         "news_count": 0,
         "reasons": [
           "30d -9.3%",
-          "365d -40.0%",
+          "365d +17.2%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "last": 81.62999725341797,
+      "returns": {
+        "30": -6.086057325087879,
+        "60": -4.7824634818284135,
+        "90": -15.216038337787252,
+        "120": -9.531204459225783,
+        "365": 15.150229871969522
+      },
+      "ret30": -6.086057325087879,
+      "vol_ratio": 0.929528784470356,
+      "ma20": 83.67999992370605,
+      "ma50": 86.0168000793457,
+      "ma200": 87.7703002166748,
+      "z30": -0.806906301056511,
+      "technical_score": -7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -6.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -6.1%",
+          "365d +15.2%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "CLX",
+      "name": "Clorox",
+      "last": 89.30999755859375,
+      "returns": {
+        "30": -6.511045012230355,
+        "60": -5.959780551077342,
+        "90": 3.7041276245643573,
+        "120": -15.649792335340573,
+        "365": -39.34804919620119
+      },
+      "ret30": -6.511045012230355,
+      "vol_ratio": 1.253500842738051,
+      "ma20": 98.79700012207032,
+      "ma50": 99.1220002746582,
+      "ma200": 102.86365020751953,
+      "z30": -0.5577879769961275,
+      "technical_score": -7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -6.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -6.5%",
+          "365d -39.3%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3195,22 +3055,22 @@
     {
       "ticker": "NRG",
       "name": "NRG Energy",
-      "last": 113.45999908447266,
+      "last": 108.47000122070312,
       "returns": {
-        "30": -15.309399081397446,
-        "60": -14.110526993039175,
-        "90": -26.714898774763252,
-        "120": -22.181072215619036,
-        "365": 19.180675127708223
+        "30": -19.22704099806961,
+        "60": -17.90660923920625,
+        "90": -31.09953232095274,
+        "120": -28.53001372657582,
+        "365": 13.628747392630824
       },
-      "ret30": -15.309399081397446,
-      "vol_ratio": 1.1508159890631833,
-      "ma20": 115.09900016784668,
-      "ma50": 124.97879974365235,
-      "ma200": 145.70759998321535,
-      "z30": -1.3970927086390592,
+      "ret30": -19.22704099806961,
+      "vol_ratio": 1.1401083164088945,
+      "ma20": 114.21050033569335,
+      "ma50": 124.41419982910156,
+      "ma200": 145.41569995880127,
+      "z30": -1.6561353451495389,
       "technical_score": -7.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3219,183 +3079,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -15.3%",
-          "365d +19.2%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "ADSK",
-      "name": "Autodesk",
-      "last": 212.39999389648438,
-      "returns": {
-        "30": -9.605484618021155,
-        "60": 5.472235945214443,
-        "90": -14.195685684223935,
-        "120": -14.351389494872501,
-        "365": -18.81665331481337
-      },
-      "ret30": -9.605484618021155,
-      "vol_ratio": 0.7048353871018974,
-      "ma20": 241.7039993286133,
-      "ma50": 231.81759948730468,
-      "ma200": 245.4109499359131,
-      "z30": -1.047656273812089,
-      "technical_score": -7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -6.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -9.6%",
-          "365d -18.8%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "XLU",
-      "name": "Utilities Select Sector SPDR Fund",
-      "last": 42.38999938964844,
-      "returns": {
-        "30": -5.0828492286598355,
-        "60": -5.925436977960685,
-        "90": -8.583134858559626,
-        "120": -5.061594756991406,
-        "365": 8.72017841707191
-      },
-      "ret30": -5.0828492286598355,
-      "vol_ratio": 1.0591328295797648,
-      "ma20": 43.19450016021729,
-      "ma50": 44.21940010070801,
-      "ma200": 44.63487495422363,
-      "z30": -1.2557139874266818,
-      "technical_score": -7.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -6.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -5.1%",
-          "365d +8.7%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "LOMA",
-      "name": "Loma Negra",
-      "last": 9.75,
-      "returns": {
-        "30": -17.72152163601254,
-        "60": -19.154231668676157,
-        "90": -6.876793205976983,
-        "120": -3.0815149769994776,
-        "365": -10.303586912149044
-      },
-      "ret30": -17.72152163601254,
-      "vol_ratio": 1.072526004389732,
-      "ma20": 9.775,
-      "ma50": 10.62519998550415,
-      "ma200": 11.264549984931946,
-      "z30": -1.2311242423764717,
-      "technical_score": -9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -8.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -17.7%",
-          "365d -10.3%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "BYDDF",
-      "name": "BYD Co. Ltd.",
-      "last": 10.170000076293945,
-      "returns": {
-        "30": -15.179313841258635,
-        "60": -4.417295600218307,
-        "90": -22.779043148223,
-        "120": -21.467179721363607,
-        "365": -41.12311553155678
-      },
-      "ret30": -15.179313841258635,
-      "vol_ratio": 0.3034466915674746,
-      "ma20": 11.19749994277954,
-      "ma50": 11.255399990081788,
-      "ma200": 12.091150002479553,
-      "z30": -1.2036547042451833,
-      "technical_score": -9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -8.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -15.2%",
-          "365d -41.1%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "JD",
-      "name": "JD.com",
-      "last": 27.059999465942383,
-      "returns": {
-        "30": -16.24884458125877,
-        "60": -4.651161852918683,
-        "90": -9.920111047815016,
-        "120": -0.770080631815695,
-        "365": -34.920639070938684
-      },
-      "ret30": -16.24884458125877,
-      "vol_ratio": 0.9240725407285755,
-      "ma20": 28.39000005722046,
-      "ma50": 29.597800254821777,
-      "ma200": 29.097350072860717,
-      "z30": -1.0409583527559345,
-      "technical_score": -9.0,
-      "observations": 1255,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": -8.5,
-        "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -16.2%",
-          "365d -34.9%",
+          "30d -19.2%",
+          "365d +13.6%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3405,22 +3090,127 @@
     {
       "ticker": "BABA",
       "name": "Alibaba",
-      "last": 109.30000305175781,
+      "last": 109.2300033569336,
       "returns": {
-        "30": -6.035072783256523,
-        "60": -1.5049095706721083,
-        "90": -17.986043709954558,
-        "120": -10.709909499340709,
-        "365": -17.465824135965114
+        "30": -10.650304002508303,
+        "60": 1.6660469795722,
+        "90": -17.412666041440083,
+        "120": -13.350780999212242,
+        "365": -17.393929602778734
       },
-      "ret30": -6.035072783256523,
-      "vol_ratio": 0.8968499755533368,
-      "ma20": 117.60199890136718,
-      "ma50": 117.27899993896484,
-      "ma200": 134.5309998703003,
-      "z30": -0.4801039345473972,
+      "ret30": -10.650304002508303,
+      "vol_ratio": 0.8626788988958947,
+      "ma20": 116.87299919128418,
+      "ma50": 117.54080001831055,
+      "ma200": 134.27349990844726,
+      "z30": -0.7446706419040915,
+      "technical_score": -7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -6.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -10.7%",
+          "365d -17.4%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "last": 228.92999267578125,
+      "returns": {
+        "30": -2.250215346341611,
+        "60": 18.573566059560733,
+        "90": -8.218738965624993,
+        "120": -7.480605230760196,
+        "365": -12.555384511011159
+      },
+      "ret30": -2.250215346341611,
+      "vol_ratio": 0.7246887087185244,
+      "ma20": 240.56749877929687,
+      "ma50": 232.24659942626954,
+      "ma200": 245.1063498687744,
+      "z30": -0.32732923232459593,
+      "technical_score": -7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -6.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -2.3%",
+          "365d -12.6%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "XLU",
+      "name": "Utilities Select Sector SPDR Fund",
+      "last": 41.81999969482422,
+      "returns": {
+        "30": -5.704619766273877,
+        "60": -5.937920476859471,
+        "90": -9.812377273815065,
+        "120": -6.610091927561978,
+        "365": 6.074826896920538
+      },
+      "ret30": -5.704619766273877,
+      "vol_ratio": 1.0665248291763552,
+      "ma20": 43.070000076293944,
+      "ma50": 44.14060012817383,
+      "ma200": 44.62109994888306,
+      "z30": -1.378784016808675,
+      "technical_score": -7.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -6.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -5.7%",
+          "365d +6.1%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "LOMA",
+      "name": "Loma Negra",
+      "last": 9.609999656677246,
+      "returns": {
+        "30": -16.28919825892956,
+        "60": -18.902959094374804,
+        "90": -14.880427908345562,
+        "120": -10.853433258587565,
+        "365": -12.556871184543361
+      },
+      "ret30": -16.28919825892956,
+      "vol_ratio": 1.0881437923389041,
+      "ma20": 9.783500003814698,
+      "ma50": 10.582199974060059,
+      "ma200": 11.256799983978272,
+      "z30": -1.144341754096658,
       "technical_score": -9.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3429,8 +3219,113 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -6.0%",
-          "365d -17.5%",
+          "30d -16.3%",
+          "365d -12.6%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "BYDDF",
+      "name": "BYD Co. Ltd.",
+      "last": 10.329999923706055,
+      "returns": {
+        "30": -13.120272284035483,
+        "60": -1.0536366005601594,
+        "90": -20.538462125338043,
+        "120": -23.254086965603182,
+        "365": -39.115915830843285
+      },
+      "ret30": -13.120272284035483,
+      "vol_ratio": 0.36751314283399006,
+      "ma20": 11.149499940872193,
+      "ma50": 11.257999992370605,
+      "ma200": 12.08130000114441,
+      "z30": -1.0490438114862377,
+      "technical_score": -9.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -8.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -13.1%",
+          "365d -39.1%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "JD",
+      "name": "JD.com",
+      "last": 27.260000228881836,
+      "returns": {
+        "30": -17.418959057930362,
+        "60": -2.328913013557554,
+        "90": -8.153638987233869,
+        "120": -1.0167054369545792,
+        "365": -33.706223402296295
+      },
+      "ret30": -17.418959057930362,
+      "vol_ratio": 0.8981724389816199,
+      "ma20": 28.30000009536743,
+      "ma50": 29.610600242614748,
+      "ma200": 29.088350076675415,
+      "z30": -1.1126023931021134,
+      "technical_score": -9.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -8.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -17.4%",
+          "365d -33.7%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "CHDN",
+      "name": "Churchill Downs",
+      "last": 83.5999984741211,
+      "returns": {
+        "30": -0.8303731343959009,
+        "60": -4.740204604429898,
+        "90": -9.7776870601324,
+        "120": -1.205393806846855,
+        "365": -24.73215206282494
+      },
+      "ret30": -0.8303731343959009,
+      "vol_ratio": 0.8676840381823238,
+      "ma20": 88.05550003051758,
+      "ma50": 86.82660003662109,
+      "ma200": 93.57815013885498,
+      "z30": 0.021637364285427407,
+      "technical_score": -9.0,
+      "observations": 1254,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -8.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -0.8%",
+          "365d -24.7%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3440,22 +3335,22 @@
     {
       "ticker": "COST",
       "name": "Costco",
-      "last": 904.77001953125,
+      "last": 918.9099731445312,
       "returns": {
-        "30": -5.17727074459412,
-        "60": -8.301574345538242,
-        "90": -10.665583273887547,
-        "120": -6.9482579341527355,
-        "365": -2.6773179799375657
+        "30": -3.4646903524969574,
+        "60": -4.83435541095586,
+        "90": -9.593476260319067,
+        "120": -4.848146818585153,
+        "365": -2.841047106092931
       },
-      "ret30": -5.17727074459412,
-      "vol_ratio": 0.7161789577649043,
-      "ma20": 937.7629943847656,
-      "ma50": 940.7849975585938,
-      "ma200": 960.4721981811523,
-      "z30": -1.1064755136550872,
+      "ret30": -3.4646903524969574,
+      "vol_ratio": 0.7210468171347684,
+      "ma20": 935.6534942626953,
+      "ma50": 940.1297973632812,
+      "ma200": 960.6361480712891,
+      "z30": -0.8522314996567142,
       "technical_score": -9.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3464,8 +3359,43 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -5.2%",
-          "365d -2.7%",
+          "30d -3.5%",
+          "365d -2.8%",
+          "bajo MM50",
+          "sin sesgo noticioso fuerte"
+        ],
+        "news": []
+      }
+    },
+    {
+      "ticker": "NVDY",
+      "name": "YieldMax NVDA Option Income Strategy ETF",
+      "last": 12.020000457763672,
+      "returns": {
+        "30": -0.33167463069042613,
+        "60": -7.253083160620899,
+        "90": -9.759754255592746,
+        "120": -8.66260944427455,
+        "365": -21.846551571364447
+      },
+      "ret30": -0.33167463069042613,
+      "vol_ratio": 0.8358163431581322,
+      "ma20": 12.60900001525879,
+      "ma50": 12.557200012207032,
+      "ma200": 13.522049980163574,
+      "z30": 0.12687578987698023,
+      "technical_score": -9.0,
+      "observations": 838,
+      "news_score": 0.0,
+      "news_count": 0,
+      "cross": {
+        "score": -8.5,
+        "action": "REDUCIR / EVITAR",
+        "news_score": 0.0,
+        "news_count": 0,
+        "reasons": [
+          "30d -0.3%",
+          "365d -21.8%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3475,22 +3405,22 @@
     {
       "ticker": "VXX",
       "name": "iPath Series B S&P 500 VIX Short-Term Futures ETN",
-      "last": 18.06999969482422,
+      "last": 18.229999542236328,
       "returns": {
-        "30": -17.186068068046367,
-        "60": -19.937971027230216,
-        "90": -36.97244629669337,
-        "120": -49.76369451879881,
-        "365": -64.85803123630322
+        "30": -14.211766860064333,
+        "60": -22.55735414941491,
+        "90": -36.50296021048732,
+        "120": -46.897761229521414,
+        "365": -64.58131123007715
       },
-      "ret30": -17.186068068046367,
-      "vol_ratio": 0.8459622274871349,
-      "ma20": 18.573749923706053,
-      "ma50": 20.257500038146972,
-      "ma200": 26.541924991607665,
-      "z30": -0.7167434645603894,
+      "ret30": -14.211766860064333,
+      "vol_ratio": 0.8775050310287406,
+      "ma20": 18.517499923706055,
+      "ma50": 20.181300010681152,
+      "ma200": 26.459174995422362,
+      "z30": -0.5447805512973696,
       "technical_score": -9.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3499,8 +3429,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -17.2%",
-          "365d -64.9%",
+          "30d -14.2%",
+          "365d -64.6%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3510,22 +3440,22 @@
     {
       "ticker": "LULU",
       "name": "Lululemon",
-      "last": 98.97000122070312,
+      "last": 100.30000305175781,
       "returns": {
-        "30": -17.16605420152112,
-        "60": -14.311687254802486,
-        "90": -23.26716971694579,
-        "120": -39.2150861265919,
-        "365": -66.22875791810677
+        "30": -15.622107567721223,
+        "60": -10.254114947585114,
+        "90": -22.970587604557736,
+        "120": -38.98284458425324,
+        "365": -64.56581505092552
       },
-      "ret30": -17.16605420152112,
-      "vol_ratio": 1.8194048359102373,
-      "ma20": 114.1625,
-      "ma50": 117.12820037841797,
-      "ma200": 151.44944957733154,
-      "z30": -0.934596910812535,
+      "ret30": -15.622107567721223,
+      "vol_ratio": 1.862925606127553,
+      "ma20": 113.2,
+      "ma50": 116.7656004333496,
+      "ma200": 151.1025996017456,
+      "z30": -0.8279768447451895,
       "technical_score": -10.0,
-      "observations": 1255,
+      "observations": 1254,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3534,8 +3464,8 @@
         "news_score": 0.0,
         "news_count": 0,
         "reasons": [
-          "30d -17.2%",
-          "365d -66.2%",
+          "30d -15.6%",
+          "365d -64.6%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -3547,152 +3477,152 @@
     {
       "ticker": "MRNA",
       "name": "Moderna, Inc.",
-      "return_30d": 148.56699891591992
+      "return_30d": 167.5848290003837
     },
     {
       "ticker": "ASST",
       "name": "Strive, Inc.",
-      "return_30d": 131.32329824040693
+      "return_30d": 161.2961438679984
     },
     {
-      "ticker": "LIFE",
-      "name": "Ethos Technologies Inc.",
-      "return_30d": 98.56930977317137
-    },
-    {
-      "ticker": "HTFL",
-      "name": "Heartflow, Inc.",
-      "return_30d": 93.10879293629715
-    },
-    {
-      "ticker": "ABCL",
-      "name": "AbCellera Biologics Inc.",
-      "return_30d": 91.38840481211652
-    },
-    {
-      "ticker": "PURR",
-      "name": "Hyperliquid Strategies Inc.",
-      "return_30d": 84.28570325682796
+      "ticker": "CAPR",
+      "name": "Capricor Therapeutics, Inc.",
+      "return_30d": 128.8311853986266
     },
     {
       "ticker": "IOVA",
       "name": "Iovance Biotherapeutics, Inc.",
-      "return_30d": 83.36887583252054
+      "return_30d": 127.51842354596015
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian Corporation",
+      "return_30d": 90.83304997991728
+    },
+    {
+      "ticker": "PURR",
+      "name": "Hyperliquid Strategies Inc.",
+      "return_30d": 90.82126100929455
     },
     {
       "ticker": "BLSH",
       "name": "Bullish",
-      "return_30d": 55.4670150272728
+      "return_30d": 72.64799151558144
     },
     {
-      "ticker": "BAND",
-      "name": "Bandwidth Inc.",
-      "return_30d": 46.45891385563215
+      "ticker": "NIQ",
+      "name": "NIQ Global Intelligence plc",
+      "return_30d": 66.78602536722438
     },
     {
-      "ticker": "CHYM",
-      "name": "Chime Financial, Inc.",
-      "return_30d": 46.0176966503836
+      "ticker": "CAI",
+      "name": "Caris Life Sciences, Inc.",
+      "return_30d": 66.24121959303486
     },
     {
-      "ticker": "INSP",
-      "name": "Inspire Medical Systems, Inc.",
-      "return_30d": 45.94162201505851
-    },
-    {
-      "ticker": "SMTC",
-      "name": "Semtech Corporation",
-      "return_30d": 45.92095332216495
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro Computer, Inc.",
-      "return_30d": 44.60872389501369
-    },
-    {
-      "ticker": "SWKS",
-      "name": "Skyworks Solutions, Inc.",
-      "return_30d": 41.40524827372432
+      "ticker": "AMLX",
+      "name": "Amylyx Pharmaceuticals, Inc.",
+      "return_30d": 65.63269460473884
     },
     {
       "ticker": "CRCL",
       "name": "Circle Internet Group",
-      "return_30d": 41.033626224975706
+      "return_30d": 55.59814281943718
     },
     {
-      "ticker": "DELL",
-      "name": "Dell Technologies Inc.",
-      "return_30d": 40.1373438029361
-    },
-    {
-      "ticker": "BTG",
-      "name": "B2Gold Corp.",
-      "return_30d": 39.740266174223926
-    },
-    {
-      "ticker": "TXG",
-      "name": "10x Genomics, Inc.",
-      "return_30d": 38.761877229259525
+      "ticker": "WIX",
+      "name": "Wix.com Ltd.",
+      "return_30d": 51.42650132568185
     },
     {
       "ticker": "BMNR",
       "name": "Bitmine Immersion Technologies, Inc.",
-      "return_30d": 38.4402698687337
+      "return_30d": 49.074069474950434
     },
     {
-      "ticker": "AXTI",
-      "name": "AXT, Inc.",
-      "return_30d": 37.984658155085896
+      "ticker": "CHYM",
+      "name": "Chime Financial, Inc.",
+      "return_30d": 47.75990238755416
     },
     {
-      "ticker": "OPTU",
-      "name": "Optimum Communications, Inc.",
-      "return_30d": 37.83783348395588
-    },
-    {
-      "ticker": "TASK",
-      "name": "TaskUs, Inc.",
-      "return_30d": 37.61623661570892
-    },
-    {
-      "ticker": "CRM",
-      "name": "Salesforce, Inc.",
-      "return_30d": 37.08150739706313
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "return_30d": 36.78226141465297
-    },
-    {
-      "ticker": "SMCIP",
-      "name": "Super Micro Computer, Inc.",
-      "return_30d": 36.509211105478045
-    },
-    {
-      "ticker": "JILL",
-      "name": "J.Jill, Inc.",
-      "return_30d": 35.968386044798464
-    },
-    {
-      "ticker": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "return_30d": 35.723437376841225
-    },
-    {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp.",
-      "return_30d": 34.76828059417889
+      "ticker": "TWST",
+      "name": "Twist Bioscience Corporation",
+      "return_30d": 47.187324421845254
     },
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "return_30d": 33.998367181519406
+      "return_30d": 46.80532186263229
     },
     {
-      "ticker": "CDE",
-      "name": "Coeur Mining, Inc.",
-      "return_30d": 33.63636645122297
+      "ticker": "RBLX",
+      "name": "Roblox Corporation",
+      "return_30d": 44.07304245479637
+    },
+    {
+      "ticker": "EMBC",
+      "name": "Embecta Corp.",
+      "return_30d": 43.95603351929327
+    },
+    {
+      "ticker": "GTLB",
+      "name": "GitLab Inc.",
+      "return_30d": 42.71226425783243
+    },
+    {
+      "ticker": "APPN",
+      "name": "Appian Corporation",
+      "return_30d": 42.09941644751494
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI, Inc.",
+      "return_30d": 41.80533530685444
+    },
+    {
+      "ticker": "SMMT",
+      "name": "Summit Therapeutics Inc.",
+      "return_30d": 41.47464998981869
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce, Inc.",
+      "return_30d": 40.979234133517295
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "return_30d": 40.83374044930723
+    },
+    {
+      "ticker": "PD",
+      "name": "PagerDuty, Inc.",
+      "return_30d": 40.26465273725264
+    },
+    {
+      "ticker": "BTG",
+      "name": "B2Gold Corp.",
+      "return_30d": 39.19999440511069
+    },
+    {
+      "ticker": "RBRK",
+      "name": "Rubrik, Inc.",
+      "return_30d": 38.47428980522692
+    },
+    {
+      "ticker": "WGS",
+      "name": "GeneDx Holdings Corp.",
+      "return_30d": 37.828286012183135
+    },
+    {
+      "ticker": "SDGR",
+      "name": "Schrödinger, Inc.",
+      "return_30d": 37.05415805456995
+    },
+    {
+      "ticker": "U",
+      "name": "Unity Software Inc.",
+      "return_30d": 37.023027491083994
     }
   ]
 }
