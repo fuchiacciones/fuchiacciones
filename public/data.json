@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19 09:10 UTC",
+  "generated_at": "2026-09-20 09:10 UTC",
   "universe_count": 87,
   "available_count": 87,
   "periods": [
@@ -123,33 +123,33 @@
         "365": 48.80615271136808
       },
       "ret30": 2.914219970266574,
-      "vol_ratio": 1.3840395594778219,
+      "vol_ratio": 1.376140755133936,
       "ma20": 4492.0899658203125,
       "ma50": 4325.25,
       "ma200": 4553.351002197265,
-      "z30": -0.0856937869211452,
+      "z30": -0.0851532298481278,
       "technical_score": 2.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "WTI",
       "ticker": "CL=F",
-      "last": 100.30000305175781,
+      "last": 96.08000183105469,
       "returns": {
-        "30": 29.770994777679995,
-        "60": 42.5931308980299,
-        "90": 2.2738894298694357,
-        "120": 0.6623882639023249,
-        "365": 65.2388826871255
+        "30": 24.31103725314161,
+        "60": 36.59369751672632,
+        "90": -2.0291606709106125,
+        "120": -3.572859875954193,
+        "365": 58.28665671074684
       },
-      "ret30": 29.770994777679995,
-      "vol_ratio": 1.0017588322189557,
-      "ma20": 92.84150161743165,
-      "ma50": 86.39940048217774,
-      "ma200": 80.67885002136231,
-      "z30": 1.6910030381341628,
-      "technical_score": 9.0,
-      "observations": 503
+      "ret30": 24.31103725314161,
+      "vol_ratio": 1.00600939460909,
+      "ma20": 92.63050155639648,
+      "ma50": 86.31500045776367,
+      "ma200": 80.65775001525878,
+      "z30": 1.3516042667135582,
+      "technical_score": 5.0,
+      "observations": 502
     },
     {
       "name": "DXY",
@@ -167,9 +167,9 @@
       "ma20": 99.36249961853028,
       "ma50": 99.95060012817383,
       "ma200": 99.15240009307861,
-      "z30": 0.19216121362824407,
+      "z30": 0.19588125911059126,
       "technical_score": 5.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "Treasury 10Y",
@@ -194,25 +194,98 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 81401.90625,
+      "last": 80235.25,
       "returns": {
-        "30": 11.459444622078308,
-        "60": 22.39944853874043,
-        "90": 28.72402604020925,
-        "120": 7.83388762426267,
-        "365": -29.63721252870205
+        "30": 2.4255542887415604,
+        "60": 21.383181131278906,
+        "90": 25.461467471476308,
+        "120": 4.645528092942142,
+        "365": -30.665493956385625
       },
-      "ret30": 11.459444622078308,
-      "vol_ratio": 1.4291203246423732,
-      "ma20": 78333.410546875,
-      "ma50": 72844.4653125,
-      "ma200": 70462.9958984375,
-      "z30": 0.687357800851692,
-      "technical_score": 8.0,
+      "ret30": 2.4255542887415604,
+      "vol_ratio": 1.2451072602215334,
+      "ma20": 78409.330078125,
+      "ma50": 73190.539375,
+      "ma200": 70499.778125,
+      "z30": 0.04223870743404039,
+      "technical_score": 7.0,
       "observations": 731
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "date": "21/09 11:00 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "ECB President Lagarde Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "21/09 11:05 UTC",
+      "country": "CAD",
+      "impact": "Medium",
+      "title": "BOC Gov Macklem Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "22/09 07:00 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "ECB President Lagarde Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "23/09 03:15 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "French Flash Manufacturing PMI",
+      "forecast": "50.9",
+      "previous": "51.5"
+    },
+    {
+      "date": "23/09 03:15 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "French Flash Services PMI",
+      "forecast": "48.4",
+      "previous": "48.4"
+    },
+    {
+      "date": "23/09 03:30 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "German Flash Manufacturing PMI",
+      "forecast": "54.0",
+      "previous": "54.1"
+    },
+    {
+      "date": "23/09 03:30 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "German Flash Services PMI",
+      "forecast": "49.9",
+      "previous": "48.5"
+    },
+    {
+      "date": "23/09 04:30 UTC",
+      "country": "GBP",
+      "impact": "Medium",
+      "title": "Flash Manufacturing PMI",
+      "forecast": "51.4",
+      "previous": "51.5"
+    },
+    {
+      "date": "23/09 04:30 UTC",
+      "country": "GBP",
+      "impact": "Medium",
+      "title": "Flash Services PMI",
+      "forecast": "52.0",
+      "previous": "52.8"
+    }
+  ],
   "news": [],
   "results": [
     {
@@ -3263,6 +3336,11 @@
   ],
   "us_top_30_30d": [
     {
+      "ticker": "MRNA",
+      "name": "Moderna, Inc.",
+      "return_30d": 186.00072695975288
+    },
+    {
       "ticker": "ASST",
       "name": "Strive, Inc.",
       "return_30d": 144.43541126641827
@@ -3323,11 +3401,6 @@
       "return_30d": 51.04310946105266
     },
     {
-      "ticker": "CAI",
-      "name": "Caris Life Sciences, Inc.",
-      "return_30d": 49.89999771118163
-    },
-    {
       "ticker": "SBET",
       "name": "Sharplink, Inc.",
       "return_30d": 48.64865561485991
@@ -3368,11 +3441,6 @@
       "return_30d": 40.87342198580322
     },
     {
-      "ticker": "KRSA",
-      "name": "Korsana Biosciences, Inc.",
-      "return_30d": 40.40931609688199
-    },
-    {
       "ticker": "SMTC",
       "name": "Semtech Corporation",
       "return_30d": 37.260722418419604
@@ -3411,6 +3479,11 @@
       "ticker": "SWKS",
       "name": "Skyworks Solutions, Inc.",
       "return_30d": 32.794744164152064
+    },
+    {
+      "ticker": "PS",
+      "name": "Pershing Square Inc.",
+      "return_30d": 32.4913613996054
     }
   ]
 }
