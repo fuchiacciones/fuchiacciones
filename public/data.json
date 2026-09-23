@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22 09:10 UTC",
+  "generated_at": "2026-09-23 09:10 UTC",
   "universe_count": 87,
   "available_count": 87,
   "periods": [
@@ -94,80 +94,80 @@
     {
       "name": "VIX",
       "ticker": "^VIX",
-      "last": 14.84000015258789,
+      "last": 14.149999618530273,
       "returns": {
-        "30": -2.8795784559725424,
-        "60": -15.920677204957201,
-        "90": -19.479110651884767,
-        "120": -37.829913570021944,
-        "365": -63.55599285924667
+        "30": -7.395288836311975,
+        "60": -19.830028757198626,
+        "90": -23.22300930968263,
+        "120": -40.72057343511719,
+        "365": -65.25049313766709
       },
-      "ret30": -2.8795784559725424,
+      "ret30": -7.395288836311975,
       "vol_ratio": 0.0,
-      "ma20": 15.629500007629394,
-      "ma50": 16.094999961853027,
-      "ma200": 18.081900038719176,
-      "z30": -0.17994650440376772,
+      "ma20": 15.594999980926513,
+      "ma50": 16.081199951171875,
+      "ma200": 18.07845003604889,
+      "z30": -0.337043480750568,
       "technical_score": -9.0,
       "observations": 503
     },
     {
       "name": "Oro",
       "ticker": "GC=F",
-      "last": 4364.2001953125,
+      "last": 4355.7998046875,
       "returns": {
-        "30": -1.2557412844170446,
-        "60": 6.540058184179642,
-        "90": -7.276860343497182,
-        "120": -6.097768663157277,
-        "365": 41.722424294125645
+        "30": -1.9207018777569695,
+        "60": 7.84619351818685,
+        "90": -7.0326342760466565,
+        "120": -9.501158997117754,
+        "365": 37.082605969708894
       },
-      "ret30": -1.2557412844170446,
-      "vol_ratio": 1.3372294270699685,
-      "ma20": 4460.574975585938,
-      "ma50": 4337.823999023438,
-      "ma200": 4554.825003662109,
-      "z30": -0.6416006333558044,
+      "ret30": -1.9207018777569695,
+      "vol_ratio": 1.3180614323432869,
+      "ma20": 4444.249951171875,
+      "ma50": 4343.789990234375,
+      "ma200": 4555.450001220703,
+      "z30": -0.7296713027635162,
       "technical_score": -3.0,
-      "observations": 503
+      "observations": 504
     },
     {
       "name": "WTI",
       "ticker": "CL=F",
-      "last": 90.73999786376953,
+      "last": 89.9000015258789,
       "returns": {
-        "30": 10.483381101042522,
-        "60": 31.070335784812066,
-        "90": -10.176201861913691,
-        "120": -10.49516638183744,
-        "365": 45.5332800071069
+        "30": 8.052890412730097,
+        "60": 27.067139965906573,
+        "90": -11.139662792369009,
+        "120": -10.207751638372809,
+        "365": 49.65873478042471
       },
-      "ret30": 10.483381101042522,
-      "vol_ratio": 0.9372997894761568,
-      "ma20": 93.56400146484376,
-      "ma50": 87.1388003540039,
-      "ma200": 81.0235000038147,
-      "z30": 0.48547552173380815,
+      "ret30": 8.052890412730097,
+      "vol_ratio": 0.8945092757761911,
+      "ma20": 94.13350143432618,
+      "ma50": 87.4270004272461,
+      "ma200": 81.19390001296998,
+      "z30": 0.33342265677569793,
       "technical_score": 3.0,
-      "observations": 503
+      "observations": 504
     },
     {
       "name": "DXY",
       "ticker": "DX-Y.NYB",
-      "last": 100.44999694824219,
+      "last": 100.80000305175781,
       "returns": {
-        "30": 0.6412177189692114,
-        "60": -0.8977936628153826,
-        "90": 2.0003995980468092,
-        "120": 0.4901939458357152,
-        "365": -2.3809567942723042
+        "30": 0.9918901085864462,
+        "60": -0.5524837758698276,
+        "90": 2.355807895756823,
+        "120": 0.840340111023119,
+        "365": -2.0408148133923554
       },
-      "ret30": 0.6412177189692114,
+      "ret30": 0.9918901085864462,
       "vol_ratio": 0.0,
-      "ma20": 99.51649932861328,
-      "ma50": 99.92320007324219,
-      "ma200": 99.16575008392334,
-      "z30": 0.377258319457179,
+      "ma20": 99.53399963378907,
+      "ma50": 99.9302001953125,
+      "ma200": 99.16750011444091,
+      "z30": 0.5371604533419542,
       "technical_score": 5.0,
       "observations": 503
     },
@@ -194,33 +194,25 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 85800.0,
+      "last": 85996.109375,
       "returns": {
-        "30": 10.346224542268745,
-        "60": 33.85649465864151,
-        "90": 40.66696151601234,
-        "120": 11.024945735526614,
-        "365": -23.901431899493687
+        "30": 10.598438168476122,
+        "60": 34.16244469951793,
+        "90": 40.98847794848386,
+        "120": 11.278710685615234,
+        "365": -23.727496670722292
       },
-      "ret30": 10.346224542268745,
-      "vol_ratio": 1.259402543022669,
-      "ma20": 79339.638671875,
-      "ma50": 74117.886875,
-      "ma200": 70671.44140625,
-      "z30": 0.6074413775048153,
-      "technical_score": 8.0,
-      "observations": 731
+      "ret30": 10.598438168476122,
+      "vol_ratio": 1.2346019385470428,
+      "ma20": 79349.444140625,
+      "ma50": 74121.8090625,
+      "ma200": 70672.421953125,
+      "z30": 0.625427052337363,
+      "technical_score": 7.0,
+      "observations": 730
     }
   ],
   "calendar": [
-    {
-      "date": "22/09 07:00 UTC",
-      "country": "EUR",
-      "impact": "Medium",
-      "title": "ECB President Lagarde Speaks",
-      "forecast": "",
-      "previous": ""
-    },
     {
       "date": "23/09 03:15 UTC",
       "country": "EUR",
@@ -292,9 +284,63 @@
       "title": "Unemployment Claims",
       "forecast": "201K",
       "previous": "196K"
+    },
+    {
+      "date": "25/09 05:15 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "BOE Gov Bailey Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "25/09 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Revised UoM Consumer Sentiment",
+      "forecast": "47.4",
+      "previous": "47.8"
+    },
+    {
+      "date": "25/09 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Revised UoM Inflation Expectations",
+      "forecast": "",
+      "previous": "4.6%"
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Energy Vault acquires BESS portfolio of more than 2.3GW in US",
+      "link": "https://finance.yahoo.com/m/10350a6c-3a85-3c8c-bb70-593aa6443a23/energy-vault-acquires-bess.html",
+      "publisher": "Power Technology",
+      "published": 1790154539,
+      "related": [],
+      "theme": "Adquisiciones / fusiones",
+      "title_es": "Energy Vault adquiere la cartera de BESS de más de 2,3 GW en EE. UU."
+    },
+    {
+      "title": "Nutanix acquires France-based AI orchestration firm Ryax Technologies",
+      "link": "https://finance.yahoo.com/m/a92620a7-f9e0-32ed-8d73-324c0edaead7/nutanix-acquires-france-based.html",
+      "publisher": "Verdict",
+      "published": 1790154492,
+      "related": [
+        "NTNX"
+      ],
+      "theme": "Tecnología / IA",
+      "title_es": "Nutanix adquiere la empresa francesa de orquestación de IA Ryax Technologies"
+    },
+    {
+      "title": "Point-of-Care Diagnostics Market Poised for Strong Growth Through 2034, Driven by Rapid Testing Innovation, Decentralized Care and Expanding Global Access",
+      "link": "https://finance.yahoo.com/healthcare/articles/point-care-diagnostics-market-poised-090700171.html",
+      "publisher": "GlobeNewswire",
+      "published": 1790154420,
+      "related": [],
+      "theme": "Productos / innovación",
+      "title_es": "El mercado de diagnósticos en el punto de atención está preparado para un fuerte crecimiento hasta 2034, impulsado por la innovación en pruebas rápidas, la atención descentralizada y la expansión del acceso global"
+    }
+  ],
   "results": [
     {
       "ticker": "HPE",
@@ -308,13 +354,13 @@
         "365": 363.24081285389866
       },
       "ret30": 16.027806433004386,
-      "vol_ratio": 1.2703779935915829,
+      "vol_ratio": 1.2704621947047545,
       "ma20": 55.648000144958495,
       "ma50": 52.73500022888184,
       "ma200": 35.11845012664795,
       "z30": 0.5737724216778941,
       "technical_score": 10.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -343,7 +389,7 @@
         "365": 79.27773152452832
       },
       "ret30": 44.09122319768244,
-      "vol_ratio": 1.5758277354627346,
+      "vol_ratio": 1.5760678977973552,
       "ma20": 18.773499965667725,
       "ma50": 16.24279993057251,
       "ma200": 17.138174991607666,
@@ -384,7 +430,7 @@
       "ma200": 11.658749990463257,
       "z30": 0.9469840324204709,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -419,7 +465,7 @@
       "ma200": 72.22225008010864,
       "z30": 1.1310793910491983,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -454,7 +500,7 @@
       "ma200": 72.1207500076294,
       "z30": 0.31053972113790174,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -483,13 +529,13 @@
         "365": 135.2132643263844
       },
       "ret30": 6.441487230333198,
-      "vol_ratio": 0.6602460466773076,
+      "vol_ratio": 0.6602888702941482,
       "ma20": 176.05299911499023,
       "ma50": 159.38519927978516,
       "ma200": 151.81467472076417,
       "z30": -0.24149962254502658,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -518,13 +564,13 @@
         "365": 207.49786331782428
       },
       "ret30": 16.290461819260127,
-      "vol_ratio": 1.209386042714254,
+      "vol_ratio": 1.2094272622186002,
       "ma20": 218.7255012512207,
       "ma50": 208.32760009765624,
       "ma200": 147.57037490844726,
       "z30": 0.4362334776606305,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -535,41 +581,6 @@
         "reasons": [
           "30d +16.3%",
           "365d +207.5%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "last": 227.3800048828125,
-      "returns": {
-        "30": 1.5270575399270792,
-        "60": 16.16429881563144,
-        "90": 2.9894039949304174,
-        "120": 37.66422922051209,
-        "365": 132.87587700140728
-      },
-      "ret30": 1.5270575399270792,
-      "vol_ratio": 0.9251974418819346,
-      "ma20": 219.51149978637696,
-      "ma50": 214.6009994506836,
-      "ma200": 198.6077500152588,
-      "z30": -0.37781204344247094,
-      "technical_score": 9.0,
-      "observations": 1254,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 9.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +1.5%",
-          "365d +132.9%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -594,7 +605,7 @@
       "ma200": 263.98724975585935,
       "z30": 0.3845814282245084,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -623,13 +634,13 @@
         "365": 86.80700895203
       },
       "ret30": 8.186265443236351,
-      "vol_ratio": 0.6863512693965064,
+      "vol_ratio": 0.6863746981073892,
       "ma20": 324.1214996337891,
       "ma50": 320.6153991699219,
       "ma200": 286.6051493835449,
       "z30": 0.7081475961090282,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -658,13 +669,13 @@
         "365": 635.9158584683452
       },
       "ret30": 27.3419476549271,
-      "vol_ratio": 0.6698803201807612,
+      "vol_ratio": 0.6701289511033981,
       "ma20": 497.86700134277345,
       "ma50": 496.9996032714844,
       "ma200": 356.62550048828126,
       "z30": 0.7478703991910549,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -693,13 +704,13 @@
         "365": 40.169341609618535
       },
       "ret30": 0.32400550987592425,
-      "vol_ratio": 0.5064532270475154,
+      "vol_ratio": 0.5065193155967301,
       "ma20": 498.4285003662109,
       "ma50": 467.0107995605469,
       "ma200": 431.6611993408203,
       "z30": -0.17524485842959103,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -728,13 +739,13 @@
         "365": 43.58353510895885
       },
       "ret30": 25.190006850864123,
-      "vol_ratio": 0.9660106054287794,
+      "vol_ratio": 0.9662646966938203,
       "ma20": 624.1774993896485,
       "ma50": 608.8197961425781,
       "ma200": 624.6292477416993,
       "z30": 1.9310652713770946,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -769,7 +780,7 @@
       "ma200": 12.477999992370606,
       "z30": -0.15546975157580428,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -798,13 +809,13 @@
         "365": 124.55288894213096
       },
       "ret30": 25.580606413334305,
-      "vol_ratio": 0.7685161913096942,
+      "vol_ratio": 0.7685847837036488,
       "ma20": 144.32900009155273,
       "ma50": 133.31480010986328,
       "ma200": 111.67310005187989,
       "z30": 1.5817199732740803,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -839,7 +850,7 @@
       "ma200": 354.532950592041,
       "z30": -0.280471223027201,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -868,13 +879,13 @@
         "365": 75.00294234713876
       },
       "ret30": 2.5503700619713188,
-      "vol_ratio": 0.7786957046754341,
+      "vol_ratio": 0.7787860870856042,
       "ma20": 714.6369934082031,
       "ma50": 710.2703967285156,
       "ma200": 663.1965991210938,
       "z30": -0.03480302694918223,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -903,13 +914,13 @@
         "365": 74.92980266050824
       },
       "ret30": 2.5428204555719702,
-      "vol_ratio": 0.7764943607533781,
+      "vol_ratio": 0.7766280156504934,
       "ma20": 294.2540008544922,
       "ma50": 292.4554016113281,
       "ma200": 273.05890060424804,
       "z30": -0.036576735883166754,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -938,13 +949,13 @@
         "365": 53.35659473252012
       },
       "ret30": 0.03103616265474063,
-      "vol_ratio": 0.8016534832666508,
+      "vol_ratio": 0.8019104222294982,
       "ma20": 764.692495727539,
       "ma50": 760.1019982910157,
       "ma200": 716.7413998413086,
       "z30": -0.4846651432151233,
       "technical_score": 9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -973,13 +984,13 @@
         "365": -6.298891020903408
       },
       "ret30": 18.789146190708195,
-      "vol_ratio": 1.3709617960677576,
+      "vol_ratio": 1.3721901900556608,
       "ma20": 19.914999866485594,
       "ma50": 20.10599998474121,
       "ma200": 22.18900007247925,
       "z30": 0.47426996018644113,
       "technical_score": 8.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -990,41 +1001,6 @@
         "reasons": [
           "30d +18.8%",
           "365d -6.3%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "EL",
-      "name": "Estée Lauder",
-      "last": 96.33999633789062,
-      "returns": {
-        "30": 9.043574421916833,
-        "60": 18.208584463669485,
-        "90": 13.488039852240142,
-        "120": 41.718140012513636,
-        "365": 81.94522181257553
-      },
-      "ret30": 9.043574421916833,
-      "vol_ratio": 1.4885481116377501,
-      "ma20": 99.97799987792969,
-      "ma50": 91.43579956054687,
-      "ma200": 92.51624996185302,
-      "z30": 0.6438943442950493,
-      "technical_score": 8.0,
-      "observations": 1254,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 8.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +9.0%",
-          "365d +81.9%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -1043,13 +1019,13 @@
         "365": 27.829351864302332
       },
       "ret30": 30.891923868977077,
-      "vol_ratio": 1.3660071428447713,
+      "vol_ratio": 1.3662258101950078,
       "ma20": 181.6779998779297,
       "ma50": 167.50079956054688,
       "ma200": 188.91004951477052,
       "z30": 0.7516464568957261,
       "technical_score": 8.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1067,6 +1043,53 @@
       }
     },
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "last": 227.3800048828125,
+      "returns": {
+        "30": 1.5270575399270792,
+        "60": 16.16429881563144,
+        "90": 2.9894039949304174,
+        "120": 37.66422922051209,
+        "365": 132.87587700140728
+      },
+      "ret30": 1.5270575399270792,
+      "vol_ratio": 0.9252792303320716,
+      "ma20": 219.51149978637696,
+      "ma50": 214.6009994506836,
+      "ma200": 198.6077500152588,
+      "z30": -0.37781204344247094,
+      "technical_score": 9.0,
+      "observations": 1253,
+      "news_score": -1.0,
+      "news_count": 1,
+      "cross": {
+        "score": 8.5,
+        "action": "COMPRAR",
+        "news_score": -1.0,
+        "news_count": 1,
+        "reasons": [
+          "30d +1.5%",
+          "365d +132.9%",
+          "sobre MM50",
+          "noticias desfavorables"
+        ],
+        "news": [
+          {
+            "title": "Warren Buffett Just Stepped Down After More Than 60 Years Leading Berkshire — and His Biggest Warning for Investors Has Never Been More Timely",
+            "link": "https://finance.yahoo.com/m/5ea31bb3-3116-37c1-a745-bd7296cb4f08/warren-buffett-just-stepped.html",
+            "publisher": "Motley Fool",
+            "published": 1790154241,
+            "related": [
+              "BRK-B",
+              "NVDA"
+            ],
+            "sentiment": -1.0
+          }
+        ]
+      }
+    },
+    {
       "ticker": "BITX",
       "name": "2x Bitcoin Strategy ETF",
       "last": 21.114999771118164,
@@ -1078,7 +1101,7 @@
         "365": -32.90435261573749
       },
       "ret30": 70.1450445667921,
-      "vol_ratio": 1.5695060595088757,
+      "vol_ratio": 1.5698953569975818,
       "ma20": 17.773500061035158,
       "ma50": 14.613600006103516,
       "ma200": 18.24447500228882,
@@ -1119,7 +1142,7 @@
       "ma200": 44.17909997940063,
       "z30": 0.06111964108493443,
       "technical_score": 7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1148,13 +1171,13 @@
         "365": 522.2790019332738
       },
       "ret30": 19.80324343457398,
-      "vol_ratio": 0.9516469211149818,
+      "vol_ratio": 0.9520423772150806,
       "ma20": 97.45350074768066,
       "ma50": 97.33240005493164,
       "ma200": 77.54744995117187,
       "z30": 0.42626449223165347,
       "technical_score": 7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1169,6 +1192,53 @@
           "sin sesgo noticioso fuerte"
         ],
         "news": []
+      }
+    },
+    {
+      "ticker": "EL",
+      "name": "Estée Lauder",
+      "last": 96.33999633789062,
+      "returns": {
+        "30": 9.043574421916833,
+        "60": 18.208584463669485,
+        "90": 13.488039852240142,
+        "120": 41.718140012513636,
+        "365": 81.94522181257553
+      },
+      "ret30": 9.043574421916833,
+      "vol_ratio": 1.4885481116377501,
+      "ma20": 99.97799987792969,
+      "ma50": 91.43579956054687,
+      "ma200": 92.51624996185302,
+      "z30": 0.6438943442950493,
+      "technical_score": 8.0,
+      "observations": 1253,
+      "news_score": -1.0,
+      "news_count": 1,
+      "cross": {
+        "score": 7.5,
+        "action": "COMPRAR",
+        "news_score": -1.0,
+        "news_count": 1,
+        "reasons": [
+          "30d +9.0%",
+          "365d +81.9%",
+          "sobre MM50",
+          "noticias desfavorables"
+        ],
+        "news": [
+          {
+            "title": "Warren Buffett Just Stepped Down After More Than 60 Years Leading Berkshire — and His Biggest Warning for Investors Has Never Been More Timely",
+            "link": "https://finance.yahoo.com/m/5ea31bb3-3116-37c1-a745-bd7296cb4f08/warren-buffett-just-stepped.html",
+            "publisher": "Motley Fool",
+            "published": 1790154241,
+            "related": [
+              "BRK-B",
+              "NVDA"
+            ],
+            "sentiment": -1.0
+          }
+        ]
       }
     },
     {
@@ -1189,7 +1259,7 @@
       "ma200": 125.98364974975586,
       "z30": 0.34932545124886016,
       "technical_score": 7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1224,7 +1294,7 @@
       "ma200": 152.3039500427246,
       "z30": 0.2682362067305039,
       "technical_score": 7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1253,13 +1323,13 @@
         "365": 141.88756471598168
       },
       "ret30": 0.18910907446203495,
-      "vol_ratio": 0.7207176236965525,
+      "vol_ratio": 0.7207778083018684,
       "ma20": 342.2939987182617,
       "ma50": 345.5329986572266,
       "ma200": 337.6916993713379,
       "z30": -0.4042436437751797,
       "technical_score": 7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1270,41 +1340,6 @@
         "reasons": [
           "30d +0.2%",
           "365d +141.9%",
-          "sobre MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "V",
-      "name": "Visa",
-      "last": 369.95001220703125,
-      "returns": {
-        "30": 2.055175781250007,
-        "60": 11.929693968290778,
-        "90": 13.335579005156163,
-        "120": 23.506043150676483,
-        "365": 18.4522296142837
-      },
-      "ret30": 2.055175781250007,
-      "vol_ratio": 0.8186257341590183,
-      "ma20": 374.9830032348633,
-      "ma50": 367.50000366210935,
-      "ma200": 336.1430500793457,
-      "z30": 0.03206256670936841,
-      "technical_score": 7.0,
-      "observations": 1254,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 7.5,
-        "action": "COMPRAR",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d +2.1%",
-          "365d +18.5%",
           "sobre MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -1323,7 +1358,7 @@
         "365": -31.647059496711282
       },
       "ret30": 32.19567617733481,
-      "vol_ratio": 0.33228815973086895,
+      "vol_ratio": 0.3322923853763481,
       "ma20": 10.596499919891357,
       "ma50": 9.52359998703003,
       "ma200": 10.233149993419648,
@@ -1358,13 +1393,13 @@
         "365": 59.64217018395568
       },
       "ret30": 8.626085364300273,
-      "vol_ratio": 0.9803479463785479,
+      "vol_ratio": 0.9804290340434743,
       "ma20": 64.04849948883057,
       "ma50": 61.32419998168945,
       "ma200": 55.81482490539551,
       "z30": 1.0311204733083716,
       "technical_score": 7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1399,7 +1434,7 @@
       "ma200": 113.99489986419678,
       "z30": 0.21322764895278956,
       "technical_score": 7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1434,7 +1469,7 @@
       "ma200": 155.99200004577636,
       "z30": 0.2165318119480842,
       "technical_score": 7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1452,6 +1487,53 @@
       }
     },
     {
+      "ticker": "V",
+      "name": "Visa",
+      "last": 369.95001220703125,
+      "returns": {
+        "30": 2.055175781250007,
+        "60": 11.929693968290778,
+        "90": 13.335579005156163,
+        "120": 23.506043150676483,
+        "365": 18.4522296142837
+      },
+      "ret30": 2.055175781250007,
+      "vol_ratio": 0.8187208028904187,
+      "ma20": 374.9830032348633,
+      "ma50": 367.50000366210935,
+      "ma200": 336.1430500793457,
+      "z30": 0.03206256670936841,
+      "technical_score": 7.0,
+      "observations": 1253,
+      "news_score": -1.0,
+      "news_count": 1,
+      "cross": {
+        "score": 6.5,
+        "action": "COMPRAR",
+        "news_score": -1.0,
+        "news_count": 1,
+        "reasons": [
+          "30d +2.1%",
+          "365d +18.5%",
+          "sobre MM50",
+          "noticias desfavorables"
+        ],
+        "news": [
+          {
+            "title": "Warren Buffett Just Stepped Down After More Than 60 Years Leading Berkshire — and His Biggest Warning for Investors Has Never Been More Timely",
+            "link": "https://finance.yahoo.com/m/5ea31bb3-3116-37c1-a745-bd7296cb4f08/warren-buffett-just-stepped.html",
+            "publisher": "Motley Fool",
+            "published": 1790154241,
+            "related": [
+              "BRK-B",
+              "NVDA"
+            ],
+            "sentiment": -1.0
+          }
+        ]
+      }
+    },
+    {
       "ticker": "KO",
       "name": "Coca-Cola",
       "last": 87.12000274658203,
@@ -1463,13 +1545,13 @@
         "365": 27.424307805717252
       },
       "ret30": 0.08041320203355795,
-      "vol_ratio": 0.8122998253201935,
+      "vol_ratio": 0.8123220832878674,
       "ma20": 88.78050003051757,
       "ma50": 87.12339981079101,
       "ma200": 79.25150005340576,
       "z30": -0.27077507579311194,
       "technical_score": 5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1498,13 +1580,13 @@
         "365": -3.189880975700221
       },
       "ret30": 22.662649907068968,
-      "vol_ratio": 1.2011691008184173,
+      "vol_ratio": 1.201216212593316,
       "ma20": 244.57349853515626,
       "ma50": 208.38919952392578,
       "ma200": 201.57545051574706,
       "z30": 1.6550800479237946,
       "technical_score": 5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1533,13 +1615,13 @@
         "365": 60.87273290486106
       },
       "ret30": 14.21876046319328,
-      "vol_ratio": 0.8969313259308413,
+      "vol_ratio": 0.8970591448238291,
       "ma20": 360.22249908447264,
       "ma50": 349.59639831542967,
       "ma200": 397.0559495544434,
       "z30": 0.5610213161536465,
       "technical_score": 5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1568,13 +1650,13 @@
         "365": 127.81664310512117
       },
       "ret30": 5.050618474083746,
-      "vol_ratio": 1.1590049546918797,
+      "vol_ratio": 1.1590472514489127,
       "ma20": 98.21450004577636,
       "ma50": 88.35259994506836,
       "ma200": 90.73479976654053,
       "z30": -0.02763932194501201,
       "technical_score": 5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1609,7 +1691,7 @@
       "ma200": 215.4407501220703,
       "z30": -1.5942807260707779,
       "technical_score": 3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1638,13 +1720,13 @@
         "365": 47.466632607334994
       },
       "ret30": -5.8401333932092125,
-      "vol_ratio": 0.5958232319762954,
+      "vol_ratio": 0.5958958047843982,
       "ma20": 256.1245002746582,
       "ma50": 256.1020001220703,
       "ma200": 240.4208999633789,
       "z30": -0.912484180250875,
       "technical_score": 3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1673,13 +1755,13 @@
         "365": 135.10451769130972
       },
       "ret30": -0.7355662699908172,
-      "vol_ratio": 0.7185007279960779,
+      "vol_ratio": 0.7185467924477998,
       "ma20": 338.9144989013672,
       "ma50": 343.3940002441406,
       "ma200": 336.3529493713379,
       "z30": -0.49102312754758404,
       "technical_score": 3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1708,13 +1790,13 @@
         "365": 119.71261020314881
       },
       "ret30": 3.704349683678676,
-      "vol_ratio": 1.0967439453552277,
+      "vol_ratio": 1.0970597674421187,
       "ma20": 59.60249996185303,
       "ma50": 56.92859985351563,
       "ma200": 65.83505002975464,
       "z30": -0.0831548824456835,
       "technical_score": 3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1743,13 +1825,13 @@
         "365": 11.977450105231169
       },
       "ret30": 1.3174647551894125,
-      "vol_ratio": 0.5757364586114109,
+      "vol_ratio": 0.5757631745309053,
       "ma20": 49.93600025177002,
       "ma50": 47.77860038757324,
       "ma200": 46.15985004425049,
       "z30": -0.06598986263531424,
       "technical_score": 1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1784,7 +1866,7 @@
       "ma200": 58.93109998703003,
       "z30": -0.42328366228492575,
       "technical_score": 1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1819,7 +1901,7 @@
       "ma200": 75.11934986114503,
       "z30": -0.8998943768982337,
       "technical_score": 1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1848,13 +1930,13 @@
         "365": 16.829186285137745
       },
       "ret30": 1.0474719367296936,
-      "vol_ratio": 0.7545077697693815,
+      "vol_ratio": 0.7545862817266907,
       "ma20": 149.5154998779297,
       "ma50": 141.16080001831054,
       "ma200": 165.98849979400634,
       "z30": -0.08510976160838643,
       "technical_score": 1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1883,13 +1965,13 @@
         "365": 64.16713511328818
       },
       "ret30": -1.5327759669796936,
-      "vol_ratio": 0.7038559376528108,
+      "vol_ratio": 0.7039471246311652,
       "ma20": 354.49400329589844,
       "ma50": 353.510400390625,
       "ma200": 320.7566508483887,
       "z30": -0.7460611803009118,
       "technical_score": 1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1924,7 +2006,7 @@
       "ma200": 360.6219010925293,
       "z30": -0.7775019138775261,
       "technical_score": 1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -1935,41 +2017,6 @@
         "reasons": [
           "30d -4.3%",
           "365d +35.7%",
-          "bajo MM50",
-          "sin sesgo noticioso fuerte"
-        ],
-        "news": []
-      }
-    },
-    {
-      "ticker": "BRK-B",
-      "name": "Berkshire Hathaway Class B",
-      "last": 502.010009765625,
-      "returns": {
-        "30": -3.7926367363572466,
-        "60": 2.910971951804986,
-        "90": 3.5157577142373775,
-        "120": 5.7620203708979245,
-        "365": 2.371631136467678
-      },
-      "ret30": -3.7926367363572466,
-      "vol_ratio": 1.0528553670522358,
-      "ma20": 507.52100067138673,
-      "ma50": 505.2521984863281,
-      "ma200": 492.5868995666504,
-      "z30": -1.1979728876403524,
-      "technical_score": 1.0,
-      "observations": 1254,
-      "news_score": 0.0,
-      "news_count": 0,
-      "cross": {
-        "score": 1.5,
-        "action": "MANTENER",
-        "news_score": 0.0,
-        "news_count": 0,
-        "reasons": [
-          "30d -3.8%",
-          "365d +2.4%",
           "bajo MM50",
           "sin sesgo noticioso fuerte"
         ],
@@ -1994,7 +2041,7 @@
       "ma200": 1512.4822988891601,
       "z30": -0.4568530763147259,
       "technical_score": 1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2029,7 +2076,7 @@
       "ma200": 501.2898503112793,
       "z30": -1.374969809519593,
       "technical_score": 1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2044,6 +2091,53 @@
           "sin sesgo noticioso fuerte"
         ],
         "news": []
+      }
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway Class B",
+      "last": 502.010009765625,
+      "returns": {
+        "30": -3.7926367363572466,
+        "60": 2.910971951804986,
+        "90": 3.5157577142373775,
+        "120": 5.7620203708979245,
+        "365": 2.371631136467678
+      },
+      "ret30": -3.7926367363572466,
+      "vol_ratio": 1.053034275247548,
+      "ma20": 507.52100067138673,
+      "ma50": 505.2521984863281,
+      "ma200": 492.5868995666504,
+      "z30": -1.1979728876403524,
+      "technical_score": 1.0,
+      "observations": 1253,
+      "news_score": -1.0,
+      "news_count": 1,
+      "cross": {
+        "score": 0.5,
+        "action": "MANTENER",
+        "news_score": -1.0,
+        "news_count": 1,
+        "reasons": [
+          "30d -3.8%",
+          "365d +2.4%",
+          "bajo MM50",
+          "noticias desfavorables"
+        ],
+        "news": [
+          {
+            "title": "Warren Buffett Just Stepped Down After More Than 60 Years Leading Berkshire — and His Biggest Warning for Investors Has Never Been More Timely",
+            "link": "https://finance.yahoo.com/m/5ea31bb3-3116-37c1-a745-bd7296cb4f08/warren-buffett-just-stepped.html",
+            "publisher": "Motley Fool",
+            "published": 1790154241,
+            "related": [
+              "BRK-B",
+              "NVDA"
+            ],
+            "sentiment": -1.0
+          }
+        ]
       }
     },
     {
@@ -2064,7 +2158,7 @@
       "ma200": 2.9408999943733214,
       "z30": -0.1064715724866269,
       "technical_score": -1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2099,7 +2193,7 @@
       "ma200": 42.13482507705689,
       "z30": -0.5853538032389433,
       "technical_score": -1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2128,13 +2222,13 @@
         "365": -10.097385905811063
       },
       "ret30": -10.919249697413846,
-      "vol_ratio": 0.6837246361294914,
+      "vol_ratio": 0.6837436741119629,
       "ma20": 55.16525001525879,
       "ma50": 56.67549995422363,
       "ma200": 50.6188250541687,
       "z30": -0.8593017963075498,
       "technical_score": -1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2163,13 +2257,13 @@
         "365": 62.900494945687214
       },
       "ret30": -8.247584669131614,
-      "vol_ratio": 1.002986763961218,
+      "vol_ratio": 1.0030037508715903,
       "ma20": 61.189999961853026,
       "ma50": 61.90499977111816,
       "ma200": 55.25984996795654,
       "z30": -1.3585114696091443,
       "technical_score": -1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2239,7 +2333,7 @@
       "ma200": 92.73630016326905,
       "z30": -0.3689132147528798,
       "technical_score": -1.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2274,7 +2368,7 @@
       "ma200": 35.25314993858338,
       "z30": 0.44281902696165104,
       "technical_score": -3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2309,7 +2403,7 @@
       "ma200": 39.89515005111694,
       "z30": -1.1809569868289702,
       "technical_score": -3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2379,7 +2473,7 @@
       "ma200": 84.23025016784668,
       "z30": -0.671193284184158,
       "technical_score": -3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2414,7 +2508,7 @@
       "ma200": 75.64510013580322,
       "z30": -0.9196636581003914,
       "technical_score": -3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2443,13 +2537,13 @@
         "365": 9.21871705378392
       },
       "ret30": -9.859047816416366,
-      "vol_ratio": 0.9329916206929302,
+      "vol_ratio": 0.933112948535584,
       "ma20": 112.99849967956543,
       "ma50": 118.05359970092773,
       "ma200": 133.05769985198975,
       "z30": -0.6940670579067058,
       "technical_score": -3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2484,7 +2578,7 @@
       "ma200": 264.6217000579834,
       "z30": -0.34988046225785,
       "technical_score": -3.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2519,21 +2613,33 @@
       "ma200": 322.61210037231444,
       "z30": -1.918922130137577,
       "technical_score": -3.0,
-      "observations": 1254,
-      "news_score": 0.0,
-      "news_count": 0,
+      "observations": 1253,
+      "news_score": -1.0,
+      "news_count": 1,
       "cross": {
-        "score": -2.5,
+        "score": -3.5,
         "action": "REDUCIR / EVITAR",
-        "news_score": 0.0,
-        "news_count": 0,
+        "news_score": -1.0,
+        "news_count": 1,
         "reasons": [
           "30d -13.8%",
           "365d +90.2%",
           "bajo MM50",
-          "sin sesgo noticioso fuerte"
+          "noticias desfavorables"
         ],
-        "news": []
+        "news": [
+          {
+            "title": "Warren Buffett Just Stepped Down After More Than 60 Years Leading Berkshire — and His Biggest Warning for Investors Has Never Been More Timely",
+            "link": "https://finance.yahoo.com/m/5ea31bb3-3116-37c1-a745-bd7296cb4f08/warren-buffett-just-stepped.html",
+            "publisher": "Motley Fool",
+            "published": 1790154241,
+            "related": [
+              "BRK-B",
+              "NVDA"
+            ],
+            "sentiment": -1.0
+          }
+        ]
       }
     },
     {
@@ -2554,7 +2660,7 @@
       "ma200": 56.22281999588013,
       "z30": -1.1702140232319986,
       "technical_score": -5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2589,7 +2695,7 @@
       "ma200": 64.62754999160767,
       "z30": -1.6252085542524897,
       "technical_score": -5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2624,7 +2730,7 @@
       "ma200": 83.80520015716553,
       "z30": -0.32071716122250793,
       "technical_score": -5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2659,7 +2765,7 @@
       "ma200": 98.3037502670288,
       "z30": -1.0495453602138165,
       "technical_score": -5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2694,7 +2800,7 @@
       "ma200": 227.7907511138916,
       "z30": -1.2053527433624898,
       "technical_score": -5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2729,7 +2835,7 @@
       "ma200": 335.32984954833984,
       "z30": -1.2614619925415222,
       "technical_score": -5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2758,13 +2864,13 @@
         "365": -28.042693200925704
       },
       "ret30": -7.251643408520014,
-      "vol_ratio": 0.8480484521397308,
+      "vol_ratio": 0.8481128447638264,
       "ma20": 389.67449951171875,
       "ma50": 403.38559814453123,
       "ma200": 354.5852491760254,
       "z30": -0.5238111428054841,
       "technical_score": -5.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2799,7 +2905,7 @@
       "ma200": 11.196849989891053,
       "z30": -0.6370251176153457,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2834,7 +2940,7 @@
       "ma200": 12.024400005340576,
       "z30": -0.8033350948358601,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2869,7 +2975,7 @@
       "ma200": 29.020850086212157,
       "z30": -1.0958873704957284,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2898,13 +3004,13 @@
         "365": -37.4607171295254
       },
       "ret30": -15.785017666988866,
-      "vol_ratio": 0.9802112140433931,
+      "vol_ratio": 0.9804955652048591,
       "ma20": 44.834499549865725,
       "ma50": 46.70819976806641,
       "ma200": 46.109949913024906,
       "z30": -0.9926966597196711,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2939,7 +3045,7 @@
       "ma200": 84.00019985198975,
       "z30": -1.6811035009830761,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -2968,13 +3074,13 @@
         "365": -15.467311529561655
       },
       "ret30": -1.0520620255167978,
-      "vol_ratio": 0.6565472883108734,
+      "vol_ratio": 0.6565827575738427,
       "ma20": 78.60350036621094,
       "ma50": 75.71699966430664,
       "ma200": 85.30179977416992,
       "z30": -0.3347294250327539,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3009,7 +3115,7 @@
       "ma200": 87.65495018005372,
       "z30": -0.7904538580160448,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3044,7 +3150,7 @@
       "ma200": 143.89049995422363,
       "z30": -1.1989748677376304,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3079,7 +3185,7 @@
       "ma200": 243.03999992370606,
       "z30": -1.289162532243333,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3108,13 +3214,13 @@
         "365": 10.80528732950814
       },
       "ret30": -6.764505209016713,
-      "vol_ratio": 1.0363026871908985,
+      "vol_ratio": 1.0364012265693372,
       "ma20": 42.436499786376956,
       "ma50": 43.72440002441406,
       "ma200": 44.536999950408934,
       "z30": -1.5836831785637184,
       "technical_score": -7.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3149,7 +3255,7 @@
       "ma200": 47.898299884796145,
       "z30": -0.6400555703919757,
       "technical_score": -9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3184,7 +3290,7 @@
       "ma200": 92.89000015258789,
       "z30": -0.65934640772915,
       "technical_score": -9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3219,7 +3325,7 @@
       "ma200": 102.3143501663208,
       "z30": -1.8835865624140056,
       "technical_score": -9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3254,7 +3360,7 @@
       "ma200": 960.299347229004,
       "z30": -1.0980731080804649,
       "technical_score": -9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3289,7 +3395,7 @@
       "ma200": 26.096974992752074,
       "z30": -0.4667365573960678,
       "technical_score": -9.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3324,7 +3430,7 @@
       "ma200": 149.0258996963501,
       "z30": -1.19302601666148,
       "technical_score": -10.0,
-      "observations": 1254,
+      "observations": 1253,
       "news_score": 0.0,
       "news_count": 0,
       "cross": {
@@ -3354,19 +3460,9 @@
       "return_30d": 143.02885445676174
     },
     {
-      "ticker": "SST",
-      "name": "System1, Inc.",
-      "return_30d": 132.33534216457662
-    },
-    {
       "ticker": "PURR",
       "name": "Hyperliquid Strategies Inc.",
       "return_30d": 98.97210432580931
-    },
-    {
-      "ticker": "SECZ",
-      "name": "Securitize Corp.",
-      "return_30d": 75.09727539825799
     },
     {
       "ticker": "BLSH",
@@ -3379,9 +3475,9 @@
       "return_30d": 68.48314808600307
     },
     {
-      "ticker": "SDGR",
-      "name": "Schrödinger, Inc.",
-      "return_30d": 66.51982392735269
+      "ticker": "FEAM",
+      "name": "5E Advanced Materials, Inc.",
+      "return_30d": 65.3333346048991
     },
     {
       "ticker": "IOVA",
@@ -3389,24 +3485,14 @@
       "return_30d": 60.7255415636528
     },
     {
-      "ticker": "STDN",
-      "name": "Standard Nuclear, Inc.",
-      "return_30d": 59.952614587534136
-    },
-    {
-      "ticker": "GRAL",
-      "name": "GRAIL, Inc.",
-      "return_30d": 55.3972308637324
+      "ticker": "BTGO",
+      "name": "BitGo Holdings, Inc.",
+      "return_30d": 55.33597277467117
     },
     {
       "ticker": "SBET",
       "name": "Sharplink, Inc.",
       "return_30d": 55.20995036814722
-    },
-    {
-      "ticker": "TXG",
-      "name": "10x Genomics, Inc.",
-      "return_30d": 52.027676974683246
     },
     {
       "ticker": "BMNR",
@@ -3432,11 +3518,6 @@
       "ticker": "CRCL",
       "name": "Circle Internet Group",
       "return_30d": 41.727914292613086
-    },
-    {
-      "ticker": "WIX",
-      "name": "Wix.com Ltd.",
-      "return_30d": 38.75414903768559
     },
     {
       "ticker": "SKHY",
@@ -3474,24 +3555,49 @@
       "return_30d": 31.428571428571427
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "return_30d": 30.891923868977077
-    },
-    {
       "ticker": "GLXY",
       "name": "Galaxy Digital",
       "return_30d": 29.251361409089014
     },
     {
-      "ticker": "OKTA",
-      "name": "Okta, Inc.",
-      "return_30d": 28.99810705430903
-    },
-    {
       "ticker": "XP",
       "name": "XP Inc.",
       "return_30d": 27.955671056113275
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "return_30d": 27.3419476549271
+    },
+    {
+      "ticker": "PS",
+      "name": "Pershing Square Inc.",
+      "return_30d": 27.323120861348137
+    },
+    {
+      "ticker": "SMTC",
+      "name": "Semtech Corporation",
+      "return_30d": 27.219909228700057
+    },
+    {
+      "ticker": "ILMN",
+      "name": "Illumina, Inc.",
+      "return_30d": 27.05894807067979
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "return_30d": 26.784496878937468
+    },
+    {
+      "ticker": "SMCIP",
+      "name": "Super Micro Computer, Inc.",
+      "return_30d": 26.758752851099853
+    },
+    {
+      "ticker": "P",
+      "name": "Everpure, Inc.",
+      "return_30d": 26.218767140719912
     }
   ]
 }
