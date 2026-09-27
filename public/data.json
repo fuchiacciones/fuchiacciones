@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26 09:10 UTC",
+  "generated_at": "2026-09-27 09:10 UTC",
   "universe_count": 87,
   "available_count": 87,
   "periods": [
@@ -123,13 +123,13 @@
         "365": 33.936711710433464
       },
       "ret30": -2.2441342236627304,
-      "vol_ratio": 1.357146512018048,
+      "vol_ratio": 1.3500837657390108,
       "ma20": 4407.4749755859375,
       "ma50": 4354.547993164062,
       "ma200": 4556.055501708985,
-      "z30": -0.7684166846578477,
+      "z30": -0.7686185768336593,
       "technical_score": -5.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "WTI",
@@ -143,13 +143,13 @@
         "365": 50.18690963017336
       },
       "ret30": 13.735389122596153,
-      "vol_ratio": 1.000890748976497,
+      "vol_ratio": 0.9906315807164827,
       "ma20": 95.30950164794922,
       "ma50": 88.04160064697265,
       "ma200": 81.54550003051757,
-      "z30": 0.6813456096993131,
+      "z30": 0.6812213694330383,
       "technical_score": 3.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "DXY",
@@ -167,9 +167,9 @@
       "ma20": 99.82949943542481,
       "ma50": 99.95,
       "ma200": 99.19795013427735,
-      "z30": 0.5562912350019702,
+      "z30": 0.5618802654579066,
       "technical_score": 7.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "Treasury 10Y",
@@ -194,25 +194,74 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 84122.7265625,
+      "last": 84608.640625,
       "returns": {
-        "30": 4.815980585935997,
-        "60": 31.706483533278472,
-        "90": 41.30593016046491,
-        "120": 14.651537961832828,
-        "365": -23.324621195020356
+        "30": 8.709143502032713,
+        "60": 32.39096552786833,
+        "90": 40.68992574092629,
+        "120": 14.716058343208216,
+        "365": -22.86001093075297
       },
-      "ret30": 4.815980585935997,
-      "vol_ratio": 1.086913300917244,
-      "ma20": 80148.357421875,
-      "ma50": 75707.81171875,
-      "ma200": 71000.0430078125,
-      "z30": 0.21180733909871136,
+      "ret30": 8.709143502032713,
+      "vol_ratio": 1.0286033440843478,
+      "ma20": 80437.183203125,
+      "ma50": 76107.5653125,
+      "ma200": 71073.4804296875,
+      "z30": 0.489283632307112,
       "technical_score": 7.0,
       "observations": 731
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "date": "28/09 09:30 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "ECB President Lagarde Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "29/09 07:00 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "ECB President Lagarde Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "29/09 08:30 UTC",
+      "country": "CAD",
+      "impact": "Medium",
+      "title": "GDP m/m",
+      "forecast": "0.1%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "29/09 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "CB Consumer Confidence",
+      "forecast": "90.1",
+      "previous": "89.4"
+    },
+    {
+      "date": "29/09 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "JOLTS Job Openings",
+      "forecast": "7.23M",
+      "previous": "7.27M"
+    },
+    {
+      "date": "30/09 02:29 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "German Prelim CPI m/m",
+      "forecast": "0.5%",
+      "previous": "0.2%"
+    }
+  ],
   "news": [],
   "results": [
     {
