@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10 15:04 UTC",
+  "generated_at": "2026-10-11 15:21 UTC",
   "universe_count": 95,
   "available_count": 95,
   "periods": [
@@ -123,13 +123,13 @@
         "365": 26.47887212541926
       },
       "ret30": -9.599060791434388,
-      "vol_ratio": 1.1451954231715127,
+      "vol_ratio": 1.1668717423907928,
       "ma20": 4267.5999755859375,
       "ma50": 4376.9719921875,
       "ma200": 4548.018001708984,
-      "z30": -1.6910557345116441,
+      "z30": -1.6899372748569133,
       "technical_score": -5.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "WTI",
@@ -143,13 +143,13 @@
         "365": 52.01920102230355
       },
       "ret30": 9.960493016176542,
-      "vol_ratio": 1.2398161187450056,
+      "vol_ratio": 1.2296082851452352,
       "ma20": 94.41400032043457,
       "ma50": 89.20140045166016,
       "ma200": 83.2268500328064,
-      "z30": 0.43404223039618345,
+      "z30": 0.43239283226718844,
       "technical_score": 5.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "DXY",
@@ -167,9 +167,9 @@
       "ma20": 101.14449958801269,
       "ma50": 100.1095997619629,
       "ma200": 99.36740005493164,
-      "z30": 1.56073919166673,
+      "z30": 1.5694146946504552,
       "technical_score": 9.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "Treasury 10Y",
@@ -194,25 +194,90 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 82938.34375,
+      "last": 83060.75,
       "returns": {
-        "30": 8.319674472895876,
-        "60": 30.504951663503242,
-        "90": 30.082592293248478,
-        "120": 30.522769973355345,
-        "365": -26.742209659095973
+        "30": 7.628176095229855,
+        "60": 31.005618068559194,
+        "90": 33.45424636521883,
+        "120": 28.933627191452473,
+        "365": -25.04075712686562
       },
-      "ret30": 8.319674472895876,
-      "vol_ratio": 0.9805194873241988,
-      "ma20": 84374.544921875,
-      "ma50": 80810.6053125,
-      "ma200": 71918.39734375,
-      "z30": 0.47403307411366513,
+      "ret30": 7.628176095229855,
+      "vol_ratio": 0.9332167222361959,
+      "ma20": 84196.130859375,
+      "ma50": 80929.6296875,
+      "ma200": 71977.02109375,
+      "z30": 0.4272839484015922,
       "technical_score": 5.0,
       "observations": 731
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "date": "13/10 22:10 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "ECB President Lagarde Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "14/10 01:30 UTC",
+      "country": "GBP",
+      "impact": "Medium",
+      "title": "BOE Gov Bailey Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "14/10 02:05 UTC",
+      "country": "CAD",
+      "impact": "Medium",
+      "title": "BOC Gov Macklem Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "14/10 04:30 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "ECB President Lagarde Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "14/10 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Core CPI m/m",
+      "forecast": "0.2%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "14/10 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Core CPI y/y",
+      "forecast": "2.5%",
+      "previous": "2.4%"
+    },
+    {
+      "date": "14/10 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "CPI m/m",
+      "forecast": "0.6%",
+      "previous": "0.4%"
+    },
+    {
+      "date": "14/10 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "CPI y/y",
+      "forecast": "3.6%",
+      "previous": "3.4%"
+    }
+  ],
   "news": [],
   "results": [
     {
