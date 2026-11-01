@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31 15:05 UTC",
+  "generated_at": "2026-11-01 15:47 UTC",
   "universe_count": 95,
   "available_count": 95,
   "periods": [
@@ -123,13 +123,13 @@
         "365": 18.70242301721412
       },
       "ret30": -11.887274551033167,
-      "vol_ratio": 0.857267319218362,
+      "vol_ratio": 0.8739368514974024,
       "ma20": 4115.039990234375,
       "ma50": 4294.797978515625,
       "ma200": 4519.317496337891,
-      "z30": -1.919709441382864,
+      "z30": -1.920380820183387,
       "technical_score": -7.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "WTI",
@@ -143,13 +143,13 @@
         "365": 66.43222580080439
       },
       "ret30": 3.8085738570246885,
-      "vol_ratio": 1.0704813171659273,
+      "vol_ratio": 1.0687476843645796,
       "ma20": 97.4370002746582,
       "ma50": 94.63000076293946,
       "ma200": 86.3419500541687,
-      "z30": 0.037721149855978825,
+      "z30": 0.03764562301927022,
       "technical_score": 9.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "DXY",
@@ -167,9 +167,9 @@
       "ma20": 102.05200004577637,
       "ma50": 100.8145997619629,
       "ma200": 99.6315001296997,
-      "z30": 0.8933667555289451,
+      "z30": 0.8976632506892969,
       "technical_score": 7.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "Treasury 10Y",
@@ -194,25 +194,82 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 77240.6328125,
+      "last": 77940.0,
       "returns": {
-        "30": -8.971350027073443,
-        "60": -0.21057435940500246,
-        "90": 21.673281894867834,
-        "120": 23.497676486909413,
-        "365": -29.496771383456355
+        "30": -7.760269084325366,
+        "60": 0.8273214680415641,
+        "90": 22.81578407964058,
+        "120": 23.541122853222962,
+        "365": -29.186665089932752
       },
-      "ret30": -8.971350027073443,
-      "vol_ratio": 0.8790923188288354,
-      "ma20": 80988.144921875,
-      "ma50": 81892.47015625,
-      "ma200": 73130.705625,
-      "z30": -0.7709778850740829,
-      "technical_score": -3.0,
+      "ret30": -7.760269084325366,
+      "vol_ratio": 0.8164494993001604,
+      "ma20": 80806.72265625,
+      "ma50": 81909.743125,
+      "ma200": 73147.3508203125,
+      "z30": -0.6725156754996069,
+      "technical_score": -1.0,
       "observations": 731
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "date": "02/11 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "ISM Manufacturing PMI",
+      "forecast": "54.7",
+      "previous": "54.5"
+    },
+    {
+      "date": "03/11 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "JOLTS Job Openings",
+      "forecast": "7.11M",
+      "previous": "7.08M"
+    },
+    {
+      "date": "03/11 10:16 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Congressional Elections",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "03/11 11:00 UTC",
+      "country": "CAD",
+      "impact": "Medium",
+      "title": "BOC Gov Macklem Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "04/11 05:00 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "Core CPI Flash Estimate y/y",
+      "forecast": "2.5%",
+      "previous": "2.5%"
+    },
+    {
+      "date": "04/11 05:00 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "CPI Flash Estimate y/y",
+      "forecast": "4.0%",
+      "previous": "3.8%"
+    },
+    {
+      "date": "04/11 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "ISM Services PMI",
+      "forecast": "54.9",
+      "previous": "54.9"
+    }
+  ],
   "news": [],
   "results": [
     {
