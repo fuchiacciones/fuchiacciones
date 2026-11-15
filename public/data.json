@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14 15:35 UTC",
+  "generated_at": "2026-11-15 16:06 UTC",
   "universe_count": 95,
   "available_count": 95,
   "periods": [
@@ -123,13 +123,13 @@
         "365": 14.32984539460005
       },
       "ret30": -6.6309436804275705,
-      "vol_ratio": 0.9318946104132176,
+      "vol_ratio": 0.9171662380155456,
       "ma20": 4035.2049926757813,
       "ma50": 4181.511987304688,
       "ma200": 4472.245495605469,
-      "z30": -1.2246327523598495,
+      "z30": -1.2237218917714094,
       "technical_score": -7.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "WTI",
@@ -143,13 +143,13 @@
         "365": 40.90692077750633
       },
       "ret30": -2.7988179504721544,
-      "vol_ratio": 0.9264105378465902,
+      "vol_ratio": 0.916744028187369,
       "ma20": 95.73199996948242,
       "ma50": 95.36720031738281,
       "ma200": 87.77730003356933,
-      "z30": -0.36834292142151814,
+      "z30": -0.3679267308599793,
       "technical_score": -1.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "DXY",
@@ -167,9 +167,9 @@
       "ma20": 102.08250122070312,
       "ma50": 101.41340026855468,
       "ma200": 99.85295024871826,
-      "z30": 0.8306862417884203,
+      "z30": 0.8320308738797588,
       "technical_score": 9.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "Treasury 10Y",
@@ -194,25 +194,130 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 65245.12109375,
+      "last": 64680.48046875,
       "returns": {
-        "30": -20.569806831906888,
-        "60": -13.71120601429926,
-        "90": 3.8626564873154523,
-        "120": 2.105902204036103,
-        "365": -30.88278683036555
+        "30": -20.638230853357175,
+        "60": -15.062103214642997,
+        "90": 0.27009251343785845,
+        "120": -0.17920861735009064,
+        "365": -32.306586163812455
       },
-      "ret30": -20.569806831906888,
-      "vol_ratio": 0.8533642947606664,
-      "ma20": 75846.4927734375,
-      "ma50": 80159.430859375,
-      "ma200": 72979.85771484375,
-      "z30": -1.738605771700741,
-      "technical_score": -5.0,
+      "ret30": -20.638230853357175,
+      "vol_ratio": 0.8946620523511549,
+      "ma20": 75024.33046875,
+      "ma50": 79742.57,
+      "ma200": 72918.7941015625,
+      "z30": -1.7379481986320393,
+      "technical_score": -7.0,
       "observations": 731
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "date": "16/11 08:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "CPI m/m",
+      "forecast": "0.3%",
+      "previous": "0.1%"
+    },
+    {
+      "date": "16/11 08:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "Median CPI y/y",
+      "forecast": "2.0%",
+      "previous": "1.9%"
+    },
+    {
+      "date": "16/11 08:30 UTC",
+      "country": "CAD",
+      "impact": "High",
+      "title": "Trimmed CPI y/y",
+      "forecast": "1.9%",
+      "previous": "1.8%"
+    },
+    {
+      "date": "16/11 08:30 UTC",
+      "country": "CAD",
+      "impact": "Medium",
+      "title": "Common CPI y/y",
+      "forecast": "2.5%",
+      "previous": "2.4%"
+    },
+    {
+      "date": "16/11 12:00 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Fed Chairman Warsh Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "17/11 02:00 UTC",
+      "country": "GBP",
+      "impact": "Medium",
+      "title": "Average Earnings Index 3m/y",
+      "forecast": "3.5%",
+      "previous": "3.7%"
+    },
+    {
+      "date": "17/11 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Core Retail Sales m/m",
+      "forecast": "0.4%",
+      "previous": "0.9%"
+    },
+    {
+      "date": "17/11 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Retail Sales m/m",
+      "forecast": "0.2%",
+      "previous": "0.8%"
+    },
+    {
+      "date": "18/11 02:00 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "CPI y/y",
+      "forecast": "3.6%",
+      "previous": "3.5%"
+    },
+    {
+      "date": "18/11 02:30 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "BOE Gov Bailey Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "18/11 04:00 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "ECB Financial Stability Review",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "18/11 09:25 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "ECB President Lagarde Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "18/11 10:00 UTC",
+      "country": "GBP",
+      "impact": "High",
+      "title": "BOE Gov Bailey Speaks",
+      "forecast": "",
+      "previous": ""
+    }
+  ],
   "news": [],
   "results": [
     {
