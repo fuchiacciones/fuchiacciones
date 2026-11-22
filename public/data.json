@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21 16:37 UTC",
+  "generated_at": "2026-11-22 16:54 UTC",
   "universe_count": 95,
   "available_count": 95,
   "periods": [
@@ -123,33 +123,33 @@
         "365": 5.135028671208941
       },
       "ret30": -16.62357836993754,
-      "vol_ratio": 1.0094804947476197,
+      "vol_ratio": 1.0328855513490125,
       "ma20": 3942.15498046875,
       "ma50": 4110.861982421875,
       "ma200": 4444.680494384766,
-      "z30": -2.430947381465274,
+      "z30": -2.429672164201296,
       "technical_score": -7.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "WTI",
       "ticker": "CL=F",
-      "last": 83.9800033569336,
+      "last": 83.41000366210938,
       "returns": {
-        "30": -8.568312735905902,
-        "60": 0.5387340886065628,
-        "90": 6.371129326311387,
-        "120": -10.430885832411596,
-        "365": 23.228175314190548
+        "30": -9.188889441723514,
+        "60": -0.14365511665401787,
+        "90": 5.6491537508114975,
+        "120": -11.038820646657898,
+        "365": 22.39178546523688
       },
-      "ret30": -8.568312735905902,
-      "vol_ratio": 0.827654346798831,
-      "ma20": 91.57400016784668,
-      "ma50": 94.14900024414062,
-      "ma200": 88.29325008392334,
-      "z30": -0.7172208592265547,
-      "technical_score": -3.0,
-      "observations": 503
+      "ret30": -9.188889441723514,
+      "vol_ratio": 0.8471320771146649,
+      "ma20": 91.54550018310547,
+      "ma50": 94.13760025024413,
+      "ma200": 88.29040008544922,
+      "z30": -0.7543857728358149,
+      "technical_score": -5.0,
+      "observations": 502
     },
     {
       "name": "DXY",
@@ -167,9 +167,9 @@
       "ma20": 102.56750106811523,
       "ma50": 101.88600036621094,
       "ma200": 100.00860023498535,
-      "z30": 0.8900842463890604,
+      "z30": 0.8915970572879408,
       "technical_score": 9.0,
-      "observations": 503
+      "observations": 502
     },
     {
       "name": "Treasury 10Y",
@@ -194,25 +194,138 @@
     {
       "name": "Bitcoin",
       "ticker": "BTC-USD",
-      "last": 59829.1015625,
+      "last": 61150.48046875,
       "returns": {
-        "30": -26.42023066660184,
-        "60": -30.570363584867955,
-        "90": -23.054598191400622,
-        "120": -6.660678161630518,
-        "365": -29.68783856341506
+        "30": -24.574661363396334,
+        "60": -27.532234209253293,
+        "90": -22.559513998282853,
+        "120": -4.915631994122382,
+        "365": -27.759402639042584
       },
-      "ret30": -26.42023066660184,
-      "vol_ratio": 1.0747302220757817,
-      "ma20": 70082.448046875,
-      "ma50": 77130.655,
-      "ma200": 72426.0830078125,
-      "z30": -2.1774709036922597,
+      "ret30": -24.574661363396334,
+      "vol_ratio": 1.0984879337431344,
+      "ma20": 69319.356640625,
+      "ma50": 76663.6928125,
+      "ma200": 72326.0226953125,
+      "z30": -2.013632744424478,
       "technical_score": -9.0,
       "observations": 731
     }
   ],
-  "calendar": [],
+  "calendar": [
+    {
+      "date": "23/11 03:15 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "French Flash Manufacturing PMI",
+      "forecast": "49.8",
+      "previous": "49.3"
+    },
+    {
+      "date": "23/11 03:15 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "French Flash Services PMI",
+      "forecast": "47.4",
+      "previous": "48.4"
+    },
+    {
+      "date": "23/11 03:30 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "German Flash Manufacturing PMI",
+      "forecast": "54.1",
+      "previous": "54.2"
+    },
+    {
+      "date": "23/11 03:30 UTC",
+      "country": "EUR",
+      "impact": "Medium",
+      "title": "German Flash Services PMI",
+      "forecast": "52.4",
+      "previous": "51.7"
+    },
+    {
+      "date": "23/11 04:30 UTC",
+      "country": "GBP",
+      "impact": "Medium",
+      "title": "Flash Manufacturing PMI",
+      "forecast": "53.0",
+      "previous": "52.8"
+    },
+    {
+      "date": "23/11 04:30 UTC",
+      "country": "GBP",
+      "impact": "Medium",
+      "title": "Flash Services PMI",
+      "forecast": "53.0",
+      "previous": "53.1"
+    },
+    {
+      "date": "23/11 09:45 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Flash Manufacturing PMI",
+      "forecast": "54.5",
+      "previous": "56.0"
+    },
+    {
+      "date": "23/11 09:45 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Flash Services PMI",
+      "forecast": "55.6",
+      "previous": "57.9"
+    },
+    {
+      "date": "24/11 10:00 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "CB Consumer Confidence",
+      "forecast": "92.1",
+      "previous": "91.7"
+    },
+    {
+      "date": "24/11 12:25 UTC",
+      "country": "CAD",
+      "impact": "Medium",
+      "title": "BOC Gov Macklem Speaks",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "date": "25/11 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Core PCE Price Index m/m",
+      "forecast": "0.3%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "25/11 08:30 UTC",
+      "country": "USD",
+      "impact": "High",
+      "title": "Prelim GDP q/q",
+      "forecast": "3.5%",
+      "previous": "3.4%"
+    },
+    {
+      "date": "25/11 08:30 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Prelim GDP Price Index q/q",
+      "forecast": "2.3%",
+      "previous": "2.3%"
+    },
+    {
+      "date": "25/11 08:30 UTC",
+      "country": "USD",
+      "impact": "Medium",
+      "title": "Unemployment Claims",
+      "forecast": "201K",
+      "previous": "203K"
+    }
+  ],
   "news": [],
   "results": [
     {
